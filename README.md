@@ -18,13 +18,27 @@ npm run preview
 
 ## GitHub Pages
 
-This project deploys from `master` via GitHub Actions to:
+This project deploys from `master` via GitHub Actions.
 
-`https://seanbman.github.io/seanburman.com/`
+**Site URL:** `https://seanburman.com` (custom domain)
 
 Enable Pages in the repo settings:
 
 1. **Settings → Pages**
 2. Source: **GitHub Actions**
+3. Custom domain: `seanburman.com` (CNAME is already in `public/CNAME`)
 
-If you attach a custom domain (`seanburman.com`), set `base: '/'` in `vite.config.ts` and add a `CNAME` file under `public/`.
+### DNS (move off Squarespace)
+
+At your domain registrar, replace Squarespace records with:
+
+**Apex (`seanburman.com`) — A records**
+- `185.199.108.153`
+- `185.199.109.153`
+- `185.199.110.153`
+- `185.199.111.153`
+
+**`www` — CNAME**
+- `seanbman.github.io`
+
+Then in **Settings → Pages**, wait for DNS check + enable “Enforce HTTPS”.
