@@ -1,18 +1,9 @@
 :root {
-  --bg: #03060c;
-  --bg-elevated: rgba(12, 18, 32, 0.72);
-  --text: #f4f7ff;
-  --text-muted: #9aa7c2;
-  --accent: #6ea8ff;
-  --accent-strong: #8b7cff;
-  --accent-glow: rgba(110, 168, 255, 0.45);
-  --line: rgba(148, 163, 196, 0.18);
-  --success: #3dd68c;
-  --warning: #f0a35a;
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-body: 'Outfit', sans-serif;
-  --radius: 16px;
-  --header-h: 4.5rem;
+  --text: #f5f5f3;
+  --text-muted: rgba(245, 245, 243, 0.68);
+  --line: rgba(245, 245, 243, 0.28);
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-sans: 'Outfit', sans-serif;
 }
 
 *,
@@ -28,9 +19,9 @@ html {
 body {
   margin: 0;
   min-width: 320px;
-  font-family: var(--font-body);
+  font-family: var(--font-sans);
   color: var(--text);
-  background: var(--bg);
+  background: #050505;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -40,19 +31,15 @@ a {
   text-decoration: none;
 }
 
-button {
-  font: inherit;
-  color: inherit;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
 #root {
   min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
