@@ -18,7 +18,7 @@ npm run preview
 
 ## GitHub Pages
 
-This project deploys from `master` via GitHub Actions.
+This project deploys from `main` via GitHub Actions.
 
 **Site URL:** `https://seanburman.com` (custom domain)
 
