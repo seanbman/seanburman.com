@@ -46,12 +46,19 @@ function Contact() {
               </a>
             </div>
 
-            <a className="contact__save" href={VCF} download="sean-burman.vcf">
+            <a
+              className="contact__save contact__mobile-only"
+              href={VCF}
+              download="sean-burman.vcf"
+            >
               Add to Contacts
             </a>
 
             <div className="contact__actions" aria-label="Quick actions">
-              <a className="contact__action" href={`tel:${PHONE_TEL}`}>
+              <a
+                className="contact__action contact__mobile-only"
+                href={`tel:${PHONE_TEL}`}
+              >
                 <PhoneIcon />
                 <span>Call</span>
               </a>
