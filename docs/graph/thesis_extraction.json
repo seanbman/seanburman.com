@@ -275,6 +275,18 @@
       "label": "Footer band: LinkedIn, GitHub, Contact",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_physical",
+      "label": "Physical work first-class: crews, trucks, materials, job sites",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_scope",
+      "label": "Scope ranges from one automation to an operation-wide system",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
     }
   ],
   "edges": [
@@ -667,6 +679,27 @@
       "source": "footer",
       "target": "contact",
       "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "section_work",
+      "target": "principle_physical",
+      "relation": "expresses",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "section_work",
+      "target": "principle_scope",
+      "relation": "expresses",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "section_pains",
+      "target": "principle_physical",
+      "relation": "expresses",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

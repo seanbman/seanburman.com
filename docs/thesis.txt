@@ -152,18 +152,31 @@ The three sections are:
 
 1. "The work / More than building software." — three columns that describe
    the engagement in order: Find the bottleneck (watch how work moves through
-   quoting, scheduling, job tracking, invoicing, and find where hours and
-   money quietly disappear), Build the fix (a small practical tool or
-   automation, not a platform, not another subscription), and Make it fit
-   (the software bends to the business; if the crew needs a training seminar,
-   the wrong thing was built).
+   the business — crews, materials, and equipment as much as quotes,
+   schedules, and invoices — and find where hours and money quietly
+   disappear), Build the fix (software that removes that exact friction,
+   sometimes a single automation, sometimes the system the whole operation
+   runs on; never an off-the-shelf subscription), and Make it fit (the
+   software bends to the business — in the office, in the truck, on the job
+   site; if the crew needs a training seminar, the wrong thing was built).
+
+   Two copy decisions were made deliberately here. First, the scope of the
+   work is not capped at small tools: early copy said "a small, practical
+   tool or automation," which read as though small utilities were the whole
+   offer; the revision runs the range from one automation to an
+   operation-wide system. Second, physical work is first-class: the language
+   names crews, trucks, materials, equipment, and job sites alongside the
+   admin flow, because the software serves businesses whose work happens in
+   the field, not only at desks.
 
 2. "Where the time goes / Sound familiar?" — a self-identification list of
    concrete, recognizable pains: job details typed into three places, quotes
    that take days because the numbers live in someone's head, paper job
-   sheets that die in the truck, chasing invoices at month end, a scheduling
-   spreadsheet only one person understands. It closes with the promise that
-   every one is a bottleneck and every one is fixable.
+   sheets that die in the truck, crews standing around because nobody told
+   them the plan changed, chasing invoices at month end, a scheduling
+   spreadsheet only one person understands. The list deliberately mixes
+   field-coordination pains with paperwork pains. It closes with the promise
+   that every one is a bottleneck and every one is fixable.
 
 3. "Working together / How it starts." — a three-step, low-commitment
    process: a conversation (no pitch, no obligation), a close look (on site

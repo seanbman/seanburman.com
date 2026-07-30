@@ -4,23 +4,21 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 46 nodes · 56 edges · 11 communities (7 shown, 4 thin omitted)
+- 48 nodes · 59 edges · 9 communities (5 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bc97c5ec`
+- Built from commit: `4679fa04`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
+- seanburman.com
+- Below-the-fold business narrative
 - Staged design: SaaS landing → architecture hero → calling card
 - Homepage
-- Below-the-fold business narrative
-- seanburman.com
 - Contact page (digital calling card)
-- Pages env still allowed only master after rename to main
-- seanburman.com custom domain
 - Footer band: LinkedIn, GitHub, Contact
 - Mobile-first Call + Add to Contacts
 - Desktop QR code
@@ -33,66 +31,58 @@
 4. `Homepage` - 8 edges
 5. `seanburman.com Design Thesis` - 4 edges
 6. `Staged design: SaaS landing → architecture hero → calling card` - 4 edges
-7. `Sticky stacked-section takeover scroll (CSS-only)` - 4 edges
-8. `seanburman.com custom domain` - 3 edges
-9. `Footer band: LinkedIn, GitHub, Contact` - 3 edges
-10. `I build practical software around the way your business works, and the places where it could work better.` - 2 edges
+7. `The work: find the bottleneck, build the fix, make it fit` - 4 edges
+8. `Sticky stacked-section takeover scroll (CSS-only)` - 4 edges
+9. `seanburman.com custom domain` - 3 edges
+10. `Sound familiar? recognizable bottleneck list` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `seanburman.com Design Thesis` --documents--> `seanburman.com`  [EXTRACTED]
-  docs/thesis.txt → docs/thesis.txt  _Bridges community 0 → community 3_
+  docs/thesis.txt → docs/thesis.txt  _Bridges community 2 → community 0_
 - `seanburman.com` --includes--> `Contact page (digital calling card)`  [EXTRACTED]
-  docs/thesis.txt → docs/thesis.txt  _Bridges community 3 → community 4_
-- `seanburman.com` --published_on--> `seanburman.com custom domain`  [EXTRACTED]
-  docs/thesis.txt → docs/thesis.txt  _Bridges community 3 → community 6_
+  docs/thesis.txt → docs/thesis.txt  _Bridges community 0 → community 4_
 - `seanburman.com` --includes--> `Homepage`  [EXTRACTED]
-  docs/thesis.txt → docs/thesis.txt  _Bridges community 3 → community 1_
-- `seanburman.com` --deploys_via--> `GitHub Pages Actions`  [EXTRACTED]
+  docs/thesis.txt → docs/thesis.txt  _Bridges community 0 → community 3_
+- `Homepage` --includes--> `Footer band: LinkedIn, GitHub, Contact`  [EXTRACTED]
   docs/thesis.txt → docs/thesis.txt  _Bridges community 3 → community 5_
+- `Homepage` --uses_visual--> `Dark moody architecture hero`  [EXTRACTED]
+  docs/thesis.txt → docs/thesis.txt  _Bridges community 3 → community 2_
 
-## Communities (11 total, 4 thin omitted)
+## Communities (9 total, 4 thin omitted)
 
-### Community 0 - "Staged design: SaaS landing → architecture hero → calling card"
+### Community 0 - "seanburman.com"
+Cohesion: 0.17
+Nodes (12): Pages env still allowed only master after rename to main, Default branch main, public/CNAME, Squarespace DNS blocked resolution, seanburman.com custom domain, seanburman.com, seanbman/seanburman.com, Vite base / (+4 more)
+
+### Community 1 - "Below-the-fold business narrative"
+Cohesion: 0.31
+Nodes (9): Below-the-fold business narrative, Identify bottlenecks, build efficiency, conform to the business, Plain trade language; never 'consulting', Physical work first-class: crews, trucks, materials, job sites, Scope ranges from one automation to an operation-wide system, Sound familiar? recognizable bottleneck list, How it starts: conversation, close look, one small thing, The work: find the bottleneck, build the fix, make it fit (+1 more)
+
+### Community 2 - "Staged design: SaaS landing → architecture hero → calling card"
 Cohesion: 0.33
 Nodes (7): Staged design: SaaS landing → architecture hero → calling card, seanburman.com Design Thesis, docs/ui inspiration images, Dark moody architecture hero, landing_inspiration.png, Open questions: case studies, scheduling, design system, DNS drift, assistant context, Credible consulting presence without marketing clutter
 
-### Community 1 - "Homepage"
+### Community 3 - "Homepage"
 Cohesion: 0.29
 Nodes (7): I build practical software around the way your business works, and the places where it could work better., Cormorant Garamond + Outfit, Custom software, engineered for the realities of your business., Homepage, Measured negative sticky offsets for panels taller than the viewport, Sticky stacked-section takeover scroll (CSS-only), Static-flow fallback under reduced motion
-
-### Community 2 - "Below-the-fold business narrative"
-Cohesion: 0.38
-Nodes (7): Below-the-fold business narrative, Identify bottlenecks, build efficiency, conform to the business, Plain trade language; never 'consulting', Sound familiar? recognizable bottleneck list, How it starts: conversation, close look, one small thing, The work: find the bottleneck, build the fix, make it fit, Black / white / charcoal panel rhythm
-
-### Community 3 - "seanburman.com"
-Cohesion: 0.33
-Nodes (6): seanburman.com, seanbman/seanburman.com, Vite base /, React, react-router, Vite
 
 ### Community 4 - "Contact page (digital calling card)"
 Cohesion: 0.40
 Nodes (5): Contact page (digital calling card), info@seanburman.com, +1 368 997 4329, Calling card not form, sean-burman.vcf / Add to Contacts
 
-### Community 5 - "Pages env still allowed only master after rename to main"
-Cohesion: 0.67
-Nodes (3): Pages env still allowed only master after rename to main, Default branch main, GitHub Pages Actions
-
-### Community 6 - "seanburman.com custom domain"
-Cohesion: 0.67
-Nodes (3): public/CNAME, Squarespace DNS blocked resolution, seanburman.com custom domain
-
 ## Knowledge Gaps
-- **20 isolated node(s):** `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.`, `Cormorant Garamond + Outfit`, `React` (+15 more)
+- **21 isolated node(s):** `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.`, `Cormorant Garamond + Outfit`, `React` (+16 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Homepage`, `Contact page (digital calling card)`, `Pages env still allowed only master after rename to main`, `seanburman.com custom domain`?**
-  _High betweenness centrality (0.531) - this node is a cross-community bridge._
-- **Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `Homepage`, `Below-the-fold business narrative`, `seanburman.com`, `Footer band: LinkedIn, GitHub, Contact`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?**
-  _High betweenness centrality (0.448) - this node is a cross-community bridge._
-- **Why does `Homepage` connect `Homepage` to `Staged design: SaaS landing → architecture hero → calling card`, `Below-the-fold business narrative`, `seanburman.com`, `Footer band: LinkedIn, GitHub, Contact`?**
-  _High betweenness centrality (0.330) - this node is a cross-community bridge._
+- **Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Homepage`, `Contact page (digital calling card)`?**
+  _High betweenness centrality (0.506) - this node is a cross-community bridge._
+- **Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `seanburman.com`, `Below-the-fold business narrative`, `Homepage`, `Footer band: LinkedIn, GitHub, Contact`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?**
+  _High betweenness centrality (0.430) - this node is a cross-community bridge._
+- **Why does `Homepage` connect `Homepage` to `seanburman.com`, `Below-the-fold business narrative`, `Staged design: SaaS landing → architecture hero → calling card`, `Footer band: LinkedIn, GitHub, Contact`?**
+  _High betweenness centrality (0.337) - this node is a cross-community bridge._
 - **What connects `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.` to the rest of the system?**
-  _20 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _21 weakly-connected nodes found - possible documentation gaps or missing edges._

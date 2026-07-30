@@ -1052,7 +1052,7 @@
       "label": "STEPS",
       "file_type": "code",
       "source_file": "src/pages/Home.tsx",
-      "source_location": "L67",
+      "source_location": "L68",
       "_origin": "ast",
       "community": 6,
       "norm_label": "steps",
@@ -1063,7 +1063,7 @@
       "label": "Home()",
       "file_type": "code",
       "source_file": "src/pages/Home.tsx",
-      "source_location": "L82",
+      "source_location": "L83",
       "_origin": "ast",
       "community": 6,
       "norm_label": "home()",
@@ -2019,7 +2019,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Home.tsx",
-      "source_location": "L82",
+      "source_location": "L83",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -2041,7 +2041,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Home.tsx",
-      "source_location": "L67",
+      "source_location": "L68",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -2075,7 +2075,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/pages/Home.tsx",
-      "source_location": "L83",
+      "source_location": "L84",
       "weight": 1.0,
       "_origin": "ast",
       "confidence_score": 1.0,
@@ -2084,5 +2084,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bc97c5ec557f038f869fb2d7fb7ba87f122ae3de"
+  "built_at_commit": "4679fa04d74d6f65257d79cd8e93a170f893b293"
 }

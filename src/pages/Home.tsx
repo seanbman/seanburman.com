@@ -44,15 +44,15 @@ function useStackedPanels() {
 const WORK = [
   {
     title: 'Find the bottleneck',
-    body: 'I look at how the work actually moves through your business — quoting, scheduling, job tracking, invoicing — and find where hours and money quietly disappear.',
+    body: 'I look at how the work actually moves through your business — crews, materials, and equipment as much as quotes, schedules, and invoices — and find where hours and money quietly disappear.',
   },
   {
     title: 'Build the fix',
-    body: 'A small, practical tool or automation that removes that exact friction. Not a platform. Not another subscription that makes you change how you operate.',
+    body: 'Software that removes that exact friction — sometimes a single automation, sometimes the system your whole operation runs on. Never an off-the-shelf subscription that makes you change how you operate.',
   },
   {
     title: 'Make it fit',
-    body: 'The software bends to your business, not the other way around. If your crew needs a training seminar to use it, I built the wrong thing.',
+    body: 'The software bends to your business — in the office, in the truck, on the job site — not the other way around. If your crew needs a training seminar to use it, I built the wrong thing.',
   },
 ]
 
@@ -60,6 +60,7 @@ const PAINS = [
   'The same job details typed into three different places.',
   'Quotes that take days because the numbers live in someone\u2019s head.',
   'Paper job sheets that die in the truck.',
+  'Crews standing around because nobody told them the plan changed.',
   'Chasing invoices at the end of every month.',
   'A scheduling spreadsheet only one person understands.',
 ]
