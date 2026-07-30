@@ -28,8 +28,8 @@ function App() {
             Custom software, engineered for the realities of your business.
           </h1>
           <p className="home__lede">
-            I design and build focused operational systems that reduce friction,
-            reveal new capabilities, and fit the organizations they serve.
+            I build practical software around the way your business works, and
+            the places where it could work better.
           </p>
           <a className="home__cta" href="#contact">
             Begin <span aria-hidden="true">→</span>
