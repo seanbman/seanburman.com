@@ -185,6 +185,31 @@ function Home() {
           </Link>
         </div>
       </section>
+
+      <footer className="home__footer">
+        <div className="home__inner home__footer-inner">
+          <p className="home__footer-copy">
+            © {new Date().getFullYear()} Sean Burman
+          </p>
+          <nav className="home__footer-nav" aria-label="Footer">
+            <a
+              href="https://www.linkedin.com/in/seanburman"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/seanbman"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <Link to="/contact">Contact</Link>
+          </nav>
+        </div>
+      </footer>
     </div>
   )
 }

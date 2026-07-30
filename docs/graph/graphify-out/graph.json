@@ -16,7 +16,7 @@
       "label": "seanburman.com",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 3,
       "community_name": "seanburman.com",
       "norm_label": "seanburman.com",
       "id": "project"
@@ -25,7 +25,7 @@
       "label": "seanbman/seanburman.com",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 3,
       "community_name": "seanburman.com",
       "norm_label": "seanbman/seanburman.com",
       "id": "repo"
@@ -61,7 +61,7 @@
       "label": "Contact page (digital calling card)",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "contact page (digital calling card)",
       "id": "contact"
@@ -88,7 +88,7 @@
       "label": "Custom Business Software & Automation",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 9,
+      "community": 10,
       "community_name": "Custom Business Software & Automation",
       "norm_label": "custom business software & automation",
       "id": "role"
@@ -115,7 +115,7 @@
       "label": "React",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 3,
       "community_name": "seanburman.com",
       "norm_label": "react",
       "id": "stack_react"
@@ -124,7 +124,7 @@
       "label": "Vite",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 3,
       "community_name": "seanburman.com",
       "norm_label": "vite",
       "id": "stack_vite"
@@ -133,7 +133,7 @@
       "label": "react-router",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 3,
       "community_name": "seanburman.com",
       "norm_label": "react-router",
       "id": "stack_router"
@@ -151,7 +151,7 @@
       "label": "Vite base /",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 3,
       "community_name": "seanburman.com",
       "norm_label": "vite base /",
       "id": "stack_base"
@@ -205,7 +205,7 @@
       "label": "sean-burman.vcf / Add to Contacts",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "sean-burman.vcf / add to contacts",
       "id": "vcf"
@@ -214,7 +214,7 @@
       "label": "+1 368 997 4329",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "+1 368 997 4329",
       "id": "phone"
@@ -223,7 +223,7 @@
       "label": "info@seanburman.com",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "info@seanburman.com",
       "id": "email"
@@ -232,8 +232,8 @@
       "label": "LinkedIn profile",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
-      "community_name": "Contact page (digital calling card)",
+      "community": 7,
+      "community_name": "Footer band: LinkedIn, GitHub, Contact",
       "norm_label": "linkedin profile",
       "id": "linkedin"
     },
@@ -241,7 +241,7 @@
       "label": "Desktop QR code",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 8,
+      "community": 9,
       "community_name": "Desktop QR code",
       "norm_label": "desktop qr code",
       "id": "qr"
@@ -250,7 +250,7 @@
       "label": "Mobile-first Call + Add to Contacts",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 7,
+      "community": 8,
       "community_name": "Mobile-first Call + Add to Contacts",
       "norm_label": "mobile-first call + add to contacts",
       "id": "mobile_actions"
@@ -259,7 +259,7 @@
       "label": "Avoid orphaning & Automation",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 9,
+      "community": 10,
       "community_name": "Custom Business Software & Automation",
       "norm_label": "avoid orphaning & automation",
       "id": "typography_orphan"
@@ -286,7 +286,7 @@
       "label": "Calling card not form",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "calling card not form",
       "id": "principle_card"
@@ -295,7 +295,7 @@
       "label": "QR brilliant on desktop",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 8,
+      "community": 9,
       "community_name": "Desktop QR code",
       "norm_label": "qr brilliant on desktop",
       "id": "principle_qr"
@@ -304,7 +304,7 @@
       "label": "Mobile-first contact actions",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 7,
+      "community": 8,
       "community_name": "Mobile-first Call + Add to Contacts",
       "norm_label": "mobile-first contact actions",
       "id": "principle_mobile"
@@ -407,6 +407,15 @@
       "community_name": "Homepage",
       "norm_label": "measured negative sticky offsets for panels taller than the viewport",
       "id": "measured_offsets"
+    },
+    {
+      "label": "Footer band: LinkedIn, GitHub, Contact",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 7,
+      "community_name": "Footer band: LinkedIn, GitHub, Contact",
+      "norm_label": "footer band: linkedin, github, contact",
+      "id": "footer"
     }
   ],
   "links": [
@@ -555,6 +564,14 @@
       "target": "fonts"
     },
     {
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "home",
+      "target": "footer"
+    },
+    {
       "relation": "uses_copy",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -667,6 +684,14 @@
       "target": "vcf"
     },
     {
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "footer",
+      "target": "contact"
+    },
+    {
       "relation": "leads_to",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -713,6 +738,14 @@
       "confidence_score": 1.0,
       "source": "branch_issue",
       "target": "branch_main"
+    },
+    {
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "footer",
+      "target": "linkedin"
     },
     {
       "relation": "motivates",
@@ -836,5 +869,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1f168bdd52cefaa956b0dcb990f138af27ff9183"
+  "built_at_commit": "bc97c5ec557f038f869fb2d7fb7ba87f122ae3de"
 }

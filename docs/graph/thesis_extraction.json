@@ -269,6 +269,12 @@
       "label": "Measured negative sticky offsets for panels taller than the viewport",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "footer",
+      "label": "Footer band: LinkedIn, GitHub, Contact",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
     }
   ],
   "edges": [
@@ -640,6 +646,27 @@
       "source": "scroll_takeover",
       "target": "measured_offsets",
       "relation": "made_mobile_safe_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "footer",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "footer",
+      "target": "linkedin",
+      "relation": "links_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "footer",
+      "target": "contact",
+      "relation": "links_to",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

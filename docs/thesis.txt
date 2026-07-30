@@ -203,6 +203,11 @@ ResizeObserver. No scroll libraries are used. Under
 prefers-reduced-motion the panels return to normal document flow while
 keeping the alternating grounds.
 
+A slim footer band closes the page beneath the charcoal panel, returning
+to the black ground: a copyright line and three quiet uppercase links —
+LinkedIn, GitHub, and Contact. It participates in the same choreography,
+sliding over the pinned final panel rather than sitting inside it.
+
 
 Open Questions
 --------------
