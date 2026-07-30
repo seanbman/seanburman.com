@@ -880,8 +880,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "contact.tsx",
-      "id": "src_pages_contact",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "src_pages_contact"
     },
     {
       "label": "Contact()",
@@ -891,8 +891,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "contact()",
-      "id": "src_pages_contact_contact",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "src_pages_contact_contact"
     },
     {
       "label": "PhoneIcon()",
@@ -902,8 +902,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "phoneicon()",
-      "id": "src_pages_contact_phoneicon",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "src_pages_contact_phoneicon"
     },
     {
       "label": "MailIcon()",
@@ -913,8 +913,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "mailicon()",
-      "id": "src_pages_contact_mailicon",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "src_pages_contact_mailicon"
     },
     {
       "label": "LinkedInIcon()",
@@ -924,8 +924,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "linkedinicon()",
-      "id": "src_pages_contact_linkedinicon",
-      "community_name": "Community 2"
+      "community_name": "Community 2",
+      "id": "src_pages_contact_linkedinicon"
     },
     {
       "label": "Home.tsx",
@@ -1964,5 +1964,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6ea07f8a7d8b4a0f18218ddb2d56089bd9d0de90"
+  "built_at_commit": "b018ee977e5eca092b6466895bf3179de6b67e61"
 }

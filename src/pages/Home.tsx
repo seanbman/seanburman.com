@@ -45,15 +45,15 @@ function useStackedPanels() {
 const WORK = [
   {
     title: 'Find the\u00a0bottleneck',
-    body: 'I look at how the work actually moves through your business — crews, materials, and equipment as much as quotes, schedules, and invoices — and find where hours and money quietly\u00a0disappear.',
+    body: 'I look at how the work actually moves through your business: crews, materials, and equipment as much as quotes, schedules, and invoices. Then I find where the hours and money quietly\u00a0disappear.',
   },
   {
     title: 'Build the\u00a0fix',
-    body: 'Software that removes that exact friction — sometimes a single automation, sometimes the system your whole operation runs on. Never an off-the-shelf subscription that makes you change how you\u00a0operate.',
+    body: 'Software that removes that exact friction. Sometimes a single automation, sometimes the system your whole operation runs on. Never an off-the-shelf subscription that makes you change how you\u00a0operate.',
   },
   {
     title: 'Make it\u00a0fit',
-    body: 'The software bends to your business — in the office, in the truck, on the job site — not the other way around. If your crew needs a training seminar to use it, I built the wrong\u00a0thing.',
+    body: 'The software bends to your business, not the other way around. In the office, in the truck, on the job site. If your crew needs a training seminar to use it, I built the wrong\u00a0thing.',
   },
 ]
 
@@ -73,7 +73,7 @@ const STEPS = [
   },
   {
     title: 'A close\u00a0look',
-    body: 'I spend time understanding where things snag — on site or over the\u00a0phone.',
+    body: 'I spend time understanding where things snag, on site or over the\u00a0phone.',
   },
   {
     title: 'One small\u00a0thing',

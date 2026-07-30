@@ -159,16 +159,21 @@ practical businesses — distrusts it. Also avoided: "solutions," "leverage,"
 concrete: bottlenecks, time, paperwork, double entry, chasing invoices, the
 way your business runs.
 
+A punctuation rule joined the vocabulary rule later: no em dashes in
+customer-facing copy. Sentences that leaned on em dashes were rewritten
+with colons, commas, or short standalone sentences, which suits the plain
+spoken register better anyway.
+
 The three sections are:
 
 1. "The work / More than building software." — three columns that describe
    the engagement in order: Find the bottleneck (watch how work moves through
-   the business — crews, materials, and equipment as much as quotes,
-   schedules, and invoices — and find where hours and money quietly
+   the business, crews, materials, and equipment as much as quotes,
+   schedules, and invoices, then find where the hours and money quietly
    disappear), Build the fix (software that removes that exact friction,
    sometimes a single automation, sometimes the system the whole operation
    runs on; never an off-the-shelf subscription), and Make it fit (the
-   software bends to the business — in the office, in the truck, on the job
+   software bends to the business, in the office, in the truck, on the job
    site; if the crew needs a training seminar, the wrong thing was built).
 
    Two copy decisions were made deliberately here. First, the scope of the
