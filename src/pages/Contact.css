@@ -131,6 +131,8 @@
   font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  text-wrap: balance;
+  max-width: 22rem;
 }
 
 .contact__details {

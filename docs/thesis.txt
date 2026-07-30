@@ -1,0 +1,169 @@
+A Thesis on the Design and Delivery of seanburman.com
+
+Abstract / Overview
+--------------------
+This document records the design and build conversation that produced
+seanburman.com: a personal consulting site for custom business software and
+automation. The work began as a new repository under B2B/seanburman.com,
+seeded with UI reference imagery copied from a prior seanburman project into
+docs/ui, and published to GitHub under seanbman/seanburman.com. The site
+evolved from a dark SaaS-style landing page into a moody architectural
+homepage, then gained a contact experience conceived as a digital calling
+card rather than a lead-capture form. The stack is React and Vite with
+react-router, deployed through GitHub Pages Actions on the custom domain
+seanburman.com with a repository base path of /. This thesis synthesizes the
+problem, approach, design decisions, implementation choices, deployment
+lessons, and open questions that shaped the result.
+
+
+Problem
+-------
+The practical need was a credible public presence for custom software
+consulting: a place that communicates who Sean Burman is, what kind of work
+is offered, and how to get in touch—without the clutter of a marketing site
+or the friction of a contact form. Early work also had to leave Squarespace
+DNS behind and land reliably on GitHub Pages. Along the way, operational
+failures (the site “not loading,” branch-name mismatch after renaming master
+to main) forced deployment correctness to become part of the design story,
+not an afterthought. On the product surface, typography and layout had to
+read as intentional on both mobile and desktop: a strong hero, clear copy,
+and a contact card that favors real-world actions (call, email, save
+contact, scan QR) over generic web patterns.
+
+
+Approach
+--------
+The project proceeded in deliberate stages. First, the repository and remote
+were established, inspiration assets were centralized under docs/ui, and an
+initial React + Vite front page was built from landing_inspiration.png in a
+dark SaaS visual language. GitHub Pages was configured for continuous
+deploy. When the live site failed to resolve correctly, diagnosis moved from
+application code to DNS and Pages configuration: Squarespace still owned the
+domain records; a custom domain and CNAME were introduced; later, deploys
+were blocked because the Pages environment still allowed only the master
+branch after the default branch had been renamed to main.
+
+Design then shifted from generic SaaS chrome toward architectural atmosphere.
+The homepage was rebuilt around a dark, moody architecture hero, pairing
+Cormorant Garamond for display type with Outfit for supporting UI text. Copy
+was iterated until it stated a clear offer and a human byline. The default
+branch rename (master to main) was completed and the architectural homepage
+was merged. Finally, a dedicated contact route was designed as a digital
+calling card—identity, role, phone, email, save-to-contacts, quick actions,
+and a desktop QR—rather than a form that asks the visitor to write first.
+
+
+Design Decisions
+----------------
+Brand and atmosphere take priority over dashboard-like density. The first
+viewport is one composition: brand, one headline, one supporting sentence,
+one call to action, and a full-bleed architectural image. The chosen headline
+is: “Custom software, engineered for the realities of your business.” The
+byline is: “I build practical software around the way your business works,
+and the places where it could work better.”
+
+Typography uses Cormorant Garamond and Outfit to avoid default system stacks
+and to reinforce a serious, editorial consulting tone rather than a startup
+template. The contact page continues that language as a calling card: the
+name SEAN BURMAN (presented as Sean Burman in the UI), the role line “Custom
+Business Software and Automation” (with ampersand preferred in layout),
+phone +1 368 997 4329, email info@seanburman.com, an Add to Contacts (.vcf)
+action, Call / Email / LinkedIn shortcuts, the same byline, and a QR code
+intended for desktop so a visitor can open the card on a phone.
+
+Responsive behavior encodes product principles. On desktop, the QR is
+valuable and visible; Add to Contacts and Call are hidden because they are
+less natural there. On mobile, those actions surface and spacing is tuned so
+the card remains calm and usable. Typography orphans were treated as a
+design defect: leaving “Automation” alone on a line was rejected, and the
+preference settled on an ampersand with non-breaking spaces so that
+“Software & Automation” stays together rather than orphaning “& Automation.”
+
+
+Implementation
+--------------
+The application is a small React SPA built with Vite and typed with
+TypeScript. Routing is handled by react-router, with a homepage at / and a
+contact experience at /contact. Static assets live under public/, including
+the architectural hero image, a sean-burman.vcf vCard, a contact QR SVG, and
+a CNAME file declaring seanburman.com. Vite’s base is set to / because the
+site is served from the custom domain apex rather than a project subpath.
+The build script compiles TypeScript, produces the Vite bundle, and copies
+index.html to 404.html so client-side routes resolve under GitHub Pages.
+
+The contact page is intentionally not a form: it presents identity and
+direct channels. Mobile-only CSS classes gate Add to Contacts and Call.
+Desktop layout places the QR beside the card. Role-line markup uses
+non-breaking spaces around an ampersand entity so “Software & Automation”
+wraps as a unit. Inspiration screenshots remain in docs/ui for design
+memory (landing_inspiration.png, homepage-inspiration.png, and related
+dashboard and tool references).
+
+
+Deployment Lessons
+------------------
+Several lessons arrived through failure. DNS that still pointed at
+Squarespace made the GitHub Pages site appear “not loading” even when the
+build was healthy; fixing the problem required registrar A records for the
+apex (GitHub Pages IPs) and a www CNAME to seanbman.github.io, plus Pages
+custom-domain verification and HTTPS enforcement. A CNAME file in the
+repository is necessary but not sufficient without matching DNS.
+
+Branch rename introduced a second class of outage. After renaming master to
+main, GitHub Pages (or the Actions environment allow-list) still expected
+master, so deployments were blocked until the environment was updated to
+main. The durable rule is that branch policy, workflow triggers, and Pages
+settings must move together when the default branch changes. The documented
+operating model is: push to main, GitHub Actions builds and deploys, site
+URL https://seanburman.com.
+
+
+Contact Experience
+------------------
+The contact route is the product’s second chapter: from introduction to
+introduction-of-self. It behaves like a digital calling card. Primary
+signals are name, role, phone, and email. Secondary actions are Add to
+Contacts (.vcf), Call, Email, and LinkedIn. The byline repeats the homepage
+promise so the card remains coherent with the brand. The QR on desktop is
+treated as a bridge from large screen to phone, not decoration. Mobile-first
+action visibility (save and call) and desktop-first QR visibility encode the
+assumption that the most useful action depends on device context. Layout and
+spacing iterations on mobile were required to keep the card from feeling
+cramped once those actions appeared.
+
+
+Open Questions
+--------------
+Several questions remain open for future iteration. Should the homepage grow
+beyond a single hero composition into case studies or services without
+diluting the brand-first first viewport? Is the calling-card contact model
+sufficient for inbound work, or will a lightweight scheduling or inquiry
+path eventually be needed without becoming a conventional form? How should
+typography and image assets be versioned as the brand system evolves—keep
+inspiration under docs/ui, or graduate to a more formal design system? What
+monitoring or redirect strategy is appropriate if DNS or Pages configuration
+drifts again? Finally, as the site accumulates more routes and content, how
+should context for assistants and collaborators be maintained—through
+documents such as this thesis and machine-readable graphs derived from them?
+
+
+Technical Summary
+-----------------
+Stack: React, Vite, react-router, TypeScript.
+Hosting: GitHub Pages via GitHub Actions; base path /; custom domain
+seanburman.com; repository seanbman/seanburman.com.
+Design: dark architectural hero; Cormorant Garamond + Outfit; calling-card
+contact; desktop QR; mobile-first contact actions.
+Copy anchors: headline “Custom software, engineered for the realities of
+your business.”; byline “I build practical software around the way your
+business works, and the places where it could work better.”; contact role
+“Custom Business Software & Automation.”
+
+
+Graphify Context Graph
+----------------------
+A project context graph derived from this thesis lives under docs/graph/.
+Install the CLI with `uv tool install graphifyy` (package name graphifyy;
+command name graphify). Regeneration steps are recorded in
+docs/graphify-note.txt. Primary artifacts: docs/graph/graphify-out/graph.json,
+graph.html, GRAPH_REPORT.md, and GRAPH_TREE.html.

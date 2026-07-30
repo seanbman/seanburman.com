@@ -1,0 +1,32 @@
+Graphify (knowledge/context graphs)
+===================================
+
+Installed package: graphifyy (PyPI; CLI command is `graphify`)
+Method: `uv tool install graphifyy` (CLI on PATH via `~/.local/bin`; currently v0.9.17)
+
+Why not plain `graphify extract docs`?
+  Doc/image semantic extraction needs an LLM API key. Without one, use the
+  thesis concept extraction below (deterministic, no key) and/or `--code-only`.
+
+Primary thesis graph (recommended)
+----------------------------------
+Artifacts: docs/graph/graphify-out/{graph.json,graph.html,GRAPH_REPORT.md,GRAPH_TREE.html}
+Source concepts: docs/graph/thesis_extraction.json (derived from docs/thesis.txt)
+
+Rebuild:
+
+  cd /home/sean/Documents/B2B/seanburman.com
+  /home/sean/.local/share/uv/tools/graphifyy/bin/python docs/graph/rebuild.py
+  graphify cluster-only docs/graph --no-label
+  graphify tree --graph docs/graph/graphify-out/graph.json \
+    --output docs/graph/graphify-out/GRAPH_TREE.html \
+    --label "seanburman.com thesis"
+
+Optional code AST graph
+-----------------------
+  graphify extract . --code-only --out docs/graph-code
+  graphify cluster-only docs/graph-code --no-label
+
+Full semantic extract (when an LLM key is configured)
+-----------------------------------------------------
+  graphify extract docs --out docs/graph

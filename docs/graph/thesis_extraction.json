@@ -1,0 +1,482 @@
+{
+  "nodes": [
+    {
+      "id": "thesis",
+      "label": "seanburman.com Design Thesis",
+      "file_type": "document",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "project",
+      "label": "seanburman.com",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "repo",
+      "label": "seanbman/seanburman.com",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "problem",
+      "label": "Credible consulting presence without marketing clutter",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "approach",
+      "label": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "home",
+      "label": "Homepage",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "contact",
+      "label": "Contact page (digital calling card)",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "headline",
+      "label": "Custom software, engineered for the realities of your business.",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "byline",
+      "label": "I build practical software around the way your business works, and the places where it could work better.",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "role",
+      "label": "Custom Business Software & Automation",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "hero",
+      "label": "Dark moody architecture hero",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "fonts",
+      "label": "Cormorant Garamond + Outfit",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "stack_react",
+      "label": "React",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "stack_vite",
+      "label": "Vite",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "stack_router",
+      "label": "react-router",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "stack_pages",
+      "label": "GitHub Pages Actions",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "stack_base",
+      "label": "Vite base /",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "domain",
+      "label": "seanburman.com custom domain",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "dns_issue",
+      "label": "Squarespace DNS blocked resolution",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "branch_issue",
+      "label": "Pages env still allowed only master after rename to main",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "branch_main",
+      "label": "Default branch main",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "cname",
+      "label": "public/CNAME",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "vcf",
+      "label": "sean-burman.vcf / Add to Contacts",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "phone",
+      "label": "+1 368 997 4329",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "email",
+      "label": "info@seanburman.com",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn profile",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "qr",
+      "label": "Desktop QR code",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "mobile_actions",
+      "label": "Mobile-first Call + Add to Contacts",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "typography_orphan",
+      "label": "Avoid orphaning & Automation",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "docs_ui",
+      "label": "docs/ui inspiration images",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "landing_insp",
+      "label": "landing_inspiration.png",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_card",
+      "label": "Calling card not form",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_qr",
+      "label": "QR brilliant on desktop",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_mobile",
+      "label": "Mobile-first contact actions",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "open_questions",
+      "label": "Open questions: case studies, scheduling, design system, DNS drift, assistant context",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    }
+  ],
+  "edges": [
+    {
+      "source": "thesis",
+      "target": "project",
+      "relation": "documents",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "thesis",
+      "target": "problem",
+      "relation": "frames",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "thesis",
+      "target": "approach",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "repo",
+      "relation": "hosted_at",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "home",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "contact",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "domain",
+      "relation": "published_on",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "headline",
+      "relation": "uses_copy",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "byline",
+      "relation": "uses_copy",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "hero",
+      "relation": "uses_visual",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "fonts",
+      "relation": "uses_typography",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "role",
+      "relation": "uses_copy",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "byline",
+      "relation": "uses_copy",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "principle_card",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "phone",
+      "relation": "exposes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "email",
+      "relation": "exposes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "linkedin",
+      "relation": "exposes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "vcf",
+      "relation": "exposes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "qr",
+      "relation": "exposes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "mobile_actions",
+      "relation": "exposes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "contact",
+      "target": "typography_orphan",
+      "relation": "addresses",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "principle_qr",
+      "target": "qr",
+      "relation": "motivates",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "principle_mobile",
+      "target": "mobile_actions",
+      "relation": "motivates",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "stack_react",
+      "relation": "built_with",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "stack_vite",
+      "relation": "built_with",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "stack_router",
+      "relation": "built_with",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "stack_pages",
+      "relation": "deploys_via",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "stack_base",
+      "relation": "configured_with",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "approach",
+      "target": "docs_ui",
+      "relation": "started_from",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "docs_ui",
+      "target": "landing_insp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "approach",
+      "target": "landing_insp",
+      "relation": "first_inspired_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "approach",
+      "target": "hero",
+      "relation": "later_inspired_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "dns_issue",
+      "target": "domain",
+      "relation": "affected",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "branch_issue",
+      "target": "stack_pages",
+      "relation": "blocked",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "branch_issue",
+      "target": "branch_main",
+      "relation": "resolved_by_aligning_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "domain",
+      "target": "cname",
+      "relation": "requires",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "thesis",
+      "target": "open_questions",
+      "relation": "leaves",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "role",
+      "target": "typography_orphan",
+      "relation": "constrained_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    }
+  ]
+}
