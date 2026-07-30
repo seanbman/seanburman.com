@@ -1,42 +1,16 @@
-import './App.css'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div className="home">
-      <div className="home__media" aria-hidden="true">
-        <img
-          className="home__image"
-          src={`${import.meta.env.BASE_URL}hero-architecture.jpg`}
-          alt=""
-        />
-        <div className="home__veil" />
-      </div>
-
-      <header className="home__header">
-        <a className="home__brand" href="/">
-          Sean Burman
-        </a>
-        <nav className="home__nav" aria-label="Primary">
-          <span className="home__meta">Calgary, AB</span>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-
-      <main className="home__main">
-        <section className="home__hero">
-          <h1 className="home__title">
-            Custom software, engineered for the realities of your business.
-          </h1>
-          <p className="home__lede">
-            I build practical software around the way your business works, and
-            the places where it could work better.
-          </p>
-          <a className="home__cta" href="#contact">
-            Begin <span aria-hidden="true">→</span>
-          </a>
-        </section>
-      </main>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
