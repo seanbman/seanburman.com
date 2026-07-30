@@ -80,7 +80,7 @@ function Contact() {
             <div className="contact__footer">
               <p className="contact__byline">
                 I build practical software around the way your business works,
-                and the places where it could work better.
+                and the places where it could work{'\u00a0'}better.
               </p>
               <a className="contact__site" href={SITE}>
                 seanburman.com

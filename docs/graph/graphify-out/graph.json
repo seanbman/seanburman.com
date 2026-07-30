@@ -256,12 +256,12 @@
       "id": "mobile_actions"
     },
     {
-      "label": "Avoid orphaning & Automation",
+      "label": "No orphan words site-wide: balanced headings, non-breaking final word pairs",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
       "community": 8,
       "community_name": "Custom Business Software & Automation",
-      "norm_label": "avoid orphaning & automation",
+      "norm_label": "no orphan words site-wide: balanced headings, non-breaking final word pairs",
       "id": "typography_orphan"
     },
     {
@@ -631,6 +631,14 @@
       "target": "narrative"
     },
     {
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "home",
+      "target": "typography_orphan"
+    },
+    {
       "relation": "applied_to",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -807,6 +815,14 @@
       "target": "mobile_actions"
     },
     {
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "typography_orphan"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -936,5 +952,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0aef0ccdeb8a017201fae23c309be8e7da970a17"
+  "built_at_commit": "6ea07f8a7d8b4a0f18218ddb2d56089bd9d0de90"
 }

@@ -41,42 +41,43 @@ function useStackedPanels() {
   return rootRef
 }
 
+/* \u00a0 joins final word pairs so no sentence ends with an orphan word. */
 const WORK = [
   {
-    title: 'Find the bottleneck',
-    body: 'I look at how the work actually moves through your business — crews, materials, and equipment as much as quotes, schedules, and invoices — and find where hours and money quietly disappear.',
+    title: 'Find the\u00a0bottleneck',
+    body: 'I look at how the work actually moves through your business — crews, materials, and equipment as much as quotes, schedules, and invoices — and find where hours and money quietly\u00a0disappear.',
   },
   {
-    title: 'Build the fix',
-    body: 'Software that removes that exact friction — sometimes a single automation, sometimes the system your whole operation runs on. Never an off-the-shelf subscription that makes you change how you operate.',
+    title: 'Build the\u00a0fix',
+    body: 'Software that removes that exact friction — sometimes a single automation, sometimes the system your whole operation runs on. Never an off-the-shelf subscription that makes you change how you\u00a0operate.',
   },
   {
-    title: 'Make it fit',
-    body: 'The software bends to your business — in the office, in the truck, on the job site — not the other way around. If your crew needs a training seminar to use it, I built the wrong thing.',
+    title: 'Make it\u00a0fit',
+    body: 'The software bends to your business — in the office, in the truck, on the job site — not the other way around. If your crew needs a training seminar to use it, I built the wrong\u00a0thing.',
   },
 ]
 
 const PAINS = [
-  'The same job details typed into three different places.',
-  'Quotes that take days because the numbers live in someone\u2019s head.',
-  'Paper job sheets that die in the truck.',
-  'Crews standing around because nobody told them the plan changed.',
-  'Chasing invoices at the end of every month.',
-  'A scheduling spreadsheet only one person understands.',
+  'The same job details typed into three different\u00a0places.',
+  'Quotes that take days because the numbers live in someone\u2019s\u00a0head.',
+  'Paper job sheets that die in the\u00a0truck.',
+  'Crews standing around because nobody told them the plan\u00a0changed.',
+  'Chasing invoices at the end of every\u00a0month.',
+  'A scheduling spreadsheet only one person\u00a0understands.',
 ]
 
 const STEPS = [
   {
-    title: 'A conversation',
-    body: 'You tell me how the work runs today. No pitch, no obligation.',
+    title: 'A\u00a0conversation',
+    body: 'You tell me how the work runs today. No pitch, no\u00a0obligation.',
   },
   {
-    title: 'A close look',
-    body: 'I spend time understanding where things snag — on site or over the phone.',
+    title: 'A close\u00a0look',
+    body: 'I spend time understanding where things snag — on site or over the\u00a0phone.',
   },
   {
-    title: 'One small thing',
-    body: 'We start with a single tool that pays for itself. If it earns its keep, we go further.',
+    title: 'One small\u00a0thing',
+    body: 'We start with a single tool that pays for itself. If it earns its keep, we go\u00a0further.',
   },
 ]
 
@@ -108,11 +109,12 @@ function Home() {
         <main className="home__main">
           <div className="home__hero">
             <h1 className="home__title">
-              Custom software, engineered for the realities of your business.
+              Custom software, engineered for the realities of
+              your{'\u00a0'}business.
             </h1>
             <p className="home__lede">
               I build practical software around the way your business works, and
-              the places where it could work better.
+              the places where it could work{'\u00a0'}better.
             </p>
             <Link className="home__cta" to="/contact">
               Begin <span aria-hidden="true">→</span>
@@ -128,7 +130,7 @@ function Home() {
         <div className="home__inner">
           <p className="home__kicker">The work</p>
           <h2 id="work-heading" className="home__heading">
-            More than building software.
+            More than building{'\u00a0'}software.
           </h2>
           <div className="home__columns">
             {WORK.map((item) => (
@@ -156,7 +158,8 @@ function Home() {
             ))}
           </ul>
           <p className="home__note">
-            Every one of these is a bottleneck. Every one of them is fixable.
+            Every one of these is a bottleneck. Every one of them
+            is{'\u00a0'}fixable.
           </p>
         </div>
       </section>
@@ -168,7 +171,7 @@ function Home() {
         <div className="home__inner">
           <p className="home__kicker">Working together</p>
           <h2 id="start-heading" className="home__heading">
-            How it starts.
+            How it{'\u00a0'}starts.
           </h2>
           <ol className="home__steps">
             {STEPS.map((step, i) => (
@@ -182,7 +185,7 @@ function Home() {
             ))}
           </ol>
           <Link className="home__cta" to="/contact">
-            Start the conversation <span aria-hidden="true">→</span>
+            Start the{'\u00a0'}conversation <span aria-hidden="true">→</span>
           </Link>
         </div>
       </section>
@@ -190,7 +193,7 @@ function Home() {
       <footer className="home__footer">
         <div className="home__inner home__footer-inner">
           <p className="home__footer-copy">
-            © {new Date().getFullYear()} Sean Burman
+            © {new Date().getFullYear()} Sean{'\u00a0'}Burman
           </p>
           <nav className="home__footer-nav" aria-label="Footer">
             <a

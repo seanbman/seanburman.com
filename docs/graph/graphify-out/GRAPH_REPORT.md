@@ -4,12 +4,12 @@
 - cluster-only mode — file stats not available
 
 ## Summary
-- 49 nodes · 61 edges · 9 communities (5 shown, 4 thin omitted)
+- 49 nodes · 63 edges · 9 communities (5 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0aef0ccd`
+- Built from commit: `6ea07f8a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,14 +27,14 @@
 ## God Nodes (most connected - your core abstractions)
 1. `Contact page (digital calling card)` - 13 edges
 2. `seanburman.com` - 11 edges
-3. `Below-the-fold business narrative` - 9 edges
-4. `Homepage` - 8 edges
+3. `Below-the-fold business narrative` - 10 edges
+4. `Homepage` - 9 edges
 5. `seanburman.com Design Thesis` - 4 edges
 6. `Staged design: SaaS landing → architecture hero → calling card` - 4 edges
-7. `The work: find the bottleneck, build the fix, make it fit` - 4 edges
-8. `Sticky stacked-section takeover scroll (CSS-only)` - 4 edges
-9. `seanburman.com custom domain` - 3 edges
-10. `Sound familiar? recognizable bottleneck list` - 3 edges
+7. `No orphan words site-wide: balanced headings, non-breaking final word pairs` - 4 edges
+8. `The work: find the bottleneck, build the fix, make it fit` - 4 edges
+9. `Sticky stacked-section takeover scroll (CSS-only)` - 4 edges
+10. `seanburman.com custom domain` - 3 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `seanburman.com Design Thesis` --documents--> `seanburman.com`  [EXTRACTED]
@@ -79,10 +79,10 @@ Nodes (5): Contact page (digital calling card), info@seanburman.com, +1 368 997 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `seanburman.com` connect `seanburman.com` to `Homepage`, `Staged design: SaaS landing → architecture hero → calling card`, `Contact page (digital calling card)`?**
-  _High betweenness centrality (0.521) - this node is a cross-community bridge._
+  _High betweenness centrality (0.505) - this node is a cross-community bridge._
 - **Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `seanburman.com`, `Below-the-fold business narrative`, `Homepage`, `Footer band: LinkedIn, GitHub, Contact`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?**
-  _High betweenness centrality (0.423) - this node is a cross-community bridge._
-- **Why does `Homepage` connect `Homepage` to `seanburman.com`, `Below-the-fold business narrative`, `Staged design: SaaS landing → architecture hero → calling card`, `Footer band: LinkedIn, GitHub, Contact`?**
-  _High betweenness centrality (0.327) - this node is a cross-community bridge._
+  _High betweenness centrality (0.384) - this node is a cross-community bridge._
+- **Why does `Homepage` connect `Homepage` to `seanburman.com`, `Below-the-fold business narrative`, `Staged design: SaaS landing → architecture hero → calling card`, `Footer band: LinkedIn, GitHub, Contact`, `Custom Business Software & Automation`?**
+  _High betweenness centrality (0.335) - this node is a cross-community bridge._
 - **What connects `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.` to the rest of the system?**
   _20 weakly-connected nodes found - possible documentation gaps or missing edges._

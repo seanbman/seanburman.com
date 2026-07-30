@@ -170,7 +170,7 @@
     },
     {
       "id": "typography_orphan",
-      "label": "Avoid orphaning & Automation",
+      "label": "No orphan words site-wide: balanced headings, non-breaking final word pairs",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
     },
@@ -720,6 +720,20 @@
       "source": "icon_suite",
       "target": "fonts",
       "relation": "derived_from",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "typography_orphan",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "typography_orphan",
+      "relation": "follows",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

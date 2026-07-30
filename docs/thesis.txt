@@ -79,6 +79,17 @@ design defect: leaving “Automation” alone on a line was rejected, and the
 preference settled on an ampersand with non-breaking spaces so that
 “Software & Automation” stays together rather than orphaning “& Automation.”
 
+That single case later hardened into a site-wide rule: no orphan words,
+anywhere, at any width. The rule is enforced in two layers. First, CSS
+text-wrap: balance on every heading and text-wrap: pretty on body copy and
+list items lets modern browsers rebalance lines and avoid single-word last
+lines on their own. Second, as a hard guarantee in all browsers, the final
+word pair of every sentence-ending string — headlines, byline, column
+bodies, pain items, step bodies, calls to action, the footer copyright —
+is joined with a non-breaking space (for example "your business.",
+"work better.", "is fixable."), so the last line always carries at least
+two words.
+
 
 Implementation
 --------------

@@ -218,6 +218,7 @@
   font-size: 0.95rem;
   font-weight: 300;
   line-height: 1.7;
+  text-wrap: pretty;
 }
 
 .contact__site {
