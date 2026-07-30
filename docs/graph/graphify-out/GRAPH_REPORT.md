@@ -1,4 +1,4 @@
-# Graph Report - /home/sean/Documents/B2B/seanburman.com/docs/graph  (2026-07-29)
+# Graph Report - docs/graph  (2026-07-30)
 
 ## Corpus Check
 - cluster-only mode — file stats not available
@@ -9,19 +9,19 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `460c12e0`
+- Built from commit: `d63e27d5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- Community 0
-- Community 1
-- Community 2
-- Community 3
-- Community 4
-- Community 5
-- Community 6
-- Community 7
+- seanburman.com
+- Staged design: SaaS landing → architecture hero → calling card
+- Contact page (digital calling card)
+- Homepage
+- seanburman.com custom domain
+- Mobile-first Call + Add to Contacts
+- Desktop QR code
+- Custom Business Software & Automation
 
 ## God Nodes (most connected - your core abstractions)
 1. `Contact page (digital calling card)` - 11 edges
@@ -49,23 +49,23 @@
 
 ## Communities (8 total, 3 thin omitted)
 
-### Community 0 - "Community 0"
+### Community 0 - "seanburman.com"
 Cohesion: 0.22
 Nodes (9): Pages env still allowed only master after rename to main, Default branch main, seanburman.com, seanbman/seanburman.com, Vite base /, GitHub Pages Actions, React, react-router (+1 more)
 
-### Community 1 - "Community 1"
+### Community 1 - "Staged design: SaaS landing → architecture hero → calling card"
 Cohesion: 0.33
 Nodes (7): Staged design: SaaS landing → architecture hero → calling card, seanburman.com Design Thesis, docs/ui inspiration images, Dark moody architecture hero, landing_inspiration.png, Open questions: case studies, scheduling, design system, DNS drift, assistant context, Credible consulting presence without marketing clutter
 
-### Community 2 - "Community 2"
+### Community 2 - "Contact page (digital calling card)"
 Cohesion: 0.33
 Nodes (6): Contact page (digital calling card), info@seanburman.com, LinkedIn profile, +1 368 997 4329, Calling card not form, sean-burman.vcf / Add to Contacts
 
-### Community 3 - "Community 3"
+### Community 3 - "Homepage"
 Cohesion: 0.50
 Nodes (4): I build practical software around the way your business works, and the places where it could work better., Cormorant Garamond + Outfit, Custom software, engineered for the realities of your business., Homepage
 
-### Community 4 - "Community 4"
+### Community 4 - "seanburman.com custom domain"
 Cohesion: 0.67
 Nodes (3): public/CNAME, Squarespace DNS blocked resolution, seanburman.com custom domain
 
@@ -77,11 +77,11 @@ Nodes (3): public/CNAME, Squarespace DNS blocked resolution, seanburman.com cust
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `seanburman.com` connect `Community 0` to `Community 1`, `Community 2`, `Community 3`, `Community 4`?**
+- **Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Contact page (digital calling card)`, `Homepage`, `seanburman.com custom domain`?**
   _High betweenness centrality (0.731) - this node is a cross-community bridge._
-- **Why does `Contact page (digital calling card)` connect `Community 2` to `Community 0`, `Community 3`, `Community 5`, `Community 6`, `Community 7`?**
+- **Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `seanburman.com`, `Homepage`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?**
   _High betweenness centrality (0.557) - this node is a cross-community bridge._
-- **Why does `seanburman.com Design Thesis` connect `Community 1` to `Community 0`?**
+- **Why does `seanburman.com Design Thesis` connect `Staged design: SaaS landing → architecture hero → calling card` to `seanburman.com`?**
   _High betweenness centrality (0.244) - this node is a cross-community bridge._
 - **What connects `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.` to the rest of the system?**
   _19 weakly-connected nodes found - possible documentation gaps or missing edges._

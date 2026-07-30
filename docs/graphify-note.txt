@@ -2,7 +2,7 @@ Graphify (knowledge/context graphs)
 ===================================
 
 Installed package: graphifyy (PyPI; CLI command is `graphify`)
-Method: `uv tool install graphifyy` (CLI on PATH via `~/.local/bin`; currently v0.9.17)
+Method: `uv tool install graphifyy` (CLI on PATH via `~/.local/bin`; currently v0.9.30)
 
 Why not plain `graphify extract docs`?
   Doc/image semantic extraction needs an LLM API key. Without one, use the

@@ -174,17 +174,17 @@
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `seanburman.com` connect `Community 0` to `Community 1`, `Community 2`, `Community 3`, `Community 4`?",
+      "question": "Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Contact page (digital calling card)`, `Homepage`, `seanburman.com custom domain`?",
       "why": "High betweenness centrality (0.731) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `Contact page (digital calling card)` connect `Community 2` to `Community 0`, `Community 3`, `Community 5`, `Community 6`, `Community 7`?",
+      "question": "Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `seanburman.com`, `Homepage`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?",
       "why": "High betweenness centrality (0.557) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `seanburman.com Design Thesis` connect `Community 1` to `Community 0`?",
+      "question": "Why does `seanburman.com Design Thesis` connect `Staged design: SaaS landing → architecture hero → calling card` to `seanburman.com`?",
       "why": "High betweenness centrality (0.244) - this node is a cross-community bridge."
     },
     {

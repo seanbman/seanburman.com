@@ -11,8 +11,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "package.json",
-      "id": "ext_package_json",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "ext_package_json"
     },
     {
       "label": "name",
@@ -22,8 +22,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "name",
-      "id": "home_sean_documents_b2b_seanburman_com_package_name",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_name"
     },
     {
       "label": "private",
@@ -33,8 +33,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "private",
-      "id": "home_sean_documents_b2b_seanburman_com_package_private",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_private"
     },
     {
       "label": "version",
@@ -44,8 +44,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "version",
-      "id": "home_sean_documents_b2b_seanburman_com_package_version",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_version"
     },
     {
       "label": "type",
@@ -55,8 +55,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "type",
-      "id": "home_sean_documents_b2b_seanburman_com_package_type",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_type"
     },
     {
       "label": "scripts",
@@ -66,8 +66,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "scripts",
-      "id": "home_sean_documents_b2b_seanburman_com_package_scripts",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_scripts"
     },
     {
       "label": "dev",
@@ -77,8 +77,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "dev",
-      "id": "home_sean_documents_b2b_seanburman_com_package_scripts_dev",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_scripts_dev"
     },
     {
       "label": "build",
@@ -88,8 +88,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "build",
-      "id": "home_sean_documents_b2b_seanburman_com_package_scripts_build",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_scripts_build"
     },
     {
       "label": "preview",
@@ -99,8 +99,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "preview",
-      "id": "home_sean_documents_b2b_seanburman_com_package_scripts_preview",
-      "community_name": "Community 4"
+      "community_name": "package.json",
+      "id": "home_sean_documents_b2b_seanburman_com_package_scripts_preview"
     },
     {
       "label": "dependencies",
@@ -110,8 +110,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "dependencies",
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies"
     },
     {
       "label": "react",
@@ -121,8 +121,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "react",
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react"
     },
     {
       "label": "react",
@@ -132,8 +132,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "react",
-      "id": "react",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "react"
     },
     {
       "label": "react-dom",
@@ -143,8 +143,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "react-dom",
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react_dom",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react_dom"
     },
     {
       "label": "react-dom",
@@ -154,8 +154,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "react-dom",
-      "id": "react_dom",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "react_dom"
     },
     {
       "label": "react-router-dom",
@@ -165,8 +165,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "react-router-dom",
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react_router_dom",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react_router_dom"
     },
     {
       "label": "react-router-dom",
@@ -176,8 +176,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "react-router-dom",
-      "id": "react_router_dom",
-      "community_name": "Community 5"
+      "community_name": "dependencies",
+      "id": "react_router_dom"
     },
     {
       "label": "devDependencies",
@@ -187,8 +187,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "devdependencies",
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies"
     },
     {
       "label": "@types/react",
@@ -198,8 +198,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "@types/react",
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react"
     },
     {
       "label": "@types/react",
@@ -209,8 +209,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "@types/react",
-      "id": "types_react",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "types_react"
     },
     {
       "label": "@types/react-dom",
@@ -220,8 +220,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "@types/react-dom",
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react_dom",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react_dom"
     },
     {
       "label": "@types/react-dom",
@@ -231,8 +231,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "@types/react-dom",
-      "id": "types_react_dom",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "types_react_dom"
     },
     {
       "label": "@vitejs/plugin-react",
@@ -242,8 +242,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "@vitejs/plugin-react",
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_vitejs_plugin_react",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_vitejs_plugin_react"
     },
     {
       "label": "@vitejs/plugin-react",
@@ -253,8 +253,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "@vitejs/plugin-react",
-      "id": "vitejs_plugin_react",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "vitejs_plugin_react"
     },
     {
       "label": "typescript",
@@ -264,8 +264,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "typescript",
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_typescript",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_typescript"
     },
     {
       "label": "typescript",
@@ -275,8 +275,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "typescript",
-      "id": "typescript",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "typescript"
     },
     {
       "label": "vite",
@@ -286,8 +286,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "vite",
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_vite",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_vite"
     },
     {
       "label": "vite",
@@ -297,8 +297,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "vite",
-      "id": "vite",
-      "community_name": "Community 2"
+      "community_name": "devDependencies",
+      "id": "vite"
     },
     {
       "label": "App.tsx",
@@ -308,8 +308,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "app.tsx",
-      "id": "ext_src_app_tsx",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "ext_src_app_tsx"
     },
     {
       "label": "App()",
@@ -319,8 +319,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "app()",
-      "id": "home_sean_documents_b2b_seanburman_com_src_app_app",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "home_sean_documents_b2b_seanburman_com_src_app_app"
     },
     {
       "label": "main.tsx",
@@ -330,19 +330,19 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "main.tsx",
-      "id": "ext_src_main_tsx",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "ext_src_main_tsx"
     },
     {
-      "label": "Contact.tsx",
+      "label": "../src/pages/Contact.tsx",
       "file_type": "code",
       "source_file": "../../src/pages/Contact.tsx",
       "source_location": "L1",
       "_origin": "ast",
       "community": 3,
-      "norm_label": "contact.tsx",
-      "id": "ext_src_pages_contact_tsx",
-      "community_name": "Community 3"
+      "norm_label": "../src/pages/contact.tsx",
+      "community_name": "App.tsx",
+      "id": "ext_src_pages_contact_tsx"
     },
     {
       "label": "Contact()",
@@ -352,8 +352,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "contact()",
-      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_contact",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_contact"
     },
     {
       "label": "PhoneIcon()",
@@ -363,8 +363,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "phoneicon()",
-      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_phoneicon",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_phoneicon"
     },
     {
       "label": "MailIcon()",
@@ -374,8 +374,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "mailicon()",
-      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_mailicon",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_mailicon"
     },
     {
       "label": "LinkedInIcon()",
@@ -385,8 +385,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "linkedinicon()",
-      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_linkedinicon",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_linkedinicon"
     },
     {
       "label": "Home.tsx",
@@ -396,8 +396,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "home.tsx",
-      "id": "ext_src_pages_home_tsx",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "ext_src_pages_home_tsx"
     },
     {
       "label": "Home()",
@@ -407,8 +407,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "home()",
-      "id": "home_sean_documents_b2b_seanburman_com_src_pages_home_home",
-      "community_name": "Community 3"
+      "community_name": "App.tsx",
+      "id": "home_sean_documents_b2b_seanburman_com_src_pages_home_home"
     },
     {
       "label": "vite-env.d.ts",
@@ -416,10 +416,10 @@
       "source_file": "../../src/vite-env.d.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 10,
       "norm_label": "vite-env.d.ts",
-      "id": "ext_src_vite_env_d_ts",
-      "community_name": "Community 9"
+      "community_name": "vite-env.d.ts",
+      "id": "ext_src_vite_env_d_ts"
     },
     {
       "label": "tsconfig.app.json",
@@ -427,10 +427,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "tsconfig.app.json",
-      "id": "ext_tsconfig_app_json",
-      "community_name": "Community 7"
+      "community_name": "compilerOptions",
+      "id": "ext_tsconfig_app_json"
     },
     {
       "label": "compilerOptions",
@@ -438,10 +438,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "compileroptions",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions"
     },
     {
       "label": "tsBuildInfoFile",
@@ -449,10 +449,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "tsbuildinfofile",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_tsbuildinfofile",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_tsbuildinfofile"
     },
     {
       "label": "target",
@@ -460,10 +460,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "target",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_target",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_target"
     },
     {
       "label": "useDefineForClassFields",
@@ -471,10 +471,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "usedefineforclassfields",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_usedefineforclassfields",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_usedefineforclassfields"
     },
     {
       "label": "lib",
@@ -482,10 +482,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "lib",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib",
-      "community_name": "Community 6"
+      "community_name": "lib",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib"
     },
     {
       "label": "ES2020",
@@ -493,10 +493,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "es2020",
-      "id": "ref_es2020",
-      "community_name": "Community 6"
+      "community_name": "lib",
+      "id": "ref_es2020"
     },
     {
       "label": "DOM",
@@ -504,10 +504,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "dom",
-      "id": "ref_dom",
-      "community_name": "Community 6"
+      "community_name": "lib",
+      "id": "ref_dom"
     },
     {
       "label": "DOM.Iterable",
@@ -515,10 +515,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 7,
       "norm_label": "dom.iterable",
-      "id": "ref_dom_iterable",
-      "community_name": "Community 6"
+      "community_name": "lib",
+      "id": "ref_dom_iterable"
     },
     {
       "label": "module",
@@ -526,10 +526,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "module",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_module",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_module"
     },
     {
       "label": "skipLibCheck",
@@ -537,10 +537,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "skiplibcheck",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_skiplibcheck",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_skiplibcheck"
     },
     {
       "label": "moduleResolution",
@@ -548,10 +548,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "moduleresolution",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_moduleresolution",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_moduleresolution"
     },
     {
       "label": "allowImportingTsExtensions",
@@ -559,10 +559,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "allowimportingtsextensions",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_allowimportingtsextensions",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_allowimportingtsextensions"
     },
     {
       "label": "isolatedModules",
@@ -570,10 +570,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "isolatedmodules",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_isolatedmodules",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_isolatedmodules"
     },
     {
       "label": "moduleDetection",
@@ -581,10 +581,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "moduledetection",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_moduledetection",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_moduledetection"
     },
     {
       "label": "noEmit",
@@ -592,10 +592,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "noemit",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_noemit",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_noemit"
     },
     {
       "label": "jsx",
@@ -603,10 +603,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "jsx",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_jsx",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_jsx"
     },
     {
       "label": "strict",
@@ -614,10 +614,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "strict",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_strict",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_strict"
     },
     {
       "label": "noUnusedLocals",
@@ -625,10 +625,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "nounusedlocals",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nounusedlocals",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nounusedlocals"
     },
     {
       "label": "noUnusedParameters",
@@ -636,10 +636,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "nounusedparameters",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nounusedparameters",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nounusedparameters"
     },
     {
       "label": "noFallthroughCasesInSwitch",
@@ -647,10 +647,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 1,
+      "community": 0,
       "norm_label": "nofallthroughcasesinswitch",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nofallthroughcasesinswitch",
-      "community_name": "Community 1"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "label": "include",
@@ -658,10 +658,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "include",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_include",
-      "community_name": "Community 7"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_include"
     },
     {
       "label": "src",
@@ -669,10 +669,10 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "src",
-      "id": "ref_src",
-      "community_name": "Community 7"
+      "community_name": "compilerOptions",
+      "id": "ref_src"
     },
     {
       "label": "tsconfig.json",
@@ -682,8 +682,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "tsconfig.json",
-      "id": "ext_tsconfig_json",
-      "community_name": "Community 8"
+      "community_name": "tsconfig.json",
+      "id": "ext_tsconfig_json"
     },
     {
       "label": "files",
@@ -693,8 +693,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "files",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_files",
-      "community_name": "Community 8"
+      "community_name": "tsconfig.json",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_files"
     },
     {
       "label": "references",
@@ -704,8 +704,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "references",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_references",
-      "community_name": "Community 8"
+      "community_name": "tsconfig.json",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_references"
     },
     {
       "label": "tsconfig.node.json",
@@ -713,10 +713,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "tsconfig.node.json",
-      "id": "ext_tsconfig_node_json",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "ext_tsconfig_node_json"
     },
     {
       "label": "compilerOptions",
@@ -724,10 +724,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "compileroptions",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions"
     },
     {
       "label": "tsBuildInfoFile",
@@ -735,10 +735,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "tsbuildinfofile",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_tsbuildinfofile",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_tsbuildinfofile"
     },
     {
       "label": "target",
@@ -746,10 +746,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "target",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_target",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_target"
     },
     {
       "label": "lib",
@@ -757,10 +757,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "lib",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_lib",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_lib"
     },
     {
       "label": "ES2023",
@@ -768,10 +768,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "es2023",
-      "id": "ref_es2023",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "ref_es2023"
     },
     {
       "label": "module",
@@ -779,10 +779,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "module",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_module",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_module"
     },
     {
       "label": "skipLibCheck",
@@ -790,10 +790,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "skiplibcheck",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_skiplibcheck",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_skiplibcheck"
     },
     {
       "label": "moduleResolution",
@@ -801,10 +801,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "moduleresolution",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_moduleresolution",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_moduleresolution"
     },
     {
       "label": "allowImportingTsExtensions",
@@ -812,10 +812,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "allowimportingtsextensions",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_allowimportingtsextensions",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_allowimportingtsextensions"
     },
     {
       "label": "isolatedModules",
@@ -823,10 +823,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "isolatedmodules",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_isolatedmodules",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_isolatedmodules"
     },
     {
       "label": "moduleDetection",
@@ -834,10 +834,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "moduledetection",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_moduledetection",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_moduledetection"
     },
     {
       "label": "noEmit",
@@ -845,10 +845,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "noemit",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_noemit",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_noemit"
     },
     {
       "label": "strict",
@@ -856,10 +856,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "strict",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_strict",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_strict"
     },
     {
       "label": "noUnusedLocals",
@@ -867,10 +867,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "nounusedlocals",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nounusedlocals",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nounusedlocals"
     },
     {
       "label": "noUnusedParameters",
@@ -878,10 +878,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L15",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "nounusedparameters",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nounusedparameters",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nounusedparameters"
     },
     {
       "label": "noFallthroughCasesInSwitch",
@@ -889,10 +889,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "nofallthroughcasesinswitch",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nofallthroughcasesinswitch",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "label": "include",
@@ -900,10 +900,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "include",
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_include",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_include"
     },
     {
       "label": "vite.config.ts",
@@ -911,10 +911,10 @@
       "source_file": "../../tsconfig.node.json",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "vite.config.ts",
-      "id": "ref_vite_config_ts",
-      "community_name": "Community 0"
+      "community_name": "compilerOptions",
+      "id": "ref_vite_config_ts"
     },
     {
       "label": "vite.config.ts",
@@ -922,10 +922,87 @@
       "source_file": "../../vite.config.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 11,
       "norm_label": "vite.config.ts",
-      "id": "ext_vite_config_ts",
-      "community_name": "Community 10"
+      "community_name": "vite.config.ts",
+      "id": "ext_vite_config_ts"
+    },
+    {
+      "label": "rebuild.py",
+      "file_type": "code",
+      "source_file": "docs/graph/rebuild.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "rebuild.py",
+      "id": "docs_graph_rebuild",
+      "community_name": "rebuild.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "docs/graph/rebuild.py",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "main()",
+      "id": "docs_graph_rebuild_main",
+      "community_name": "rebuild.py"
+    },
+    {
+      "label": "src/pages/Contact.tsx",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "src/pages/contact.tsx",
+      "id": "src_pages_contact",
+      "community_name": "src/pages/Contact.tsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "contact()",
+      "id": "src_pages_contact_contact",
+      "community_name": "src/pages/Contact.tsx"
+    },
+    {
+      "label": "PhoneIcon()",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L103",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "phoneicon()",
+      "id": "src_pages_contact_phoneicon",
+      "community_name": "src/pages/Contact.tsx"
+    },
+    {
+      "label": "MailIcon()",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L116",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "mailicon()",
+      "id": "src_pages_contact_mailicon",
+      "community_name": "src/pages/Contact.tsx"
+    },
+    {
+      "label": "LinkedInIcon()",
+      "file_type": "code",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L139",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "linkedinicon()",
+      "id": "src_pages_contact_linkedinicon",
+      "community_name": "src/pages/Contact.tsx"
     }
   ],
   "links": [
@@ -1816,8 +1893,63 @@
       "confidence_score": 1.0,
       "source": "home_sean_documents_b2b_seanburman_com_tsconfig_node_include",
       "target": "ref_vite_config_ts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graph/rebuild.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "docs_graph_rebuild",
+      "target": "docs_graph_rebuild_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_contact",
+      "target": "src_pages_contact_contact"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_contact",
+      "target": "src_pages_contact_linkedinicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_contact",
+      "target": "src_pages_contact_mailicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Contact.tsx",
+      "source_location": "L103",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_contact",
+      "target": "src_pages_contact_phoneicon"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "460c12e0c44c54f2f840f93a3417b1b6fe697561"
+  "built_at_commit": "d63e27d5991b9f70316bf3b0e3438db0ca838c85"
 }
