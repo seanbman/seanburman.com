@@ -88,18 +88,19 @@
       "react_router_dom"
     ],
     "6": [
+      "src_pages_home",
+      "src_pages_home_home",
+      "src_pages_home_pains",
+      "src_pages_home_steps",
+      "src_pages_home_usestackedpanels",
+      "src_pages_home_work"
+    ],
+    "7": [
       "src_pages_contact",
       "src_pages_contact_contact",
       "src_pages_contact_linkedinicon",
       "src_pages_contact_mailicon",
       "src_pages_contact_phoneicon"
-    ],
-    "7": [
-      "src_pages_home",
-      "src_pages_home_home",
-      "src_pages_home_pains",
-      "src_pages_home_steps",
-      "src_pages_home_work"
     ],
     "8": [
       "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib",
@@ -195,12 +196,12 @@
     {
       "type": "bridge_node",
       "question": "Why does `compilerOptions` connect `compilerOptions` to `lib`?",
-      "why": "High betweenness centrality (0.050) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.049) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
       "question": "Why does `devDependencies` connect `devDependencies` to `package.json`?",
-      "why": "High betweenness centrality (0.045) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.044) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",

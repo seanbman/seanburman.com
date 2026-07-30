@@ -1,5 +1,45 @@
+import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import './Home.css'
+
+/**
+ * Panels taller than the viewport would pin at top: 0 with their tail
+ * unreadable before the next panel covers it. Give each panel a measured
+ * negative offset so it pins only once its bottom edge reaches the bottom
+ * of the screen.
+ */
+function useStackedPanels() {
+  const rootRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const root = rootRef.current
+    if (!root) return
+    const panels = Array.from(
+      root.querySelectorAll<HTMLElement>('.home__section'),
+    )
+
+    const update = () => {
+      for (const panel of panels) {
+        const overflow = panel.offsetHeight - window.innerHeight
+        panel.style.setProperty(
+          '--stick-top',
+          overflow > 0 ? `${-overflow}px` : '0px',
+        )
+      }
+    }
+
+    update()
+    window.addEventListener('resize', update)
+    const observer = new ResizeObserver(update)
+    panels.forEach((panel) => observer.observe(panel))
+    return () => {
+      window.removeEventListener('resize', update)
+      observer.disconnect()
+    }
+  }, [])
+
+  return rootRef
+}
 
 const WORK = [
   {
@@ -40,8 +80,10 @@ const STEPS = [
 ]
 
 function Home() {
+  const rootRef = useStackedPanels()
+
   return (
-    <div className="home">
+    <div className="home" ref={rootRef}>
       <section className="home__stage">
         <div className="home__media" aria-hidden="true">
           <img

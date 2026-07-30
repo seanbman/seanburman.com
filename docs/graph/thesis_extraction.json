@@ -260,7 +260,13 @@
     },
     {
       "id": "static_fallback",
-      "label": "Static-flow fallback: small screens, short viewports, reduced motion",
+      "label": "Static-flow fallback under reduced motion",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "measured_offsets",
+      "label": "Measured negative sticky offsets for panels taller than the viewport",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
     }
@@ -627,6 +633,13 @@
       "source": "scroll_takeover",
       "target": "home",
       "relation": "applied_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "scroll_takeover",
+      "target": "measured_offsets",
+      "relation": "made_mobile_safe_by",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

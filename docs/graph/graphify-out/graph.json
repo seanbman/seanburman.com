@@ -52,7 +52,7 @@
       "label": "Homepage",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 1,
       "community_name": "Homepage",
       "norm_label": "homepage",
       "id": "home"
@@ -70,7 +70,7 @@
       "label": "Custom software, engineered for the realities of your business.",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 1,
       "community_name": "Homepage",
       "norm_label": "custom software, engineered for the realities of your business.",
       "id": "headline"
@@ -79,7 +79,7 @@
       "label": "I build practical software around the way your business works, and the places where it could work better.",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 1,
       "community_name": "Homepage",
       "norm_label": "i build practical software around the way your business works, and the places where it could work better.",
       "id": "byline"
@@ -106,7 +106,7 @@
       "label": "Cormorant Garamond + Outfit",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 1,
       "community_name": "Homepage",
       "norm_label": "cormorant garamond + outfit",
       "id": "fonts"
@@ -322,7 +322,7 @@
       "label": "Below-the-fold business narrative",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "below-the-fold business narrative",
       "id": "narrative"
@@ -331,7 +331,7 @@
       "label": "The work: find the bottleneck, build the fix, make it fit",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "the work: find the bottleneck, build the fix, make it fit",
       "id": "section_work"
@@ -340,7 +340,7 @@
       "label": "Sound familiar? recognizable bottleneck list",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "sound familiar? recognizable bottleneck list",
       "id": "section_pains"
@@ -349,7 +349,7 @@
       "label": "How it starts: conversation, close look, one small thing",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "how it starts: conversation, close look, one small thing",
       "id": "section_start"
@@ -358,7 +358,7 @@
       "label": "Plain trade language; never 'consulting'",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "plain trade language; never 'consulting'",
       "id": "principle_language"
@@ -367,7 +367,7 @@
       "label": "Identify bottlenecks, build efficiency, conform to the business",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "identify bottlenecks, build efficiency, conform to the business",
       "id": "principle_bottleneck"
@@ -376,7 +376,7 @@
       "label": "Sticky stacked-section takeover scroll (CSS-only)",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 1,
       "community_name": "Homepage",
       "norm_label": "sticky stacked-section takeover scroll (css-only)",
       "id": "scroll_takeover"
@@ -385,19 +385,28 @@
       "label": "Black / white / charcoal panel rhythm",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 2,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "black / white / charcoal panel rhythm",
       "id": "theme_rhythm"
     },
     {
-      "label": "Static-flow fallback: small screens, short viewports, reduced motion",
+      "label": "Static-flow fallback under reduced motion",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 1,
       "community_name": "Homepage",
-      "norm_label": "static-flow fallback: small screens, short viewports, reduced motion",
+      "norm_label": "static-flow fallback under reduced motion",
       "id": "static_fallback"
+    },
+    {
+      "label": "Measured negative sticky offsets for panels taller than the viewport",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 1,
+      "community_name": "Homepage",
+      "norm_label": "measured negative sticky offsets for panels taller than the viewport",
+      "id": "measured_offsets"
     }
   ],
   "links": [
@@ -810,6 +819,14 @@
       "target": "theme_rhythm"
     },
     {
+      "relation": "made_mobile_safe_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "scroll_takeover",
+      "target": "measured_offsets"
+    },
+    {
       "relation": "degrades_to",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -819,5 +836,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "598dc69d350ba7e86f19eef997479777b871e1b5"
+  "built_at_commit": "1f168bdd52cefaa956b0dcb990f138af27ff9183"
 }

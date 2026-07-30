@@ -189,11 +189,19 @@ a black / white / charcoal rhythm: "The work" on black (#050505), "Sound
 familiar?" on white paper (#f5f5f3) as the deliberate contrast beat where
 the visitor recognizes themselves, and "How it starts" on charcoal
 (#1f1f1d). The white panel inverts the text, muted-text, and hairline
-tokens through scoped CSS variables rather than duplicated styles. The
-effect is CSS-only — no scroll libraries — and degrades deliberately: on
-narrow screens, short viewports, and under prefers-reduced-motion the
-panels return to normal document flow while keeping the alternating
-grounds.
+tokens through scoped CSS variables rather than duplicated styles.
+
+The effect works on every screen size, including mobile. The naive form of
+this pattern breaks when a panel is taller than the viewport: pinned at
+top: 0, its tail is covered by the next panel before it can be read. The
+fix is a measured negative sticky offset — a small React effect
+(useStackedPanels) measures each panel and sets top to
+-(panelHeight - viewportHeight), so a tall panel scrolls fully into view,
+pins only once its bottom edge reaches the bottom of the screen, and is
+then taken over. Offsets are re-measured on resize and content changes via
+ResizeObserver. No scroll libraries are used. Under
+prefers-reduced-motion the panels return to normal document flow while
+keeping the alternating grounds.
 
 
 Open Questions
@@ -221,8 +229,8 @@ Design: dark architectural hero; Cormorant Garamond + Outfit; calling-card
 contact; desktop QR; mobile-first contact actions; below-the-fold business
 narrative (bottlenecks, fit, low-commitment start); no "consulting"
 vocabulary; sticky stacked-section takeover scroll with black / white /
-charcoal panel rhythm (CSS-only, static fallback on small screens and
-reduced motion).
+charcoal panel rhythm on all screen sizes (measured negative sticky
+offsets for tall panels; static fallback under reduced motion only).
 Copy anchors: headline “Custom software, engineered for the realities of
 your business.”; byline “I build practical software around the way your
 business works, and the places where it could work better.”; contact role

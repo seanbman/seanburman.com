@@ -147,7 +147,7 @@
 
 .home__section {
   position: sticky;
-  top: 0;
+  top: var(--stick-top, 0px);
   min-height: 100vh;
   min-height: 100dvh;
   display: flex;
@@ -327,18 +327,13 @@
   }
 }
 
-/* The takeover needs every panel to fit the viewport; on narrow or short
-   screens (and for reduced motion) fall back to a normal scroll. */
-@media (max-width: 720px), (max-height: 560px), (prefers-reduced-motion: reduce) {
+/* Panels taller than the viewport pin with a measured negative top
+   (see useStackedPanels in Home.tsx), so the takeover works on any
+   screen size. Only reduced motion falls back to a normal scroll. */
+@media (prefers-reduced-motion: reduce) {
   .home__stage,
   .home__section {
     position: static;
-    min-height: 0;
-  }
-
-  .home__stage {
-    min-height: 100vh;
-    min-height: 100dvh;
   }
 
   .home__section {
