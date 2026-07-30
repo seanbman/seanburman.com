@@ -34,7 +34,7 @@ function Contact() {
 
             <h1 className="contact__name">Sean Burman</h1>
             <p className="contact__role">
-              Custom Business Software&nbsp;&amp;&nbsp;Automation
+              Custom Software&nbsp;&amp;&nbsp;Automation
             </p>
 
             <div className="contact__details">
