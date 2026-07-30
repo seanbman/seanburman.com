@@ -287,6 +287,12 @@
       "label": "Scope ranges from one automation to an operation-wide system",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "icon_suite",
+      "label": "SB monogram favicon suite + web manifest (Cormorant Garamond paths)",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
     }
   ],
   "edges": [
@@ -700,6 +706,20 @@
       "source": "section_pains",
       "target": "principle_physical",
       "relation": "expresses",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "project",
+      "target": "icon_suite",
+      "relation": "branded_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "icon_suite",
+      "target": "fonts",
+      "relation": "derived_from",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

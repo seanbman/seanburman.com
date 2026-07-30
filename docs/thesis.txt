@@ -222,6 +222,23 @@ LinkedIn, GitHub, and Contact. It participates in the same choreography,
 sliding over the pinned final panel rather than sitting inside it.
 
 
+Favicon and Icon Suite
+----------------------
+The original favicon was a leftover of the abandoned SaaS design (a
+blue-purple geometric mark on navy) and was replaced with an on-brand
+identity mark: the monogram "SB" set in Cormorant Garamond Medium,
+off-white (#f5f5f3) on the site black (#050505). The letters were
+converted to vector paths (via opentype.js against the Google Fonts
+weight-500 TTF) so the icons are crisp at every size and independent of
+webfont loading. The full suite lives in public/: favicon.svg (rounded
+corners for browser tabs), favicon.ico (16/32/48), apple-touch-icon.png
+(180, full-bleed square since iOS applies its own mask), icon-192.png and
+icon-512.png for the web app manifest, and icon-512-maskable.png with
+safe-zone padding (purpose: maskable). site.webmanifest declares name,
+colors (#050505 for theme and background), and the icon set; index.html
+links the ico, svg, apple-touch icon, manifest, and a theme-color meta.
+
+
 Open Questions
 --------------
 Several questions remain open for future iteration. The homepage has now

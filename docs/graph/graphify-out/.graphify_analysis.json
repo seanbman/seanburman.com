@@ -26,6 +26,16 @@
       "theme_rhythm"
     ],
     "2": [
+      "byline",
+      "fonts",
+      "headline",
+      "home",
+      "icon_suite",
+      "measured_offsets",
+      "scroll_takeover",
+      "static_fallback"
+    ],
+    "3": [
       "approach",
       "docs_thesis",
       "docs_ui",
@@ -33,15 +43,6 @@
       "landing_insp",
       "open_questions",
       "problem"
-    ],
-    "3": [
-      "byline",
-      "fonts",
-      "headline",
-      "home",
-      "measured_offsets",
-      "scroll_takeover",
-      "static_fallback"
     ],
     "4": [
       "contact",
@@ -70,8 +71,8 @@
   "cohesion": {
     "0": 0.16666666666666666,
     "1": 0.3055555555555556,
-    "2": 0.3333333333333333,
-    "3": 0.2857142857142857,
+    "2": 0.25,
+    "3": 0.3333333333333333,
     "4": 0.4,
     "5": 1.0,
     "6": 1.0,
@@ -87,7 +88,7 @@
     {
       "id": "project",
       "label": "seanburman.com",
-      "degree": 10
+      "degree": 11
     },
     {
       "id": "narrative",
@@ -140,7 +141,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "documents",
-      "note": "Bridges community 2 → community 0"
+      "note": "Bridges community 3 → community 0"
     },
     {
       "source": "seanburman.com",
@@ -162,7 +163,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "includes",
-      "note": "Bridges community 0 → community 3"
+      "note": "Bridges community 0 → community 2"
     },
     {
       "source": "Homepage",
@@ -173,7 +174,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "includes",
-      "note": "Bridges community 3 → community 5"
+      "note": "Bridges community 2 → community 5"
     },
     {
       "source": "Homepage",
@@ -184,29 +185,29 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "uses_visual",
-      "note": "Bridges community 3 → community 2"
+      "note": "Bridges community 2 → community 3"
     }
   ],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Homepage`, `Contact page (digital calling card)`?",
-      "why": "High betweenness centrality (0.506) - this node is a cross-community bridge."
+      "question": "Why does `seanburman.com` connect `seanburman.com` to `Homepage`, `Staged design: SaaS landing → architecture hero → calling card`, `Contact page (digital calling card)`?",
+      "why": "High betweenness centrality (0.521) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
       "question": "Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `seanburman.com`, `Below-the-fold business narrative`, `Homepage`, `Footer band: LinkedIn, GitHub, Contact`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?",
-      "why": "High betweenness centrality (0.430) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.423) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
       "question": "Why does `Homepage` connect `Homepage` to `seanburman.com`, `Below-the-fold business narrative`, `Staged design: SaaS landing → architecture hero → calling card`, `Footer band: LinkedIn, GitHub, Contact`?",
-      "why": "High betweenness centrality (0.337) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.327) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",
       "question": "What connects `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.` to the rest of the system?",
-      "why": "21 weakly-connected nodes found - possible documentation gaps or missing edges."
+      "why": "20 weakly-connected nodes found - possible documentation gaps or missing edges."
     }
   ]
 }

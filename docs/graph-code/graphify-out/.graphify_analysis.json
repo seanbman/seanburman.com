@@ -1,93 +1,56 @@
 {
   "communities": {
     "0": [
-      "ext_tsconfig_app_json",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_allowimportingtsextensions",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_isolatedmodules",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_jsx",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_module",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_moduledetection",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_moduleresolution",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_noemit",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nofallthroughcasesinswitch",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nounusedlocals",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_nounusedparameters",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_skiplibcheck",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_strict",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_target",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_tsbuildinfofile",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_usedefineforclassfields",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_include",
-      "ref_src"
+      "ref_es2023",
+      "ref_vite_config_ts",
+      "tsconfig_node",
+      "tsconfig_node_compileroptions",
+      "tsconfig_node_compileroptions_allowimportingtsextensions",
+      "tsconfig_node_compileroptions_isolatedmodules",
+      "tsconfig_node_compileroptions_lib",
+      "tsconfig_node_compileroptions_module",
+      "tsconfig_node_compileroptions_moduledetection",
+      "tsconfig_node_compileroptions_moduleresolution",
+      "tsconfig_node_compileroptions_noemit",
+      "tsconfig_node_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_node_compileroptions_nounusedlocals",
+      "tsconfig_node_compileroptions_nounusedparameters",
+      "tsconfig_node_compileroptions_skiplibcheck",
+      "tsconfig_node_compileroptions_strict",
+      "tsconfig_node_compileroptions_target",
+      "tsconfig_node_compileroptions_tsbuildinfofile",
+      "tsconfig_node_include"
     ],
     "1": [
-      "ext_tsconfig_node_json",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_allowimportingtsextensions",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_isolatedmodules",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_lib",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_module",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_moduledetection",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_moduleresolution",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_noemit",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nofallthroughcasesinswitch",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nounusedlocals",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_nounusedparameters",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_skiplibcheck",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_strict",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_target",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions_tsbuildinfofile",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_node_include",
-      "ref_es2023",
-      "ref_vite_config_ts"
+      "ref_src",
+      "tsconfig_app",
+      "tsconfig_app_compileroptions",
+      "tsconfig_app_compileroptions_allowimportingtsextensions",
+      "tsconfig_app_compileroptions_isolatedmodules",
+      "tsconfig_app_compileroptions_jsx",
+      "tsconfig_app_compileroptions_module",
+      "tsconfig_app_compileroptions_moduledetection",
+      "tsconfig_app_compileroptions_moduleresolution",
+      "tsconfig_app_compileroptions_noemit",
+      "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_app_compileroptions_nounusedlocals",
+      "tsconfig_app_compileroptions_nounusedparameters",
+      "tsconfig_app_compileroptions_skiplibcheck",
+      "tsconfig_app_compileroptions_strict",
+      "tsconfig_app_compileroptions_target",
+      "tsconfig_app_compileroptions_tsbuildinfofile",
+      "tsconfig_app_compileroptions_usedefineforclassfields",
+      "tsconfig_app_include"
     ],
     "2": [
-      "home_sean_documents_b2b_seanburman_com_package_devdependencies",
-      "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react",
-      "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react_dom",
-      "home_sean_documents_b2b_seanburman_com_package_devdependencies_typescript",
-      "home_sean_documents_b2b_seanburman_com_package_devdependencies_vite",
-      "home_sean_documents_b2b_seanburman_com_package_devdependencies_vitejs_plugin_react",
-      "types_react",
-      "types_react_dom",
-      "typescript",
-      "vite",
-      "vitejs_plugin_react"
-    ],
-    "3": [
-      "ext_src_app_tsx",
-      "ext_src_main_tsx",
-      "ext_src_pages_contact_tsx",
-      "ext_src_pages_home_tsx",
-      "home_sean_documents_b2b_seanburman_com_src_app_app",
-      "home_sean_documents_b2b_seanburman_com_src_pages_contact_contact",
-      "home_sean_documents_b2b_seanburman_com_src_pages_contact_linkedinicon",
-      "home_sean_documents_b2b_seanburman_com_src_pages_contact_mailicon",
-      "home_sean_documents_b2b_seanburman_com_src_pages_contact_phoneicon",
-      "home_sean_documents_b2b_seanburman_com_src_pages_home_home"
-    ],
-    "4": [
-      "ext_package_json",
-      "home_sean_documents_b2b_seanburman_com_package_name",
-      "home_sean_documents_b2b_seanburman_com_package_private",
-      "home_sean_documents_b2b_seanburman_com_package_scripts",
-      "home_sean_documents_b2b_seanburman_com_package_scripts_build",
-      "home_sean_documents_b2b_seanburman_com_package_scripts_dev",
-      "home_sean_documents_b2b_seanburman_com_package_scripts_preview",
-      "home_sean_documents_b2b_seanburman_com_package_type",
-      "home_sean_documents_b2b_seanburman_com_package_version"
-    ],
-    "5": [
-      "home_sean_documents_b2b_seanburman_com_package_dependencies",
-      "home_sean_documents_b2b_seanburman_com_package_dependencies_react",
-      "home_sean_documents_b2b_seanburman_com_package_dependencies_react_dom",
-      "home_sean_documents_b2b_seanburman_com_package_dependencies_react_router_dom",
-      "react",
-      "react_dom",
-      "react_router_dom"
-    ],
-    "6": [
+      "src_app",
+      "src_app_app",
+      "src_main",
+      "src_pages_contact",
+      "src_pages_contact_contact",
+      "src_pages_contact_linkedinicon",
+      "src_pages_contact_mailicon",
+      "src_pages_contact_phoneicon",
       "src_pages_home",
       "src_pages_home_home",
       "src_pages_home_pains",
@@ -95,99 +58,123 @@
       "src_pages_home_usestackedpanels",
       "src_pages_home_work"
     ],
-    "7": [
-      "src_pages_contact",
-      "src_pages_contact_contact",
-      "src_pages_contact_linkedinicon",
-      "src_pages_contact_mailicon",
-      "src_pages_contact_phoneicon"
+    "3": [
+      "package_devdependencies",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "vite",
+      "vitejs_plugin_react"
     ],
-    "8": [
-      "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib",
+    "4": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_preview",
+      "package_type",
+      "package_version"
+    ],
+    "5": [
+      "package_dependencies",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_react_router_dom",
+      "react",
+      "react_dom",
+      "react_router_dom"
+    ],
+    "6": [
       "ref_dom",
       "ref_dom_iterable",
-      "ref_es2020"
+      "ref_es2020",
+      "tsconfig_app_compileroptions_lib"
     ],
-    "9": [
-      "ext_tsconfig_json",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_files",
-      "home_sean_documents_b2b_seanburman_com_tsconfig_references"
+    "7": [
+      "tsconfig",
+      "tsconfig_files",
+      "tsconfig_references"
     ],
-    "10": [
+    "8": [
       "docs_graph_rebuild",
       "docs_graph_rebuild_main"
     ],
-    "11": [
-      "ext_src_vite_env_d_ts"
+    "9": [
+      "src_vite_env_d"
     ],
-    "12": [
-      "ext_vite_config_ts"
+    "10": [
+      "vite_config"
     ]
   },
   "cohesion": {
     "0": 0.10526315789473684,
     "1": 0.10526315789473684,
-    "2": 0.18181818181818182,
-    "3": 0.24444444444444444,
+    "2": 0.18681318681318682,
+    "3": 0.18181818181818182,
     "4": 0.2222222222222222,
     "5": 0.2857142857142857,
-    "6": 0.4,
-    "7": 0.4,
-    "8": 0.5,
-    "9": 0.6666666666666666,
-    "10": 1.0,
-    "11": 1.0,
-    "12": 1.0
+    "6": 0.5,
+    "7": 0.6666666666666666,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0
   },
   "gods": [
     {
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions",
+      "id": "tsconfig_app_compileroptions",
       "label": "compilerOptions",
       "degree": 17
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_node_compileroptions",
+      "id": "tsconfig_node_compileroptions",
       "label": "compilerOptions",
       "degree": 15
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_package_scripts",
+      "id": "package_scripts",
       "label": "scripts",
       "degree": 4
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib",
+      "id": "tsconfig_app_compileroptions_lib",
       "label": "lib",
       "degree": 4
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react",
+      "id": "src_pages_home_home",
+      "label": "Home()",
+      "degree": 3
+    },
+    {
+      "id": "package_dependencies_react",
       "label": "react",
       "degree": 2
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react_dom",
+      "id": "package_dependencies_react_dom",
       "label": "react-dom",
       "degree": 2
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_package_dependencies_react_router_dom",
+      "id": "package_dependencies_react_router_dom",
       "label": "react-router-dom",
       "degree": 2
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react",
+      "id": "package_devdependencies_types_react",
       "label": "@types/react",
       "degree": 2
     },
     {
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_types_react_dom",
+      "id": "package_devdependencies_types_react_dom",
       "label": "@types/react-dom",
-      "degree": 2
-    },
-    {
-      "id": "home_sean_documents_b2b_seanburman_com_package_devdependencies_vitejs_plugin_react",
-      "label": "@vitejs/plugin-react",
       "degree": 2
     }
   ],
@@ -195,13 +182,13 @@
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `compilerOptions` connect `compilerOptions` to `lib`?",
-      "why": "High betweenness centrality (0.049) - this node is a cross-community bridge."
+      "question": "Why does `compilerOptions` connect `Community 1` to `Community 6`?",
+      "why": "High betweenness centrality (0.057) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `devDependencies` connect `devDependencies` to `package.json`?",
-      "why": "High betweenness centrality (0.044) - this node is a cross-community bridge."
+      "question": "Why does `devDependencies` connect `Community 3` to `Community 4`?",
+      "why": "High betweenness centrality (0.051) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",
@@ -210,12 +197,12 @@
     },
     {
       "type": "low_cohesion",
-      "question": "Should `compilerOptions` be split into smaller, more focused modules?",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
       "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
     },
     {
       "type": "low_cohesion",
-      "question": "Should `compilerOptions` be split into smaller, more focused modules?",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
       "why": "Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected."
     }
   ]
