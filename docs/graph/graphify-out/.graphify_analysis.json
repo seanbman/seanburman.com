@@ -1,17 +1,6 @@
 {
   "communities": {
     "0": [
-      "cname",
-      "dns_issue",
-      "domain",
-      "project",
-      "repo",
-      "stack_base",
-      "stack_react",
-      "stack_router",
-      "stack_vite"
-    ],
-    "1": [
       "approach",
       "docs_thesis",
       "docs_ui",
@@ -20,7 +9,24 @@
       "open_questions",
       "problem"
     ],
+    "1": [
+      "narrative",
+      "principle_bottleneck",
+      "principle_language",
+      "section_pains",
+      "section_start",
+      "section_work",
+      "theme_rhythm"
+    ],
     "2": [
+      "byline",
+      "fonts",
+      "headline",
+      "home",
+      "scroll_takeover",
+      "static_fallback"
+    ],
+    "3": [
       "contact",
       "email",
       "linkedin",
@@ -28,19 +34,13 @@
       "principle_card",
       "vcf"
     ],
-    "3": [
-      "narrative",
-      "principle_bottleneck",
-      "principle_language",
-      "section_pains",
-      "section_start",
-      "section_work"
-    ],
     "4": [
-      "byline",
-      "fonts",
-      "headline",
-      "home"
+      "project",
+      "repo",
+      "stack_base",
+      "stack_react",
+      "stack_router",
+      "stack_vite"
     ],
     "5": [
       "branch_issue",
@@ -48,28 +48,34 @@
       "stack_pages"
     ],
     "6": [
+      "cname",
+      "dns_issue",
+      "domain"
+    ],
+    "7": [
       "mobile_actions",
       "principle_mobile"
     ],
-    "7": [
+    "8": [
       "principle_qr",
       "qr"
     ],
-    "8": [
+    "9": [
       "role",
       "typography_orphan"
     ]
   },
   "cohesion": {
-    "0": 0.2222222222222222,
-    "1": 0.3333333333333333,
+    "0": 0.3333333333333333,
+    "1": 0.38095238095238093,
     "2": 0.3333333333333333,
-    "3": 0.4,
-    "4": 0.5,
+    "3": 0.3333333333333333,
+    "4": 0.3333333333333333,
     "5": 0.6666666666666666,
-    "6": 1.0,
+    "6": 0.6666666666666666,
     "7": 1.0,
-    "8": 1.0
+    "8": 1.0,
+    "9": 1.0
   },
   "gods": [
     {
@@ -85,12 +91,12 @@
     {
       "id": "narrative",
       "label": "Below-the-fold business narrative",
-      "degree": 7
+      "degree": 9
     },
     {
       "id": "home",
       "label": "Homepage",
-      "degree": 6
+      "degree": 7
     },
     {
       "id": "docs_thesis",
@@ -108,6 +114,11 @@
       "degree": 3
     },
     {
+      "id": "scroll_takeover",
+      "label": "Sticky stacked-section takeover scroll (CSS-only)",
+      "degree": 3
+    },
+    {
       "id": "byline",
       "label": "I build practical software around the way your business works, and the places where it could work better.",
       "degree": 2
@@ -115,11 +126,6 @@
     {
       "id": "role",
       "label": "Custom Business Software & Automation",
-      "degree": 2
-    },
-    {
-      "id": "hero",
-      "label": "Dark moody architecture hero",
       "degree": 2
     }
   ],
@@ -133,7 +139,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "documents",
-      "note": "Bridges community 1 → community 0"
+      "note": "Bridges community 0 → community 4"
     },
     {
       "source": "seanburman.com",
@@ -144,7 +150,18 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "includes",
-      "note": "Bridges community 0 → community 2"
+      "note": "Bridges community 4 → community 3"
+    },
+    {
+      "source": "seanburman.com",
+      "target": "seanburman.com custom domain",
+      "source_files": [
+        "docs/thesis.txt",
+        "docs/thesis.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "published_on",
+      "note": "Bridges community 4 → community 6"
     },
     {
       "source": "seanburman.com",
@@ -155,7 +172,7 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "includes",
-      "note": "Bridges community 0 → community 4"
+      "note": "Bridges community 4 → community 2"
     },
     {
       "source": "seanburman.com",
@@ -166,35 +183,24 @@
       ],
       "confidence": "EXTRACTED",
       "relation": "deploys_via",
-      "note": "Bridges community 0 → community 5"
-    },
-    {
-      "source": "Homepage",
-      "target": "Dark moody architecture hero",
-      "source_files": [
-        "docs/thesis.txt",
-        "docs/thesis.txt"
-      ],
-      "confidence": "EXTRACTED",
-      "relation": "uses_visual",
-      "note": "Bridges community 4 → community 1"
+      "note": "Bridges community 4 → community 5"
     }
   ],
   "questions": [
     {
       "type": "bridge_node",
-      "question": "Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Contact page (digital calling card)`, `Homepage`, `Pages env still allowed only master after rename to main`?",
-      "why": "High betweenness centrality (0.600) - this node is a cross-community bridge."
+      "question": "Why does `seanburman.com` connect `seanburman.com` to `Staged design: SaaS landing → architecture hero → calling card`, `Homepage`, `Contact page (digital calling card)`, `Pages env still allowed only master after rename to main`, `seanburman.com custom domain`?",
+      "why": "High betweenness centrality (0.566) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `seanburman.com`, `Below-the-fold business narrative`, `Homepage`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?",
-      "why": "High betweenness centrality (0.504) - this node is a cross-community bridge."
+      "question": "Why does `Contact page (digital calling card)` connect `Contact page (digital calling card)` to `Below-the-fold business narrative`, `Homepage`, `seanburman.com`, `Mobile-first Call + Add to Contacts`, `Desktop QR code`, `Custom Business Software & Automation`?",
+      "why": "High betweenness centrality (0.472) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
-      "question": "Why does `Homepage` connect `Homepage` to `seanburman.com`, `Staged design: SaaS landing → architecture hero → calling card`, `Below-the-fold business narrative`?",
-      "why": "High betweenness centrality (0.247) - this node is a cross-community bridge."
+      "question": "Why does `Homepage` connect `Homepage` to `Staged design: SaaS landing → architecture hero → calling card`, `Below-the-fold business narrative`, `seanburman.com`?",
+      "why": "High betweenness centrality (0.295) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",

@@ -7,7 +7,7 @@
       "label": "seanburman.com Design Thesis",
       "file_type": "document",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "seanburman.com design thesis",
       "id": "docs_thesis"
@@ -16,7 +16,7 @@
       "label": "seanburman.com",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
+      "community": 4,
       "community_name": "seanburman.com",
       "norm_label": "seanburman.com",
       "id": "project"
@@ -25,7 +25,7 @@
       "label": "seanbman/seanburman.com",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
+      "community": 4,
       "community_name": "seanburman.com",
       "norm_label": "seanbman/seanburman.com",
       "id": "repo"
@@ -34,7 +34,7 @@
       "label": "Credible consulting presence without marketing clutter",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "credible consulting presence without marketing clutter",
       "id": "problem"
@@ -43,7 +43,7 @@
       "label": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "staged design: saas landing \u2192 architecture hero \u2192 calling card",
       "id": "approach"
@@ -52,7 +52,7 @@
       "label": "Homepage",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 2,
       "community_name": "Homepage",
       "norm_label": "homepage",
       "id": "home"
@@ -61,7 +61,7 @@
       "label": "Contact page (digital calling card)",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 3,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "contact page (digital calling card)",
       "id": "contact"
@@ -70,7 +70,7 @@
       "label": "Custom software, engineered for the realities of your business.",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 2,
       "community_name": "Homepage",
       "norm_label": "custom software, engineered for the realities of your business.",
       "id": "headline"
@@ -79,7 +79,7 @@
       "label": "I build practical software around the way your business works, and the places where it could work better.",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 2,
       "community_name": "Homepage",
       "norm_label": "i build practical software around the way your business works, and the places where it could work better.",
       "id": "byline"
@@ -88,7 +88,7 @@
       "label": "Custom Business Software & Automation",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 8,
+      "community": 9,
       "community_name": "Custom Business Software & Automation",
       "norm_label": "custom business software & automation",
       "id": "role"
@@ -97,7 +97,7 @@
       "label": "Dark moody architecture hero",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "dark moody architecture hero",
       "id": "hero"
@@ -106,7 +106,7 @@
       "label": "Cormorant Garamond + Outfit",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
+      "community": 2,
       "community_name": "Homepage",
       "norm_label": "cormorant garamond + outfit",
       "id": "fonts"
@@ -115,7 +115,7 @@
       "label": "React",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
+      "community": 4,
       "community_name": "seanburman.com",
       "norm_label": "react",
       "id": "stack_react"
@@ -124,7 +124,7 @@
       "label": "Vite",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
+      "community": 4,
       "community_name": "seanburman.com",
       "norm_label": "vite",
       "id": "stack_vite"
@@ -133,7 +133,7 @@
       "label": "react-router",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
+      "community": 4,
       "community_name": "seanburman.com",
       "norm_label": "react-router",
       "id": "stack_router"
@@ -151,7 +151,7 @@
       "label": "Vite base /",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
+      "community": 4,
       "community_name": "seanburman.com",
       "norm_label": "vite base /",
       "id": "stack_base"
@@ -160,8 +160,8 @@
       "label": "seanburman.com custom domain",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
-      "community_name": "seanburman.com",
+      "community": 6,
+      "community_name": "seanburman.com custom domain",
       "norm_label": "seanburman.com custom domain",
       "id": "domain"
     },
@@ -169,8 +169,8 @@
       "label": "Squarespace DNS blocked resolution",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
-      "community_name": "seanburman.com",
+      "community": 6,
+      "community_name": "seanburman.com custom domain",
       "norm_label": "squarespace dns blocked resolution",
       "id": "dns_issue"
     },
@@ -196,8 +196,8 @@
       "label": "public/CNAME",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
-      "community_name": "seanburman.com",
+      "community": 6,
+      "community_name": "seanburman.com custom domain",
       "norm_label": "public/cname",
       "id": "cname"
     },
@@ -205,7 +205,7 @@
       "label": "sean-burman.vcf / Add to Contacts",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 3,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "sean-burman.vcf / add to contacts",
       "id": "vcf"
@@ -214,7 +214,7 @@
       "label": "+1 368 997 4329",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 3,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "+1 368 997 4329",
       "id": "phone"
@@ -223,7 +223,7 @@
       "label": "info@seanburman.com",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 3,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "info@seanburman.com",
       "id": "email"
@@ -232,7 +232,7 @@
       "label": "LinkedIn profile",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 3,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "linkedin profile",
       "id": "linkedin"
@@ -241,7 +241,7 @@
       "label": "Desktop QR code",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 7,
+      "community": 8,
       "community_name": "Desktop QR code",
       "norm_label": "desktop qr code",
       "id": "qr"
@@ -250,7 +250,7 @@
       "label": "Mobile-first Call + Add to Contacts",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 6,
+      "community": 7,
       "community_name": "Mobile-first Call + Add to Contacts",
       "norm_label": "mobile-first call + add to contacts",
       "id": "mobile_actions"
@@ -259,7 +259,7 @@
       "label": "Avoid orphaning & Automation",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 8,
+      "community": 9,
       "community_name": "Custom Business Software & Automation",
       "norm_label": "avoid orphaning & automation",
       "id": "typography_orphan"
@@ -268,7 +268,7 @@
       "label": "docs/ui inspiration images",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "docs/ui inspiration images",
       "id": "docs_ui"
@@ -277,7 +277,7 @@
       "label": "landing_inspiration.png",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "landing_inspiration.png",
       "id": "landing_insp"
@@ -286,7 +286,7 @@
       "label": "Calling card not form",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 2,
+      "community": 3,
       "community_name": "Contact page (digital calling card)",
       "norm_label": "calling card not form",
       "id": "principle_card"
@@ -295,7 +295,7 @@
       "label": "QR brilliant on desktop",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 7,
+      "community": 8,
       "community_name": "Desktop QR code",
       "norm_label": "qr brilliant on desktop",
       "id": "principle_qr"
@@ -304,7 +304,7 @@
       "label": "Mobile-first contact actions",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 6,
+      "community": 7,
       "community_name": "Mobile-first Call + Add to Contacts",
       "norm_label": "mobile-first contact actions",
       "id": "principle_mobile"
@@ -313,7 +313,7 @@
       "label": "Open questions: case studies, scheduling, design system, DNS drift, assistant context",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 1,
+      "community": 0,
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "open questions: case studies, scheduling, design system, dns drift, assistant context",
       "id": "open_questions"
@@ -322,7 +322,7 @@
       "label": "Below-the-fold business narrative",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 1,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "below-the-fold business narrative",
       "id": "narrative"
@@ -331,7 +331,7 @@
       "label": "The work: find the bottleneck, build the fix, make it fit",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 1,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "the work: find the bottleneck, build the fix, make it fit",
       "id": "section_work"
@@ -340,7 +340,7 @@
       "label": "Sound familiar? recognizable bottleneck list",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 1,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "sound familiar? recognizable bottleneck list",
       "id": "section_pains"
@@ -349,7 +349,7 @@
       "label": "How it starts: conversation, close look, one small thing",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 1,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "how it starts: conversation, close look, one small thing",
       "id": "section_start"
@@ -358,7 +358,7 @@
       "label": "Plain trade language; never 'consulting'",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 1,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "plain trade language; never 'consulting'",
       "id": "principle_language"
@@ -367,10 +367,37 @@
       "label": "Identify bottlenecks, build efficiency, conform to the business",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 1,
       "community_name": "Below-the-fold business narrative",
       "norm_label": "identify bottlenecks, build efficiency, conform to the business",
       "id": "principle_bottleneck"
+    },
+    {
+      "label": "Sticky stacked-section takeover scroll (CSS-only)",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 2,
+      "community_name": "Homepage",
+      "norm_label": "sticky stacked-section takeover scroll (css-only)",
+      "id": "scroll_takeover"
+    },
+    {
+      "label": "Black / white / charcoal panel rhythm",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 1,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "black / white / charcoal panel rhythm",
+      "id": "theme_rhythm"
+    },
+    {
+      "label": "Static-flow fallback: small screens, short viewports, reduced motion",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 2,
+      "community_name": "Homepage",
+      "norm_label": "static-flow fallback: small screens, short viewports, reduced motion",
+      "id": "static_fallback"
     }
   ],
   "links": [
@@ -541,6 +568,14 @@
       "confidence_score": 1.0,
       "source": "home",
       "target": "narrative"
+    },
+    {
+      "relation": "applied_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "scroll_takeover",
+      "target": "home"
     },
     {
       "relation": "uses_copy",
@@ -719,6 +754,14 @@
       "target": "principle_language"
     },
     {
+      "relation": "choreographed_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "scroll_takeover"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -743,14 +786,38 @@
       "target": "section_work"
     },
     {
+      "relation": "themed_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "theme_rhythm"
+    },
+    {
       "relation": "describes",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
       "confidence_score": 1.0,
       "source": "section_work",
       "target": "principle_bottleneck"
+    },
+    {
+      "relation": "contrast_beat_of",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "section_pains",
+      "target": "theme_rhythm"
+    },
+    {
+      "relation": "degrades_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "scroll_takeover",
+      "target": "static_fallback"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f038b9bdf4f7dd81f7dfe3eba3ca1d355b38893f"
+  "built_at_commit": "598dc69d350ba7e86f19eef997479777b871e1b5"
 }

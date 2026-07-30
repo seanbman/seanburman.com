@@ -78,7 +78,10 @@ function Home() {
         </main>
       </section>
 
-      <section className="home__section" aria-labelledby="work-heading">
+      <section
+        className="home__section home__section--black"
+        aria-labelledby="work-heading"
+      >
         <div className="home__inner">
           <p className="home__kicker">The work</p>
           <h2 id="work-heading" className="home__heading">
@@ -95,7 +98,10 @@ function Home() {
         </div>
       </section>
 
-      <section className="home__section" aria-labelledby="familiar-heading">
+      <section
+        className="home__section home__section--white"
+        aria-labelledby="familiar-heading"
+      >
         <div className="home__inner">
           <p className="home__kicker">Where the time goes</p>
           <h2 id="familiar-heading" className="home__heading">
@@ -112,7 +118,10 @@ function Home() {
         </div>
       </section>
 
-      <section className="home__section" aria-labelledby="start-heading">
+      <section
+        className="home__section home__section--charcoal"
+        aria-labelledby="start-heading"
+      >
         <div className="home__inner">
           <p className="home__kicker">Working together</p>
           <h2 id="start-heading" className="home__heading">

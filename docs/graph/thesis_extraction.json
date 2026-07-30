@@ -245,6 +245,24 @@
       "label": "Identify bottlenecks, build efficiency, conform to the business",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "scroll_takeover",
+      "label": "Sticky stacked-section takeover scroll (CSS-only)",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "theme_rhythm",
+      "label": "Black / white / charcoal panel rhythm",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "static_fallback",
+      "label": "Static-flow fallback: small screens, short viewports, reduced motion",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
     }
   ],
   "edges": [
@@ -574,6 +592,41 @@
       "source": "narrative",
       "target": "open_questions",
       "relation": "resolves_part_of",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "scroll_takeover",
+      "relation": "choreographed_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "theme_rhythm",
+      "relation": "themed_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "section_pains",
+      "target": "theme_rhythm",
+      "relation": "contrast_beat_of",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "scroll_takeover",
+      "target": "static_fallback",
+      "relation": "degrades_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "scroll_takeover",
+      "target": "home",
+      "relation": "applied_to",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

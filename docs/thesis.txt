@@ -173,10 +173,27 @@ The three sections are:
 
 The first viewport remains sacred: brand, headline, byline, one call to
 action, full-bleed architectural image. The new sections continue the same
-typography system (Cormorant Garamond display, Outfit body) on the dark
-ground, separated by hairline rules, so the page reads as one editorial
-composition rather than a marketing brochure. Case studies remain deferred
-until real ones exist; the "Sound familiar?" list does that job for now.
+typography system (Cormorant Garamond display, Outfit body), separated by
+hairline rules, so the page reads as one editorial composition rather than
+a marketing brochure. Case studies remain deferred until real ones exist;
+the "Sound familiar?" list does that job for now.
+
+Scroll choreography was added on top of the narrative: a sticky
+stacked-section parallax (also called a sticky overlap or section takeover
+transition). The hero stage and each narrative section pin to the viewport
+(position: sticky, top: 0, stepped z-index) and the next section slides up
+and covers the pinned one, so the page reads as a deck of full-height
+panels taking over from each other. Each panel is at least one viewport
+tall so it fully covers its predecessor. The sections alternate grounds in
+a black / white / charcoal rhythm: "The work" on black (#050505), "Sound
+familiar?" on white paper (#f5f5f3) as the deliberate contrast beat where
+the visitor recognizes themselves, and "How it starts" on charcoal
+(#1f1f1d). The white panel inverts the text, muted-text, and hairline
+tokens through scoped CSS variables rather than duplicated styles. The
+effect is CSS-only — no scroll libraries — and degrades deliberately: on
+narrow screens, short viewports, and under prefers-reduced-motion the
+panels return to normal document flow while keeping the alternating
+grounds.
 
 
 Open Questions
@@ -203,7 +220,9 @@ seanburman.com; repository seanbman/seanburman.com.
 Design: dark architectural hero; Cormorant Garamond + Outfit; calling-card
 contact; desktop QR; mobile-first contact actions; below-the-fold business
 narrative (bottlenecks, fit, low-commitment start); no "consulting"
-vocabulary.
+vocabulary; sticky stacked-section takeover scroll with black / white /
+charcoal panel rhythm (CSS-only, static fallback on small screens and
+reduced motion).
 Copy anchors: headline “Custom software, engineered for the realities of
 your business.”; byline “I build practical software around the way your
 business works, and the places where it could work better.”; contact role
