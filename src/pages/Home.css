@@ -1,4 +1,8 @@
 .home {
+  background: #050505;
+}
+
+.home__stage {
   position: relative;
   min-height: 100vh;
   min-height: 100dvh;
@@ -139,6 +143,121 @@
   opacity: 0.82;
 }
 
+.home__section {
+  border-top: 1px solid var(--line);
+  padding: clamp(4rem, 12vh, 7.5rem) clamp(1.25rem, 4vw, 3.5rem);
+}
+
+.home__inner {
+  max-width: 64rem;
+  margin-inline: auto;
+}
+
+.home__kicker {
+  margin: 0 0 1.1rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.home__heading {
+  margin: 0 0 clamp(2rem, 5vh, 3rem);
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 3.8vw, 2.9rem);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  max-width: 24ch;
+}
+
+.home__columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.75rem, 3.5vw, 3.25rem);
+}
+
+.home__col h3 {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.home__col p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.home__pains {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 44rem;
+}
+
+.home__pains li {
+  padding: 1.15rem 0;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.home__pains li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.home__note {
+  margin: 1.75rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 28rem;
+}
+
+.home__steps {
+  margin: 0 0 clamp(2.25rem, 5vh, 3.25rem);
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.75rem, 3.5vw, 3.25rem);
+}
+
+.home__step-num {
+  display: block;
+  margin-bottom: 1rem;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+}
+
+.home__step h3 {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.home__step p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
 @media (max-width: 720px) {
   .home__header {
     padding-block: 1.1rem;
@@ -165,5 +284,15 @@
         rgba(0, 0, 0, 0.35) 40%,
         rgba(0, 0, 0, 0.78) 100%
       );
+  }
+
+  .home__columns,
+  .home__steps {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
+  .home__section {
+    padding-block: 3.5rem;
   }
 }

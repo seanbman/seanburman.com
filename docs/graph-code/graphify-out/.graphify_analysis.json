@@ -95,24 +95,31 @@
       "src_pages_contact_phoneicon"
     ],
     "7": [
+      "src_pages_home",
+      "src_pages_home_home",
+      "src_pages_home_pains",
+      "src_pages_home_steps",
+      "src_pages_home_work"
+    ],
+    "8": [
       "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib",
       "ref_dom",
       "ref_dom_iterable",
       "ref_es2020"
     ],
-    "8": [
+    "9": [
       "ext_tsconfig_json",
       "home_sean_documents_b2b_seanburman_com_tsconfig_files",
       "home_sean_documents_b2b_seanburman_com_tsconfig_references"
     ],
-    "9": [
+    "10": [
       "docs_graph_rebuild",
       "docs_graph_rebuild_main"
     ],
-    "10": [
+    "11": [
       "ext_src_vite_env_d_ts"
     ],
-    "11": [
+    "12": [
       "ext_vite_config_ts"
     ]
   },
@@ -124,11 +131,12 @@
     "4": 0.2222222222222222,
     "5": 0.2857142857142857,
     "6": 0.4,
-    "7": 0.5,
-    "8": 0.6666666666666666,
-    "9": 1.0,
+    "7": 0.4,
+    "8": 0.5,
+    "9": 0.6666666666666666,
     "10": 1.0,
-    "11": 1.0
+    "11": 1.0,
+    "12": 1.0
   },
   "gods": [
     {
@@ -187,17 +195,17 @@
     {
       "type": "bridge_node",
       "question": "Why does `compilerOptions` connect `compilerOptions` to `lib`?",
-      "why": "High betweenness centrality (0.055) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.050) - this node is a cross-community bridge."
     },
     {
       "type": "bridge_node",
       "question": "Why does `devDependencies` connect `devDependencies` to `package.json`?",
-      "why": "High betweenness centrality (0.050) - this node is a cross-community bridge."
+      "why": "High betweenness centrality (0.045) - this node is a cross-community bridge."
     },
     {
       "type": "isolated_nodes",
       "question": "What connects `name`, `private`, `version` to the rest of the system?",
-      "why": "51 weakly-connected nodes found - possible documentation gaps or missing edges."
+      "why": "54 weakly-connected nodes found - possible documentation gaps or missing edges."
     },
     {
       "type": "low_cohesion",

@@ -389,13 +389,13 @@
       "id": "home_sean_documents_b2b_seanburman_com_src_pages_contact_linkedinicon"
     },
     {
-      "label": "Home.tsx",
+      "label": "../src/pages/Home.tsx",
       "file_type": "code",
       "source_file": "../../src/pages/Home.tsx",
       "source_location": "L1",
       "_origin": "ast",
       "community": 3,
-      "norm_label": "home.tsx",
+      "norm_label": "../src/pages/home.tsx",
       "community_name": "App.tsx",
       "id": "ext_src_pages_home_tsx"
     },
@@ -416,7 +416,7 @@
       "source_file": "../../src/vite-env.d.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 10,
+      "community": 11,
       "norm_label": "vite-env.d.ts",
       "community_name": "vite-env.d.ts",
       "id": "ext_src_vite_env_d_ts"
@@ -482,7 +482,7 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "norm_label": "lib",
       "community_name": "lib",
       "id": "home_sean_documents_b2b_seanburman_com_tsconfig_app_compileroptions_lib"
@@ -493,7 +493,7 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "norm_label": "es2020",
       "community_name": "lib",
       "id": "ref_es2020"
@@ -504,7 +504,7 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "norm_label": "dom",
       "community_name": "lib",
       "id": "ref_dom"
@@ -515,7 +515,7 @@
       "source_file": "../../tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 7,
+      "community": 8,
       "norm_label": "dom.iterable",
       "community_name": "lib",
       "id": "ref_dom_iterable"
@@ -680,7 +680,7 @@
       "source_file": "../../tsconfig.json",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 9,
       "norm_label": "tsconfig.json",
       "community_name": "tsconfig.json",
       "id": "ext_tsconfig_json"
@@ -691,7 +691,7 @@
       "source_file": "../../tsconfig.json",
       "source_location": "L2",
       "_origin": "ast",
-      "community": 8,
+      "community": 9,
       "norm_label": "files",
       "community_name": "tsconfig.json",
       "id": "home_sean_documents_b2b_seanburman_com_tsconfig_files"
@@ -702,7 +702,7 @@
       "source_file": "../../tsconfig.json",
       "source_location": "L3",
       "_origin": "ast",
-      "community": 8,
+      "community": 9,
       "norm_label": "references",
       "community_name": "tsconfig.json",
       "id": "home_sean_documents_b2b_seanburman_com_tsconfig_references"
@@ -922,7 +922,7 @@
       "source_file": "../../vite.config.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 11,
+      "community": 12,
       "norm_label": "vite.config.ts",
       "community_name": "vite.config.ts",
       "id": "ext_vite_config_ts"
@@ -933,10 +933,10 @@
       "source_file": "docs/graph/rebuild.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
+      "community": 10,
       "norm_label": "rebuild.py",
-      "id": "docs_graph_rebuild",
-      "community_name": "rebuild.py"
+      "community_name": "rebuild.py",
+      "id": "docs_graph_rebuild"
     },
     {
       "label": "main()",
@@ -944,10 +944,10 @@
       "source_file": "docs/graph/rebuild.py",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 9,
+      "community": 10,
       "norm_label": "main()",
-      "id": "docs_graph_rebuild_main",
-      "community_name": "rebuild.py"
+      "community_name": "rebuild.py",
+      "id": "docs_graph_rebuild_main"
     },
     {
       "label": "src/pages/Contact.tsx",
@@ -957,8 +957,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "src/pages/contact.tsx",
-      "id": "src_pages_contact",
-      "community_name": "src/pages/Contact.tsx"
+      "community_name": "src/pages/Contact.tsx",
+      "id": "src_pages_contact"
     },
     {
       "label": "Contact()",
@@ -968,8 +968,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "contact()",
-      "id": "src_pages_contact_contact",
-      "community_name": "src/pages/Contact.tsx"
+      "community_name": "src/pages/Contact.tsx",
+      "id": "src_pages_contact_contact"
     },
     {
       "label": "PhoneIcon()",
@@ -979,8 +979,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "phoneicon()",
-      "id": "src_pages_contact_phoneicon",
-      "community_name": "src/pages/Contact.tsx"
+      "community_name": "src/pages/Contact.tsx",
+      "id": "src_pages_contact_phoneicon"
     },
     {
       "label": "MailIcon()",
@@ -990,8 +990,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "mailicon()",
-      "id": "src_pages_contact_mailicon",
-      "community_name": "src/pages/Contact.tsx"
+      "community_name": "src/pages/Contact.tsx",
+      "id": "src_pages_contact_mailicon"
     },
     {
       "label": "LinkedInIcon()",
@@ -1001,8 +1001,63 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "linkedinicon()",
-      "id": "src_pages_contact_linkedinicon",
-      "community_name": "src/pages/Contact.tsx"
+      "community_name": "src/pages/Contact.tsx",
+      "id": "src_pages_contact_linkedinicon"
+    },
+    {
+      "label": "src/pages/Home.tsx",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "src/pages/home.tsx",
+      "id": "src_pages_home",
+      "community_name": "src/pages/Home.tsx"
+    },
+    {
+      "label": "WORK",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "work",
+      "id": "src_pages_home_work",
+      "community_name": "src/pages/Home.tsx"
+    },
+    {
+      "label": "PAINS",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "pains",
+      "id": "src_pages_home_pains",
+      "community_name": "src/pages/Home.tsx"
+    },
+    {
+      "label": "STEPS",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L27",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "steps",
+      "id": "src_pages_home_steps",
+      "community_name": "src/pages/Home.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L42",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "home()",
+      "id": "src_pages_home_home",
+      "community_name": "src/pages/Home.tsx"
     }
   ],
   "links": [
@@ -1948,8 +2003,52 @@
       "confidence_score": 1.0,
       "source": "src_pages_contact",
       "target": "src_pages_contact_phoneicon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_home",
+      "target": "src_pages_home_home"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_home",
+      "target": "src_pages_home_pains"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_home",
+      "target": "src_pages_home_steps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/pages/Home.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast",
+      "confidence_score": 1.0,
+      "source": "src_pages_home",
+      "target": "src_pages_home_work"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d63e27d5991b9f70316bf3b0e3438db0ca838c85"
+  "built_at_commit": "f038b9bdf4f7dd81f7dfe3eba3ca1d355b38893f"
 }

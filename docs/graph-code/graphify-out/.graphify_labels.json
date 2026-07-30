@@ -1,1 +1,1 @@
-{"0": "compilerOptions", "1": "compilerOptions", "2": "devDependencies", "3": "App.tsx", "4": "package.json", "5": "dependencies", "6": "src/pages/Contact.tsx", "7": "lib", "8": "tsconfig.json", "9": "rebuild.py", "10": "vite-env.d.ts", "11": "vite.config.ts"}
+{"0": "compilerOptions", "1": "compilerOptions", "2": "devDependencies", "3": "App.tsx", "4": "package.json", "5": "dependencies", "6": "src/pages/Contact.tsx", "7": "src/pages/Home.tsx", "8": "lib", "9": "tsconfig.json", "10": "rebuild.py", "11": "vite-env.d.ts", "12": "vite.config.ts"}

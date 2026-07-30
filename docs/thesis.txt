@@ -132,11 +132,59 @@ spacing iterations on mobile were required to keep the card from feeling
 cramped once those actions appeared.
 
 
+Business Narrative (Below the Fold)
+-----------------------------------
+The homepage later grew beyond the single hero composition, answering one of
+the open questions below. Three sections now scroll beneath the untouched
+first viewport, and together they present a customer-facing account of what
+the business actually is: not just making software, but identifying
+bottlenecks, building efficiency, and shaping tools that conform to the way
+a business already runs.
+
+A deliberate vocabulary rule governs all of this copy: the word "consulting"
+is never used, because the target audience — tradespeople and operators of
+practical businesses — distrusts it. Also avoided: "solutions," "leverage,"
+"streamline," "digital transformation." The allowed register is plain and
+concrete: bottlenecks, time, paperwork, double entry, chasing invoices, the
+way your business runs.
+
+The three sections are:
+
+1. "The work / More than building software." — three columns that describe
+   the engagement in order: Find the bottleneck (watch how work moves through
+   quoting, scheduling, job tracking, invoicing, and find where hours and
+   money quietly disappear), Build the fix (a small practical tool or
+   automation, not a platform, not another subscription), and Make it fit
+   (the software bends to the business; if the crew needs a training seminar,
+   the wrong thing was built).
+
+2. "Where the time goes / Sound familiar?" — a self-identification list of
+   concrete, recognizable pains: job details typed into three places, quotes
+   that take days because the numbers live in someone's head, paper job
+   sheets that die in the truck, chasing invoices at month end, a scheduling
+   spreadsheet only one person understands. It closes with the promise that
+   every one is a bottleneck and every one is fixable.
+
+3. "Working together / How it starts." — a three-step, low-commitment
+   process: a conversation (no pitch, no obligation), a close look (on site
+   or over the phone), one small thing (a single tool that pays for itself
+   before going further). The section ends with a "Start the conversation"
+   call to action into the contact calling card.
+
+The first viewport remains sacred: brand, headline, byline, one call to
+action, full-bleed architectural image. The new sections continue the same
+typography system (Cormorant Garamond display, Outfit body) on the dark
+ground, separated by hairline rules, so the page reads as one editorial
+composition rather than a marketing brochure. Case studies remain deferred
+until real ones exist; the "Sound familiar?" list does that job for now.
+
+
 Open Questions
 --------------
-Several questions remain open for future iteration. Should the homepage grow
-beyond a single hero composition into case studies or services without
-diluting the brand-first first viewport? Is the calling-card contact model
+Several questions remain open for future iteration. The homepage has now
+grown beyond the single hero composition into a below-the-fold business
+narrative; the remaining question is whether case studies should eventually
+join it once real ones exist. Is the calling-card contact model
 sufficient for inbound work, or will a lightweight scheduling or inquiry
 path eventually be needed without becoming a conventional form? How should
 typography and image assets be versioned as the brand system evolves—keep
@@ -153,7 +201,9 @@ Stack: React, Vite, react-router, TypeScript.
 Hosting: GitHub Pages via GitHub Actions; base path /; custom domain
 seanburman.com; repository seanbman/seanburman.com.
 Design: dark architectural hero; Cormorant Garamond + Outfit; calling-card
-contact; desktop QR; mobile-first contact actions.
+contact; desktop QR; mobile-first contact actions; below-the-fold business
+narrative (bottlenecks, fit, low-commitment start); no "consulting"
+vocabulary.
 Copy anchors: headline “Custom software, engineered for the realities of
 your business.”; byline “I build practical software around the way your
 business works, and the places where it could work better.”; contact role

@@ -209,6 +209,42 @@
       "label": "Open questions: case studies, scheduling, design system, DNS drift, assistant context",
       "file_type": "concept",
       "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "narrative",
+      "label": "Below-the-fold business narrative",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "section_work",
+      "label": "The work: find the bottleneck, build the fix, make it fit",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "section_pains",
+      "label": "Sound familiar? recognizable bottleneck list",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "section_start",
+      "label": "How it starts: conversation, close look, one small thing",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_language",
+      "label": "Plain trade language; never 'consulting'",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "id": "principle_bottleneck",
+      "label": "Identify bottlenecks, build efficiency, conform to the business",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt"
     }
   ],
   "edges": [
@@ -475,6 +511,69 @@
       "source": "role",
       "target": "typography_orphan",
       "relation": "constrained_by",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "home",
+      "target": "narrative",
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "section_work",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "section_pains",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "section_start",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "principle_language",
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "principle_bottleneck",
+      "relation": "expresses",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "section_work",
+      "target": "principle_bottleneck",
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "section_start",
+      "target": "contact",
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt"
+    },
+    {
+      "source": "narrative",
+      "target": "open_questions",
+      "relation": "resolves_part_of",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt"
     }

@@ -52,7 +52,7 @@
       "label": "Homepage",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Homepage",
       "norm_label": "homepage",
       "id": "home"
@@ -70,7 +70,7 @@
       "label": "Custom software, engineered for the realities of your business.",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Homepage",
       "norm_label": "custom software, engineered for the realities of your business.",
       "id": "headline"
@@ -79,7 +79,7 @@
       "label": "I build practical software around the way your business works, and the places where it could work better.",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Homepage",
       "norm_label": "i build practical software around the way your business works, and the places where it could work better.",
       "id": "byline"
@@ -88,7 +88,7 @@
       "label": "Custom Business Software & Automation",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 7,
+      "community": 8,
       "community_name": "Custom Business Software & Automation",
       "norm_label": "custom business software & automation",
       "id": "role"
@@ -106,7 +106,7 @@
       "label": "Cormorant Garamond + Outfit",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 3,
+      "community": 4,
       "community_name": "Homepage",
       "norm_label": "cormorant garamond + outfit",
       "id": "fonts"
@@ -142,8 +142,8 @@
       "label": "GitHub Pages Actions",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
-      "community_name": "seanburman.com",
+      "community": 5,
+      "community_name": "Pages env still allowed only master after rename to main",
       "norm_label": "github pages actions",
       "id": "stack_pages"
     },
@@ -160,8 +160,8 @@
       "label": "seanburman.com custom domain",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
-      "community_name": "seanburman.com custom domain",
+      "community": 0,
+      "community_name": "seanburman.com",
       "norm_label": "seanburman.com custom domain",
       "id": "domain"
     },
@@ -169,8 +169,8 @@
       "label": "Squarespace DNS blocked resolution",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
-      "community_name": "seanburman.com custom domain",
+      "community": 0,
+      "community_name": "seanburman.com",
       "norm_label": "squarespace dns blocked resolution",
       "id": "dns_issue"
     },
@@ -178,8 +178,8 @@
       "label": "Pages env still allowed only master after rename to main",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
-      "community_name": "seanburman.com",
+      "community": 5,
+      "community_name": "Pages env still allowed only master after rename to main",
       "norm_label": "pages env still allowed only master after rename to main",
       "id": "branch_issue"
     },
@@ -187,8 +187,8 @@
       "label": "Default branch main",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 0,
-      "community_name": "seanburman.com",
+      "community": 5,
+      "community_name": "Pages env still allowed only master after rename to main",
       "norm_label": "default branch main",
       "id": "branch_main"
     },
@@ -196,8 +196,8 @@
       "label": "public/CNAME",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 4,
-      "community_name": "seanburman.com custom domain",
+      "community": 0,
+      "community_name": "seanburman.com",
       "norm_label": "public/cname",
       "id": "cname"
     },
@@ -241,7 +241,7 @@
       "label": "Desktop QR code",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 6,
+      "community": 7,
       "community_name": "Desktop QR code",
       "norm_label": "desktop qr code",
       "id": "qr"
@@ -250,7 +250,7 @@
       "label": "Mobile-first Call + Add to Contacts",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 5,
+      "community": 6,
       "community_name": "Mobile-first Call + Add to Contacts",
       "norm_label": "mobile-first call + add to contacts",
       "id": "mobile_actions"
@@ -259,7 +259,7 @@
       "label": "Avoid orphaning & Automation",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 7,
+      "community": 8,
       "community_name": "Custom Business Software & Automation",
       "norm_label": "avoid orphaning & automation",
       "id": "typography_orphan"
@@ -295,7 +295,7 @@
       "label": "QR brilliant on desktop",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 6,
+      "community": 7,
       "community_name": "Desktop QR code",
       "norm_label": "qr brilliant on desktop",
       "id": "principle_qr"
@@ -304,7 +304,7 @@
       "label": "Mobile-first contact actions",
       "file_type": "concept",
       "source_file": "docs/thesis.txt",
-      "community": 5,
+      "community": 6,
       "community_name": "Mobile-first Call + Add to Contacts",
       "norm_label": "mobile-first contact actions",
       "id": "principle_mobile"
@@ -317,6 +317,60 @@
       "community_name": "Staged design: SaaS landing \u2192 architecture hero \u2192 calling card",
       "norm_label": "open questions: case studies, scheduling, design system, dns drift, assistant context",
       "id": "open_questions"
+    },
+    {
+      "label": "Below-the-fold business narrative",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 3,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "below-the-fold business narrative",
+      "id": "narrative"
+    },
+    {
+      "label": "The work: find the bottleneck, build the fix, make it fit",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 3,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "the work: find the bottleneck, build the fix, make it fit",
+      "id": "section_work"
+    },
+    {
+      "label": "Sound familiar? recognizable bottleneck list",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 3,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "sound familiar? recognizable bottleneck list",
+      "id": "section_pains"
+    },
+    {
+      "label": "How it starts: conversation, close look, one small thing",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 3,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "how it starts: conversation, close look, one small thing",
+      "id": "section_start"
+    },
+    {
+      "label": "Plain trade language; never 'consulting'",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 3,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "plain trade language; never 'consulting'",
+      "id": "principle_language"
+    },
+    {
+      "label": "Identify bottlenecks, build efficiency, conform to the business",
+      "file_type": "concept",
+      "source_file": "docs/thesis.txt",
+      "community": 3,
+      "community_name": "Below-the-fold business narrative",
+      "norm_label": "identify bottlenecks, build efficiency, conform to the business",
+      "id": "principle_bottleneck"
     }
   ],
   "links": [
@@ -481,6 +535,14 @@
       "target": "hero"
     },
     {
+      "relation": "includes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "home",
+      "target": "narrative"
+    },
+    {
       "relation": "uses_copy",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -561,6 +623,14 @@
       "target": "vcf"
     },
     {
+      "relation": "leads_to",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "section_start",
+      "target": "contact"
+    },
+    {
       "relation": "constrained_by",
       "confidence": "EXTRACTED",
       "source_file": "docs/thesis.txt",
@@ -623,8 +693,64 @@
       "confidence_score": 1.0,
       "source": "docs_ui",
       "target": "landing_insp"
+    },
+    {
+      "relation": "resolves_part_of",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "open_questions"
+    },
+    {
+      "relation": "expresses",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "principle_bottleneck"
+    },
+    {
+      "relation": "follows",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "principle_language"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "section_pains"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "section_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "narrative",
+      "target": "section_work"
+    },
+    {
+      "relation": "describes",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/thesis.txt",
+      "confidence_score": 1.0,
+      "source": "section_work",
+      "target": "principle_bottleneck"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "d63e27d5991b9f70316bf3b0e3438db0ca838c85"
+  "built_at_commit": "f038b9bdf4f7dd81f7dfe3eba3ca1d355b38893f"
 }
