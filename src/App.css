@@ -160,7 +160,7 @@
   .home-lower .summary-tile h3{font-size:clamp(17px,3.1vh,25px)}
   .home-lower .about-panel__body{padding:12px clamp(16px,2vw,24px)}
   .home-lower .about-panel__body p{font-size:clamp(14px,2vh,17px);line-height:1.28;margin-bottom:10px}
-  .home-lower .about-panel__body .button{min-height:40px;padding-block:8px;font-size:clamp(16px,2.5vh,22px)}
+  .home-lower .about-panel__body .button{align-self:flex-end;min-height:40px;padding-block:8px;font-size:clamp(16px,2.5vh,22px)}
 
   .service-detail{min-height:0;padding:16px;gap:10px;overflow:hidden}
   .service-detail__symbol svg{width:44px;height:44px}
