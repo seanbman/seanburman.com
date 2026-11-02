@@ -1,44 +1,15 @@
-# Sean Burman
+# Sean Burman — Software Engineer
 
-Personal site for custom software consulting.
+React + TypeScript + Vite website for seanburman.com.
 
-## Develop
+## Design
+Rectangular neo-brutalism: cream #F8F6F0, black #151515, orange #EA7847, steel blue #537D8D, teal #388697. Bold condensed headings, black borders, subtle hard black shadows on cards and buttons. The undecorated text logo/title links home; the navigation has no Home item.
 
-```bash
-npm install
-npm run dev
-```
+## Showcase
+The homepage includes three **intentionally blank** slide slots for future interactive widgets (dispatch, time tracking, revenue). Arrows and selector dots work; content and auto-advance will be added only when actual widgets are built. No "Rotating app Showcase" text.
 
-## Build
+## Local development
+Run \`npm ci\`, then \`npm run dev\`. Run \`npm test\` and \`npm run build\` before publishing.
 
-```bash
-npm run build
-npm run preview
-```
-
-## GitHub Pages
-
-This project deploys from `main` via GitHub Actions.
-
-**Site URL:** `https://seanburman.com` (custom domain)
-
-Enable Pages in the repo settings:
-
-1. **Settings → Pages**
-2. Source: **GitHub Actions**
-3. Custom domain: `seanburman.com` (CNAME is already in `public/CNAME`)
-
-### DNS (move off Squarespace)
-
-At your domain registrar, replace Squarespace records with:
-
-**Apex (`seanburman.com`) — A records**
-- `185.199.108.153`
-- `185.199.109.153`
-- `185.199.110.153`
-- `185.199.111.153`
-
-**`www` — CNAME**
-- `seanbman.github.io`
-
-Then in **Settings → Pages**, wait for DNS check + enable “Enforce HTTPS”.
+## Deployment
+The existing GitHub Pages workflow deploys commits from main. The custom domain remains in public/CNAME (seanburman.com). The contact form opens an email app; it is not a backend submission service.
