@@ -95,3 +95,89 @@
 .site-footer__inner{align-items:flex-start}.site-footer__right{align-items:flex-start}.page-intro h1{font-size:82px}.subpage{padding-top:38px}
 .service-detail{padding:24px;flex-direction:column}.process-grid{grid-template-columns:1fr}.process-card{min-height:250px}
 .work-feature__inner,.about-detail,.contact-layout{grid-template-columns:1fr}.work-feature__accent{min-height:180px}.work-feature__inner>div:last-child,.about-detail>div:first-child{padding:29px 23px}.about-detail__art{min-height:190px}.contact-form{padding:23px}.page-cta{padding:24px}}
+
+/* Keep the full desktop composition in one viewport. The tablet breakpoint
+   above remains the intentional point where pages are allowed to grow. */
+@media(min-width:1001px){
+  .home-page{min-height:calc(100dvh - 95px);padding-top:clamp(18px,2.5vh,32px);padding-bottom:clamp(14px,2vh,24px);display:flex;flex-direction:column}
+  .hero{flex:1 1 auto;min-height:0;padding-block:0 clamp(18px,2.5vh,30px);gap:clamp(24px,3vw,48px)}
+  .hero__copy{min-height:0;padding:0 0 12px 4px}
+  .hero__copy h1{font-size:clamp(42px,6.7vh,76px);margin-bottom:clamp(14px,2vh,24px)}
+  .hero__copy p{font-size:clamp(15px,2.3vh,19px);margin-bottom:clamp(16px,2.5vh,24px)}
+  .hero__copy .button--large{min-height:clamp(48px,7vh,62px);padding:clamp(10px,1.5vh,14px) clamp(16px,2vw,24px);font-size:clamp(19px,3.1vh,30px)}
+  .hero__stripes{height:clamp(220px,32vh,310px)}
+  .showcase{min-height:0}
+  .showcase__viewport{min-height:0}
+  .showcase__main{min-height:0}
+  .home-lower{flex:0 0 clamp(190px,25vh,250px);padding-bottom:0;gap:clamp(16px,2vw,24px)}
+  .summary-panel,.about-panel{min-height:0}
+  .summary-panel__grid{padding:clamp(12px,2vh,21px)}
+  .summary-tile{padding:10px 8px}
+  .summary-tile svg{width:clamp(42px,6vh,64px);height:clamp(42px,6vh,64px);margin-bottom:8px}
+  .summary-tile h3{font-size:clamp(18px,3.8vh,31px)}
+  .about-panel__body{padding:clamp(18px,3vh,26px) clamp(20px,2.2vw,30px)}
+  .about-panel__body p{font-size:clamp(15px,2.3vh,19px);margin-bottom:clamp(14px,2vh,24px)}
+
+  .subpage{min-height:calc(100dvh - 95px);padding-top:clamp(24px,4vh,52px);padding-bottom:clamp(18px,3vh,36px)}
+  .page-intro{padding-bottom:clamp(16px,2.5vh,26px);margin-bottom:clamp(20px,3vh,32px)}
+  .page-intro h1{font-size:clamp(62px,12vh,130px);margin-bottom:clamp(12px,1.8vh,20px)}
+  .page-intro>p:last-child{font-size:clamp(17px,2.5vh,24px)}
+  .service-list{gap:clamp(14px,2vw,22px)}
+  .service-detail{min-height:clamp(250px,34vh,320px);padding:clamp(20px,3vh,30px);gap:clamp(16px,3vh,32px)}
+  .service-detail__symbol svg{width:clamp(48px,7vh,66px);height:clamp(48px,7vh,66px)}
+  .service-detail h2{font-size:clamp(32px,5vh,48px);margin:clamp(8px,1.5vh,12px) 0 clamp(12px,2vh,19px)}
+  .service-detail p{font-size:clamp(15px,2.2vh,17px)}
+  .page-cta{margin-top:clamp(24px,4vh,48px);padding:clamp(18px,3vh,28px) clamp(20px,2.3vw,32px)}
+  .page-cta h2{font-size:clamp(28px,5vh,44px)}
+  .work-feature__inner{min-height:clamp(270px,38vh,360px)}
+  .work-feature__inner>div:last-child{padding:clamp(28px,5vh,50px) clamp(28px,3.2vw,48px)}
+  .work-feature h3{font-size:clamp(38px,6.5vh,60px)}
+  .work-feature p{font-size:clamp(16px,2.5vh,19px);margin-bottom:clamp(18px,3vh,29px)}
+  .process-grid{gap:clamp(14px,2vw,21px)}
+  .process-card{min-height:clamp(190px,27vh,250px);padding:clamp(20px,3vh,30px) clamp(18px,1.8vw,24px)}
+  .process-card__number{width:clamp(50px,7vh,67px);height:clamp(50px,7vh,67px);font-size:clamp(30px,5vh,38px)}
+  .process-card h2{font-size:clamp(34px,5.5vh,44px);margin:clamp(16px,3vh,26px) 0 11px}
+  .process-card p{font-size:clamp(15px,2.2vh,17px)}
+  .about-detail{min-height:clamp(320px,43vh,420px)}
+  .about-detail>div:first-child{padding:clamp(28px,5vh,55px) clamp(28px,3.2vw,48px)}
+  .about-detail h2{font-size:clamp(44px,7vh,76px);margin-bottom:clamp(18px,3vh,28px)}
+  .about-detail p{font-size:clamp(16px,2.5vh,19px)}
+  .skills-line{margin-top:clamp(18px,3vh,36px)}
+  .contact-layout{gap:clamp(28px,3vw,45px)}
+  .contact-copy h2{font-size:clamp(44px,7.5vh,82px);margin-bottom:clamp(18px,3vh,26px)}
+  .contact-copy p{font-size:clamp(17px,2.5vh,20px)}
+  .contact-form{padding:clamp(22px,4vh,34px);gap:clamp(6px,1vh,9px)}
+  .contact-form input{min-height:clamp(42px,6vh,48px)}
+  .contact-form textarea{min-height:clamp(100px,16vh,150px)}
+}
+
+@media(min-width:1001px){
+  .home-lower{flex:0 0 clamp(190px,26vh,200px);height:clamp(190px,26vh,200px)}
+  .home-lower .section-bar{min-height:44px;padding-block:5px}
+  .home-lower .section-bar h2{font-size:clamp(21px,3.5vh,28px)}
+  .home-lower .summary-panel__grid{padding-block:10px}
+  .home-lower .summary-tile svg{width:clamp(38px,5vh,52px);height:clamp(38px,5vh,52px)}
+  .home-lower .summary-tile h3{font-size:clamp(17px,3.1vh,25px)}
+  .home-lower .about-panel__body{padding:12px clamp(16px,2vw,24px)}
+  .home-lower .about-panel__body p{font-size:clamp(14px,2vh,17px);line-height:1.28;margin-bottom:10px}
+  .home-lower .about-panel__body .button{min-height:40px;padding-block:8px;font-size:clamp(16px,2.5vh,22px)}
+
+  .service-detail{min-height:0;padding:16px;gap:10px;overflow:hidden}
+  .service-detail__symbol svg{width:44px;height:44px}
+  .service-detail h2{font-size:clamp(30px,4.5vh,42px);line-height:.9;margin:6px 0 10px}
+  .service-detail p{font-size:14px;line-height:1.28;margin-bottom:12px}
+  .service-detail__examples{padding-top:8px;font-size:10px;line-height:1.35}
+
+  .about-detail{height:clamp(320px,42vh,380px);min-height:0}
+  .about-detail>div:first-child{padding:clamp(22px,3vh,34px) clamp(24px,2.5vw,40px);overflow:hidden}
+  .about-detail h2{font-size:clamp(40px,6vh,66px);margin-bottom:14px}
+  .about-detail p{font-size:clamp(15px,2.2vh,17px);line-height:1.32;margin-bottom:12px}
+  .about-detail .button{margin-top:4px}
+
+  .contact-form{padding:20px;gap:5px}
+  .contact-form label{margin-top:7px}
+  .contact-form input{min-height:42px;padding-block:8px}
+  .contact-form textarea{height:clamp(84px,12vh,110px);min-height:0;padding-block:8px}
+  .contact-form .button{margin-top:10px}
+  .contact-form__note{margin-top:5px}
+}

@@ -12,4 +12,4 @@ The homepage includes three **intentionally blank** slide slots for future inter
 Run \`npm ci\`, then \`npm run dev\`. Run \`npm test\` and \`npm run build\` before publishing.
 
 ## Deployment
-The existing GitHub Pages workflow deploys commits from main. The custom domain remains in public/CNAME (seanburman.com). The contact form opens an email app; it is not a backend submission service.
+The existing GitHub Pages workflow deploys commits from main. The custom domain remains in public/CNAME (seanburman.com). The contact form POSTs to the configured Google Mail relay URL. Set `GOOGLE_MAIL_API` (or the existing `VITE_GOOGLE_MAIL_API` / `VITE_GMAIL_API` variable) as a GitHub Actions variable or secret. The value must be a public HTTPS endpoint that accepts JSON `{ name, email, message, subject }`; keep Gmail credentials in that relay, never in the static site.
