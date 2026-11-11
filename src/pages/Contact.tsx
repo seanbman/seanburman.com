@@ -81,7 +81,7 @@ export default function Contact() {
       <div className="contact-layout">
         <section className="contact-copy">
           <h2>LET&apos;S BUILD SOMETHING USEFUL.</h2>
-          <p>Tell me a little about the project and what you&apos;re trying to accomplish.</p>
+          <p>Tell me a little about the project and what you need accomplished.</p>
           <a className="contact-email" href="mailto:info@seanburman.com">
             info@seanburman.com <ArrowIcon direction="up-right" />
           </a>
