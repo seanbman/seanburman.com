@@ -21,3 +21,13 @@ test('navigation and CTAs use SVG arrows rather than platform-rendered glyphs',(
 test('mobile navigation has tighter 12px outer margins',()=>{
   assert.match(read('src/App.css'),/\.site-nav\{display:none;position:absolute;z-index:20;left:12px;right:12px;/);
 });
+
+test('service cards use inline icon-title headings with no capability numbers',()=>{
+  const s=read('src/pages/Services.tsx');
+  const css=read('src/App.css');
+  assert.doesNotMatch(s,/CAPABILITY\s*\/|services\.map\(\(item,i\)/);
+  assert.match(s,/className="service-detail__heading"/);
+  assert.match(s,/<Icon name=\{item\.icon\}\/><\/span><h2>\{item\.title\}<\/h2>/);
+  assert.match(css,/\.service-detail__heading\{display:flex;align-items:center;/);
+  assert.match(css,/@media\(max-width:650px\)[\s\S]*?\.service-detail__heading\{gap:14px\}/);
+});
