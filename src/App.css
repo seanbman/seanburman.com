@@ -7,6 +7,7 @@
 .site-nav__link{font:800 clamp(17px,1.55vw,24px)/1 'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;padding:9px 0;border-bottom:3px solid transparent}
 .site-nav__link:hover,.site-nav__link--active{border-bottom-color:var(--orange)}
 .button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:46px;padding:10px 17px;border:2px solid var(--black);border-radius:0;box-shadow:var(--shadow);font:800 clamp(17px,1.45vw,23px)/1 'Barlow Condensed',Impact,sans-serif;text-align:center;white-space:nowrap;transition:transform .13s,box-shadow .13s}
+.arrow-icon{display:block;width:1em;height:1em;flex:none}
 .button:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--black)}.button:active{transform:translate(4px,4px);box-shadow:none}
 .button--orange{background:var(--orange)}.button--orange:hover{background:#f38b5d}.button--large{min-height:62px;padding:14px 24px;font-size:clamp(22px,2vw,30px)}
 .menu-toggle{display:none}.neo-card{border:var(--line);border-radius:0;box-shadow:var(--shadow);background:var(--cream)}
@@ -23,9 +24,10 @@
 .showcase{min-height:578px;display:flex;flex-direction:column}.section-bar--showcase{min-height:54px}
 .showcase__main{display:grid;grid-template-columns:64px minmax(0,1fr) 64px;flex:1;align-items:stretch}
 .showcase__viewport{min-height:390px;background:var(--cream)}
-.showcase__arrow{align-self:center;justify-self:center;display:grid;place-items:center;width:42px;height:49px;border:2px solid var(--black);border-radius:0;box-shadow:3px 3px 0 var(--black);background:var(--cream);padding:0 0 6px;font:500 46px/1 Arial,sans-serif;transition:transform .12s,box-shadow .12s}
+.showcase__arrow{align-self:center;justify-self:center;display:grid;place-items:center;width:42px;height:49px;border:2px solid var(--black);border-radius:0;box-shadow:3px 3px 0 var(--black);background:var(--cream);padding:0;transition:transform .12s,box-shadow .12s}
 .showcase__arrow:hover{background:var(--orange);transform:translate(1px,1px);box-shadow:2px 2px 0 var(--black)}
 .showcase__arrow:active{box-shadow:none;transform:translate(3px,3px)}
+.showcase__arrow .arrow-icon{width:24px;height:24px}
 .showcase__pagination{display:flex;justify-content:center;align-items:center;gap:13px;padding:13px 15px 23px}
 .showcase__dot{width:18px;height:18px;border:2px solid var(--black);border-radius:0;background:transparent}.showcase__dot--active{background:var(--orange)}
 .home-lower{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-bottom:76px}
@@ -72,7 +74,7 @@
 .skills-line{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px;margin-top:36px;font:600 12px/1.5 'IBM Plex Mono',monospace}
 .contact-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:45px}
 .contact-copy h2{font-size:clamp(52px,6vw,90px);max-width:560px;line-height:.91;margin:0 0 26px}.contact-copy p{font-size:20px;line-height:1.45;max-width:425px}
-.contact-email{display:inline-block;font:600 clamp(16px,2vw,24px)/1.3 'IBM Plex Mono',monospace;border-bottom:3px solid var(--orange);margin-top:20px}
+.contact-email{display:inline-flex;align-items:center;gap:.4em;font:600 clamp(16px,2vw,24px)/1.3 'IBM Plex Mono',monospace;border-bottom:3px solid var(--orange);margin-top:20px}
 .contact-form{padding:34px;display:flex;flex-direction:column;gap:9px}
 .contact-form label{font:600 12px/1.3 'IBM Plex Mono',monospace;letter-spacing:.08em;margin-top:14px}.contact-form label:first-child{margin-top:0}
 .contact-form input,.contact-form textarea{border:2px solid var(--black);border-radius:0;padding:12px 14px;background:var(--cream);color:var(--black);resize:vertical;width:100%}
@@ -81,7 +83,7 @@
 @media(max-width:1300px){.brand__title{display:none}.brand__rule{height:36px}.hero{grid-template-columns:minmax(300px,.9fr) minmax(400px,1.2fr)}.hero__copy h1{font-size:clamp(55px,5.5vw,77px)}}
 @media(max-width:1000px){.site-header__inner{min-height:78px;position:relative;justify-content:space-between}.brand__title{display:inline}
 .menu-toggle{display:flex;flex-direction:column;gap:5px;padding:10px;border:2px solid var(--black);background:var(--cream);box-shadow:var(--shadow);border-radius:0}.menu-toggle span{display:block;width:22px;height:3px;background:var(--black)}
-.site-nav{display:none;position:absolute;z-index:20;left:18px;right:18px;top:calc(100% + 2px);padding:20px;border:var(--line);background:var(--cream);box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:0}.site-nav--open{display:flex}
+.site-nav{display:none;position:absolute;z-index:20;left:12px;right:12px;top:calc(100% + 2px);padding:20px;border:var(--line);background:var(--cream);box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:0}.site-nav--open{display:flex}
 .site-nav__link{padding:13px 0;border-bottom:1px solid #777;font-size:27px}.site-nav__cta{margin-top:16px;width:100%}
 .hero{grid-template-columns:1fr}.hero__copy{min-height:420px}.hero__copy h1{font-size:clamp(60px,8vw,102px)}.hero__stripes{right:3%;bottom:-105px}
 .showcase{min-height:490px}.showcase__viewport{min-height:370px}.home-lower{grid-template-columns:1fr}.service-list{grid-template-columns:1fr}.service-detail{min-height:0;flex-direction:row;gap:25px}.process-grid{grid-template-columns:repeat(2,1fr)}}
@@ -89,7 +91,7 @@
 .hero{padding-top:37px;gap:30px}.hero__copy{min-height:480px;padding-bottom:22px}.hero__copy h1{font-size:clamp(54px,10.1vw,75px);line-height:.88}
 .hero__copy p{font-size:17px;line-height:1.4;max-width:300px}.hero__stripes{right:-128px;bottom:-85px;height:240px;width:340px}.showcase{min-height:435px}
 .section-bar{padding:8px 11px;min-height:48px}.section-bar>span:last-child:not(:first-child){display:none}
-.showcase__main{grid-template-columns:48px minmax(0,1fr) 48px}.showcase__viewport{min-height:300px}.showcase__arrow{width:32px;height:39px;font-size:39px}.showcase__pagination{padding-bottom:20px}
+.showcase__main{grid-template-columns:48px minmax(0,1fr) 48px}.showcase__viewport{min-height:300px}.showcase__arrow{width:32px;height:39px}.showcase__arrow .arrow-icon{width:20px;height:20px}.showcase__pagination{padding-bottom:20px}
 .home-lower{gap:22px;padding-bottom:64px}.summary-panel__grid{padding:14px 8px}.summary-tile{padding:14px 5px}.summary-tile svg{width:42px;height:42px}.summary-tile h3{font-size:clamp(16px,5vw,23px)}
 .about-panel__body{padding:22px;min-height:285px}.about-panel__body p{max-width:90%}.about-panel__stripes{width:190px;right:-100px}
 .site-footer__inner{align-items:flex-start}.site-footer__right{align-items:flex-start}.page-intro h1{font-size:82px}.subpage{padding-top:38px}
