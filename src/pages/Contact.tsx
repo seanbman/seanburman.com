@@ -1,4 +1,5 @@
 import { useState, type FormEvent } from 'react'
+import { ArrowIcon } from '../components/Icons'
 
 const CONTACT_API_URL = (
   import.meta.env.VITE_GOOGLE_MAIL_API ||
@@ -82,7 +83,7 @@ export default function Contact() {
           <h2>LET&apos;S BUILD SOMETHING USEFUL.</h2>
           <p>Tell me a little about the project and what you&apos;re trying to accomplish.</p>
           <a className="contact-email" href="mailto:info@seanburman.com">
-            info@seanburman.com ↗
+            info@seanburman.com <ArrowIcon direction="up-right" />
           </a>
         </section>
         <form className="neo-card contact-form" onSubmit={submit}>
@@ -118,7 +119,8 @@ export default function Contact() {
             disabled={submission.kind === 'sending'}
           />
           <button className="button button--orange" type="submit" disabled={submission.kind === 'sending'}>
-            {submission.kind === 'sending' ? 'SENDING...' : 'SEND MESSAGE ↗'}
+            {submission.kind === 'sending' ? 'SENDING...' : 'SEND MESSAGE'}
+            {submission.kind !== 'sending' && <ArrowIcon direction="up-right" />}
           </button>
           <p className={`contact-form__note contact-form__note--${submission.kind}`} role="status" aria-live="polite">
             {submission.message}
