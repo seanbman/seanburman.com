@@ -36,13 +36,13 @@
 .summary-tile svg{width:64px;height:64px;margin-bottom:12px}.summary-tile h3{font-size:clamp(21px,2vw,31px);line-height:.97;margin:0;max-width:170px}
 .about-panel__body{position:relative;flex:1;padding:26px 30px;overflow:hidden;display:flex;flex-direction:column;align-items:flex-start}
 .about-panel__body p{position:relative;z-index:1;font-size:clamp(17px,1.35vw,21px);line-height:1.4;max-width:445px;margin-bottom:24px}
-.about-panel__body .button{position:relative;z-index:1;margin-top:auto}
+.about-panel__body .button{position:absolute;z-index:1;right:calc(clamp(22px,2.2vw,30px) + 8px);bottom:12px;margin:0}
 .about-panel__stripes{pointer-events:none;position:absolute;right:-95px;bottom:-80px;width:260px;height:275px;display:flex;gap:7px;transform:skewX(-31deg)}
 .about-panel__stripes i{flex:1;background:var(--blue)}.about-panel__stripes i:nth-child(2){background:var(--teal)}.about-panel__stripes i:nth-child(3){background:var(--orange)}
 .site-footer{border-top:4px solid var(--black);background:var(--black);color:var(--cream);padding:37px 0 42px}
 .site-footer__inner{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px}
 .site-footer__brand{font:800 33px/.95 'Barlow Condensed',Impact,sans-serif}.site-footer p{font-size:13px;margin:10px 0 0}
-.site-footer__right{display:flex;flex-direction:column;align-items:flex-end;gap:11px;font:500 13px/1.2 'IBM Plex Mono',monospace}.site-footer__right a:hover{color:var(--orange)}
+.site-footer__right{display:flex;align-items:flex-end;gap:24px;font:500 13px/1.2 'IBM Plex Mono',monospace}.site-footer__right a:hover{color:var(--orange)}.site-footer__meta{display:flex;flex-direction:column;align-items:flex-end;gap:11px}.site-footer__socials{display:flex;align-items:center;gap:12px}.site-footer__social{display:grid;place-items:center;width:28px;height:28px;color:#fff}.site-footer__social svg{display:block;width:21px;height:21px;fill:currentColor}.site-footer__social:hover{color:var(--orange)}
 .subpage{padding-top:clamp(42px,5.3vw,86px);padding-bottom:clamp(80px,8vw,135px)}
 .page-intro{border-bottom:3px solid var(--black);padding-bottom:32px;margin-bottom:40px}
 .eyebrow{font:600 12px/1.2 'IBM Plex Mono',monospace;letter-spacing:.12em;margin-bottom:13px;color:var(--blue)}
@@ -78,8 +78,8 @@
 .contact-form input,.contact-form textarea{border:2px solid var(--black);border-radius:0;padding:12px 14px;background:var(--cream);color:var(--black);resize:vertical;width:100%}
 .contact-form input{min-height:48px}.contact-form .button{align-self:flex-start;margin-top:17px}
 .contact-form__note{font-size:12px;line-height:1.5;margin:8px 0 0;color:#494949}
-@media(max-width:1300px){.brand__title{display:none}.brand__rule{height:36px}.hero{grid-template-columns:minmax(300px,.9fr) minmax(400px,1.2fr)}.hero__copy h1{font-size:clamp(55px,5.5vw,77px)}}
-@media(max-width:1000px){.site-header__inner{min-height:78px;position:relative;justify-content:space-between}.brand__title{display:inline}
+@media(max-width:1300px){.brand__title{display:inline;font-size:clamp(10px,1.15vw,14px);letter-spacing:.1em}.brand__rule{height:36px}.hero{grid-template-columns:minmax(300px,.9fr) minmax(400px,1.2fr)}.hero__copy h1{font-size:clamp(55px,5.5vw,77px)}}
+@media(max-width:1100px){.site-header__inner{min-height:78px;position:relative;justify-content:space-between}.brand__title{display:inline}
 .menu-toggle{display:flex;flex-direction:column;gap:5px;padding:10px;border:2px solid var(--black);background:var(--cream);box-shadow:var(--shadow);border-radius:0}.menu-toggle span{display:block;width:22px;height:3px;background:var(--black)}
 .site-nav{display:none;position:absolute;z-index:20;left:18px;right:18px;top:calc(100% + 2px);padding:20px;border:var(--line);background:var(--cream);box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:0}.site-nav--open{display:flex}
 .site-nav__link{padding:13px 0;border-bottom:1px solid #777;font-size:27px}.site-nav__cta{margin-top:16px;width:100%}
@@ -92,13 +92,13 @@
 .showcase__main{grid-template-columns:48px minmax(0,1fr) 48px}.showcase__viewport{min-height:300px}.showcase__arrow{width:32px;height:39px;font-size:39px}.showcase__pagination{padding-bottom:20px}
 .home-lower{gap:22px;padding-bottom:64px}.summary-panel__grid{padding:14px 8px}.summary-tile{padding:14px 5px}.summary-tile svg{width:42px;height:42px}.summary-tile h3{font-size:clamp(16px,5vw,23px)}
 .about-panel__body{padding:22px;min-height:285px}.about-panel__body p{max-width:90%}.about-panel__stripes{width:190px;right:-100px}
-.site-footer__inner{align-items:flex-start}.site-footer__right{align-items:flex-start}.page-intro h1{font-size:82px}.subpage{padding-top:38px}
+.site-footer__inner{align-items:flex-start}.site-footer__right{align-items:flex-start;flex-direction:column;gap:11px}.site-footer__meta{align-items:flex-start}.page-intro h1{font-size:82px}.subpage{padding-top:38px}
 .service-detail{padding:24px;flex-direction:column}.process-grid{grid-template-columns:1fr}.process-card{min-height:250px}
 .work-feature__inner,.about-detail,.contact-layout{grid-template-columns:1fr}.work-feature__accent{min-height:180px}.work-feature__inner>div:last-child,.about-detail>div:first-child{padding:29px 23px}.about-detail__art{min-height:190px}.contact-form{padding:23px}.page-cta{padding:24px}}
 
 /* Keep the full desktop composition in one viewport. The tablet breakpoint
    above remains the intentional point where pages are allowed to grow. */
-@media(min-width:1001px){
+@media(min-width:1101px){
   .home-page{min-height:calc(100dvh - 95px);padding-top:clamp(18px,2.5vh,32px);padding-bottom:clamp(14px,2vh,24px);display:flex;flex-direction:column}
   .hero{flex:1 1 auto;min-height:0;padding-block:0 clamp(18px,2.5vh,30px);gap:clamp(24px,3vw,48px)}
   .hero__copy{min-height:0;padding:0 0 12px 4px}
@@ -151,7 +151,7 @@
   .contact-form textarea{min-height:clamp(100px,16vh,150px)}
 }
 
-@media(min-width:1001px){
+@media(min-width:1101px){
   .home-lower{flex:0 0 clamp(190px,26vh,200px);height:clamp(190px,26vh,200px)}
   .home-lower .section-bar{min-height:44px;padding-block:5px}
   .home-lower .section-bar h2{font-size:clamp(21px,3.5vh,28px)}
@@ -160,7 +160,7 @@
   .home-lower .summary-tile h3{font-size:clamp(17px,3.1vh,25px)}
   .home-lower .about-panel__body{padding:12px clamp(16px,2vw,24px)}
   .home-lower .about-panel__body p{font-size:clamp(14px,2vh,17px);line-height:1.28;margin-bottom:10px}
-  .home-lower .about-panel__body .button{align-self:flex-end;min-height:40px;padding-block:8px;font-size:clamp(16px,2.5vh,22px)}
+  .home-lower .about-panel__body .button{right:calc(clamp(16px,2vw,24px) + 8px);bottom:12px;min-height:40px;padding-block:8px;font-size:clamp(16px,2.5vh,22px)}
 
   .service-detail{min-height:0;padding:16px;gap:10px;overflow:hidden}
   .service-detail__symbol svg{width:44px;height:44px}
