@@ -11,6 +11,7 @@ type CaseStudy = {
   stack: string[]
   result: string
   website?: string
+  screenshots?: { src: string; alt: string; caption: string; width: number; height: number }[]
 }
 
 const caseStudies: CaseStudy[] = [
@@ -27,7 +28,23 @@ const caseStudies: CaseStudy[] = [
       'Shared calendar views with access suited to different audiences'
     ],
     stack: ['Go', 'Echo', 'TypeScript', 'MongoDB', 'Scheduling engine'],
-    result: 'A purpose-built workflow console connecting project schedules, suite information, and field documentation in one application.'
+    result: 'A purpose-built workflow console connecting project schedules, suite information, and field documentation in one application.',
+    screenshots: [
+      {
+        src: '/work/plumbing-track/wall-measurements.jpg',
+        alt: 'Room editor with wall lengths, paint codes, left and right cut diagrams, cap sizes, and angles.',
+        caption: 'Wall measurements, cut types, and paint references recorded together for the job.',
+        width: 1094,
+        height: 747
+      },
+      {
+        src: '/work/plumbing-track/room-progress.jpg',
+        alt: 'Room list showing progress, wall counts, and photo counts for each room.',
+        caption: 'Room-by-room progress with the measurements and documentation attached to each space.',
+        width: 1094,
+        height: 751
+      }
+    ]
   },
   {
     client: 'PLUMBING TRACK',
@@ -79,6 +96,20 @@ export default function Work() {
             {study.website && <a className="work-study__external" href={study.website} target="_blank" rel="noopener noreferrer">VISIT WEBSITE <ArrowIcon direction="up-right" /></a>}
           </div>
         </div>
+        {study.screenshots && <section className="work-study__screenshots" aria-label="Inside the operations console">
+          <div className="work-study__screenshots-heading">
+            <h3>INSIDE THE CONSOLE</h3>
+            <p>Captured from the working application. Identifying details are excluded.</p>
+          </div>
+          <div className="work-study__gallery">
+            {study.screenshots.map(screenshot => <figure key={screenshot.src}>
+              <a href={screenshot.src} target="_blank" rel="noopener noreferrer" aria-label={'View full screenshot: ' + screenshot.alt}>
+                <img src={screenshot.src} alt={screenshot.alt} width={screenshot.width} height={screenshot.height} loading="lazy" />
+              </a>
+              <figcaption>{screenshot.caption}</figcaption>
+            </figure>)}
+          </div>
+        </section>}
       </article>)}
     </section>
     <div className="page-cta">
