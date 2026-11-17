@@ -13,3 +13,9 @@ Run \`npm ci\`, then \`npm run dev\`. Run \`npm test\` and \`npm run build\` bef
 
 ## Deployment
 The existing GitHub Pages workflow deploys commits from main. The custom domain remains in public/CNAME (seanburman.com). The contact form POSTs to the configured Google Mail relay URL. Set `GOOGLE_MAIL_API` (or the existing `VITE_GOOGLE_MAIL_API` / `VITE_GMAIL_API` variable) as a GitHub Actions variable or secret. The value must be a public HTTPS endpoint that accepts JSON `{ name, email, message, subject }`; keep Gmail credentials in that relay, never in the static site.
+
+## Interface numbering rule
+Display sequential item numbers as natural integers (1, 2, 3), never with prefixed zeros (01, 02, 03). Do not use `padStart` to format display ordinals. Dates, version numbers, decimal measurements, IDs, file names, and code literals are not sequential UI item labels.
+
+## Work page evidence
+See `docs/WORK_CASE_STUDIES.md` for the sources, claims, and publication limitations of the selected projects. Do not invent metrics, testimonials, launch dates, or client outcomes.
