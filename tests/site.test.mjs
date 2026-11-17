@@ -31,3 +31,17 @@ test('service cards use inline icon-title headings with no capability numbers',(
   assert.match(css,/\.service-detail__heading\{display:flex;align-items:center;/);
   assert.match(css,/@media\(max-width:650px\)[\s\S]*?\.service-detail__heading\{gap:14px\}/);
 });
+
+test('process display numbers have no leading zero',()=>{
+  const process=read('src/pages/Process.tsx');
+  assert.match(process,/String\(i\+1\)/);
+  assert.doesNotMatch(process,/padStart\(/);
+});
+test('Work page contains actual project case studies, not a placeholder',()=>{
+  const work=read('src/pages/Work.tsx');
+  assert.match(work,/OPERATIONS SOFTWARE/);
+  assert.match(work,/WEBSITE & CONTENT SYSTEMS/);
+  assert.match(work,/THE CHALLENGE/);
+  assert.match(work,/THE RESULT/);
+  assert.doesNotMatch(work,/walkthroughs will be added here/i);
+});
