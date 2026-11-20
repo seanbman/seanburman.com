@@ -4,6 +4,20 @@ Status: proposed design and implementation plan. November 17, 2026.
 
 This document builds on [WORK_CASE_STUDIES.md](WORK_CASE_STUDIES.md), the screenshot inventories under `public/work/`, and the current React implementation. It specifies future presentation; it does not record completed UI changes or approve individual image crops.
 
+[Documentation index](CONTENT_INDEX.md) | [Detailed copy and placement](WEBSITE_COPY_AND_PLACEMENT.md)
+
+## Sections
+
+1. [Purpose](#1-purpose)
+2. [Current repository state](#2-current-repository-state)
+3. [Homepage examples](#3-homepage-three-examples)
+4. [Work index](#4-work-index)
+5. [Project pages](#5-project-page-structure)
+6. [Asset preparation](#6-asset-preparation-and-shared-content)
+7. [Delivery sequence](#7-delivery-sequence)
+8. [Acceptance criteria](#8-acceptance-criteria)
+9. [Source references](#source-references)
+
 ## 1. Purpose
 
 The homepage window should make the service tangible within a few seconds: here is a real piece of software, here is the work it supports, and here is where to see the details.
