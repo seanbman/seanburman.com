@@ -9,6 +9,12 @@ These are unmodified browser captures of the running Rails application, using is
 - Capture script: `docs/scripts/verify_live_ui.py`; synthetic records: `docs/scripts/seed_visual_fixtures.rb`
 - All 14 images were visually inspected before copying here. Fixture customer names, example addresses, contact details and technician labels are synthetic.
 
+## Sections
+
+1. [Desktop captures](#desktop)
+2. [Phone captures](#mobile---430px-wide)
+3. [Portfolio use](#portfolio-use)
+
 ## Desktop
 
 | Screen | 1600px wide | 1280px wide |
@@ -29,3 +35,9 @@ These are unmodified browser captures of the running Rails application, using is
 - [Reported blocker and follow-up](430_technician_blocker.png)
 
 Full-page mobile captures may be taller than the 932px browser viewport. The disabled Map control and unfinished navigation destinations must not be presented as implemented features. This collection does not change the website's Work page or claim visual acceptance of the app.
+
+## Portfolio use
+
+[Documentation index](../../../docs/CONTENT_INDEX.md) | [Copy and placement](../../../docs/WEBSITE_COPY_AND_PLACEMENT.md) | [Screenshot plan](../../../docs/SHOWCASE_AND_WORK_PLAN.md)
+
+Use the public name “Fleet dispatch demo” and label it as a development demo with sample data. The project copy belongs in the copy plan. This README records the captures and their source.

@@ -1,7 +1,9 @@
 # Graph Report - docs/graph-code  (2026-07-30)
 
+Historical generated report from July 2026. Its contents describe an earlier version of the site. Use the [current documentation index](../../CONTENT_INDEX.md) for portfolio work. The analysis below is retained as background and has not been regenerated.
+
 ## Corpus Check
-- cluster-only mode — file stats not available
+- cluster-only mode ; file stats not available
 
 ## Summary
 - 90 nodes · 86 edges · 11 communities (10 shown, 1 thin omitted)
@@ -74,7 +76,7 @@ Nodes (4): DOM, DOM.Iterable, ES2020, lib
 ## Knowledge Gaps
 - **54 isolated node(s):** `name`, `private`, `version`, `type`, `dev` (+49 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **1 thin communities (<3 nodes) omitted from report** ; run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

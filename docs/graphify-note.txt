@@ -1,3 +1,11 @@
+HISTORICAL MATERIAL
+
+This document records an earlier design or analysis. It is not the current
+portfolio brief. For current wording, page structure and visual direction,
+start with docs/CONTENT_INDEX.md. Do not carry old layout, contact, font,
+deployment or marketing instructions into the current site without checking
+the active documentation and implementation.
+
 Graphify (knowledge/context graphs)
 ===================================
 
@@ -8,7 +16,7 @@ Why not plain `graphify extract docs`?
   Doc/image semantic extraction needs an LLM API key. Without one, use the
   thesis concept extraction below (deterministic, no key) and/or `--code-only`.
 
-Primary thesis graph (recommended)
+Historical thesis graph
 ----------------------------------
 Artifacts: docs/graph/graphify-out/{graph.json,graph.html,GRAPH_REPORT.md,GRAPH_TREE.html}
 Source concepts: docs/graph/thesis_extraction.json (derived from docs/thesis.txt)

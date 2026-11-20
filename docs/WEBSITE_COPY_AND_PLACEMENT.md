@@ -1,9 +1,9 @@
 # Website copy and section placement
 
-Draft for seanburman.com. November 20, 2026.
+Draft for seanburman.com. Reviewed November 20, 2026.
 This is a writing and placement plan. The website has not been changed by this document.
 
-[Documentation index](CONTENT_INDEX.md) | [Screenshot and layout plan](SHOWCASE_AND_WORK_PLAN.md) | [Project evidence](WORK_CASE_STUDIES.md)
+[Previous: Documentation index](CONTENT_INDEX.md) | [Next: Screenshot and layout plan](SHOWCASE_AND_WORK_PLAN.md) | [Project evidence](WORK_CASE_STUDIES.md)
 
 ## Sections
 
@@ -20,6 +20,9 @@ This is a writing and placement plan. The website has not been changed by this d
 11. [Implementation and review](#implementation-and-review)
 
 ## Writing rules
+
+Use the project names, link labels and page roles in [the documentation index](CONTENT_INDEX.md#portfolio-direction). This document owns the draft wording. The screenshot plan owns layout and image treatment. Project evidence notes determine which factual claims can be published.
+
 
 Write for a business owner who knows their trade and may have little interest in software. Explain what a person can do and why it helps. Keep paragraphs short. Use first person for Sean's service and plain descriptions for the projects.
 
@@ -62,7 +65,7 @@ Proposed project routes are /work/fleet-platform, /work/plumbing-track-console a
 
 ### Opening
 
-Placement: replace the paragraph under the main heading. Suggested heading below is an optional replacement for the current headline.
+Placement: replace the current main heading and its paragraph with the draft below. Use sentence case and natural line breaks rather than a manually stacked headline.
 
 Draft copy:
 
@@ -90,17 +93,17 @@ Keep “Development demo · Sample data” visible on the Fleet slide. Use the e
 
 ### Existing About summary
 
-Placement: replace the paragraph inside the current About panel. Keep its link to /about.
+Placement: replace the paragraph inside the current About panel. Keep its heading and link to /about.
 
 Draft copy:
 
 I work with you from the first conversation through to delivery. We look at what is taking time, choose a useful place to start and build something your team can try.
 
-Button: **How I work**, linking to /process. If the panel must keep its About destination, use **About Sean** instead. The label and destination must agree.
+Button: **About Sean**, linking to /about. Put the separate **How I work** link on project pages and in the closing Services section, linking to /process.
 
 ## Work index
 
-Placement: replace the placeholder introduction and add three project cards. Keep full explanations on the individual pages.
+Placement: replace the current Work introduction and move its two full case studies into separate project pages. Add a three-card index here, including Fleet. Keep full explanations on the individual pages.
 
 Draft introduction:
 
@@ -140,9 +143,9 @@ Placement: first supporting section after the opening image. Pair with 1600_inta
 
 Draft copy:
 
-A request is easier to follow up on when it has a record of its own. The intake view gives incoming work a place to be reviewed before it reaches the schedule.
+A request is easier to follow up on when it has a record of its own. The intake view gives the office a place to review incoming work.
 
-This is the start of the demo's office workflow. It helps explain what has been requested and what needs attention before someone is sent out.
+The office can look through the requests while deciding what needs attention. The scheduling view provides a separate place to plan visits.
 
 Caption: **Incoming requests in the intake view.**
 
@@ -156,7 +159,7 @@ Draft copy:
 
 Customer information is part of the work. A directory gives the office a place to find customer records while organizing requests and visits.
 
-The demo includes customer views on desktop and phone. This gives the project a broader starting point than a calendar alone: there are people and records behind the appointments.
+Customer views are available on desktop and phone, so the directory can be opened at a desk or while someone is away from the office.
 
 Caption: **Customer records shown with sample information.**
 
@@ -170,7 +173,7 @@ Draft copy:
 
 The dispatch view supports the office's planning work. The phone views make the same application available when someone is away from a desk.
 
-These screens show why layout needs to follow the task. Planning several visits needs room to compare information. Checking the next job on a phone needs a clear, focused view.
+Planning several visits needs room to compare information. Checking a job on a phone needs a focused view of the details. The desktop dispatch view and phone layouts support those different tasks.
 
 Caption: **Desktop dispatch and a phone scheduling view.**
 
@@ -184,7 +187,7 @@ Draft copy:
 
 A technician needs the job details in front of them and a quick way to record what happened. The mobile work-order view keeps the visit accessible on a phone.
 
-The demo also includes saved progress. That gives the visit a record beyond the original appointment and shows how field work can be reported through the application.
+Progress can be saved during the visit. The technician can record an update while the work is still fresh.
 
 Caption: **A mobile work order and saved visit progress.**
 
@@ -196,15 +199,15 @@ Draft copy:
 
 A visit does not always go to plan. Something may need another person's attention before work can continue.
 
-The demo includes a way to report a blocker and follow-up information. It also has a work-order closure view. Together, these screens show the importance of recording what happened, including work that could not be finished as expected.
+A technician can report what is holding up the visit and record follow-up information. The demo also includes a view for closing a work order, keeping completed visits and unfinished work part of the record.
 
-Caption: **A reported blocker with follow-up information.**
+Caption: **A reported problem with follow-up information.**
 
 Closing paragraph:
 
-This project is a working example of how a dispatch application can be shaped around office and field tasks. A version for a particular business would start with its own jobs, staff responsibilities and scheduling rules.
+The demo brings together office planning and updates from the field. A version for a particular business would use its own job types, staff responsibilities and scheduling rules.
 
-Link: **Discuss a tool for your business**, to /contact.
+Link: **Start a conversation**, to /contact.
 
 ## Plumbing Track console page
 
@@ -228,7 +231,7 @@ Placement: first supporting section, directly after the opening.
 
 Draft copy:
 
-A building contains suites. A suite contains rooms. Each room can have measurements and installation details that matter later.
+Repipe work is organized by building, suite and room. Measurements and installation details need to stay connected to the right location.
 
 The console keeps that structure in the records. Information can stay attached to the part of the job it describes, giving someone a clear place to look when they return to it.
 
@@ -282,7 +285,7 @@ The aim is to keep useful records connected to the work they describe. Photos ca
 
 Closing paragraph:
 
-This project shows what custom software can look like when the details of a particular trade shape the application. The useful features come from understanding the work closely enough to know what needs a place in the system.
+The console brings scheduling and installation records into a system built for Plumbing Track's process. Its room tools show the level of detail that can be included when the application is designed around a particular trade.
 
 Related link: **See the Plumbing Track website project**, to /work/plumbing-track-website.
 
@@ -316,7 +319,7 @@ Draft copy:
 
 Project references help visitors understand the kind of buildings and installation work involved. The portfolio brings those references and photographs together.
 
-This gives the technical explanation a concrete companion: examples of the work described elsewhere on the site.
+Visitors can look through previous projects while considering the service for their own building.
 
 Placement: second supporting section, paired with project-portfolio.jpg.
 
@@ -326,7 +329,7 @@ Draft copy:
 
 Once someone is ready to ask about a building, the assessment page provides a clear next step.
 
-The structured form gives the inquiry a starting point and identifies the information being requested. It connects the public explanation of the service to a direct way to get in touch.
+The form asks for building information so a visitor can make an inquiry after reading about the service.
 
 Placement: third supporting section, paired with assessment-form.jpg.
 
@@ -400,7 +403,7 @@ A small supply run still creates information someone needs later: what was bough
 
 A phone form can collect the purchase details and a receipt photo together. The office can then review purchases by job and follow up when something is missing.
 
-The first version can be straightforward. More detailed approval or accounting steps should follow the way the business handles purchases.
+Approval and accounting steps can be added around the business's purchasing process.
 
 Supporting example: a supervisor picks up fasteners and sealant, attaches the receipt and selects the job before leaving the store.
 
@@ -416,7 +419,7 @@ Paper hours can work until someone has to collect, read and total them. Missing 
 
 A simple hours tool can let a supervisor record the crew's time against a job, review the week and send it to the office in a consistent format. Corrections can be recorded so there is a clear account of what changed.
 
-Start with the information the business actually needs. A timer or a location check should only be part of the tool when there is a clear reason to include it.
+The entry form can use the details the office needs for review, without making the supervisor repeat the same information for each crew member.
 
 Supporting example: a supervisor enters the crew's hours at the end of the day and reviews them before the pay-period cutoff.
 
@@ -464,7 +467,7 @@ At the end of a visit, a short update can answer the questions that otherwise ar
 
 A job update can keep those notes, relevant photos and follow-up items together. The person returning to the site has a place to begin, and the office has information to use when speaking with the customer.
 
-The form should be short enough to use during the day. Required fields should earn their place by helping someone do the work.
+Keep the update short enough to complete during the day, asking for the information someone will use on the next visit.
 
 Supporting example: a crew records the area completed and a missing item needed for the next visit. A photo is attached if it helps explain the situation.
 
@@ -480,7 +483,9 @@ Once that part works better, we can look at what else becomes possible. A materi
 
 This is how the software can grow with the business: add something useful, try it with the team and decide what is worth doing next.
 
-Button: **Talk through an idea**, linking to /contact.
+Button: **Start a conversation**, linking to /contact.
+
+Secondary text link: **How I work**, linking to /process.
 
 ## Process, development and delivery
 
@@ -573,7 +578,7 @@ Placement: sixth supporting section, before the closing contact prompt.
 
 Draft copy:
 
-Using the software will reveal details that are hard to see in advance. A field may need a different label. A useful view may be missing. A repeated step may be ready for automation.
+Trying the software during real work can reveal details that are hard to see in advance. A field may need a different label. A useful view may be missing. A repeated step may be ready for automation.
 
 We can review those findings and decide what to change next. Small refinements and larger additions can be planned separately, with support arrangements agreed clearly.
 
@@ -628,9 +633,14 @@ Optional helper text: **A few sentences about the task or problem is enough to s
 5. Update the short Home, About and Contact passages.
 6. Review the whole site together for repeated copy and claims that need checking.
 
-The homepage introduces the work. Project pages explain actual examples. Services describes what Sean can build. Process explains what working together involves.
+The homepage introduces the work. Project pages explain actual examples. Services describes what Sean can build. Process explains what working together involves. Use the combined build sequence in [the layout plan](SHOWCASE_AND_WORK_PLAN.md#7-delivery-sequence) when planning implementation.
 
 ### Reading and layout
+
+Keep all six contracting examples and the detailed process text available in the page plan. Use quiet sections with short headings, reading-width paragraphs and light separators. These sections should feel like a clear explanation, not a grid of advertisements. Add a small contents list to long Services and Process pages so readers can go straight to a topic. Do not add a contact button to every supporting section.
+
+Use four primary screenshot groups on Fleet: dispatch, intake with customer records, mobile work order with progress, and a reported problem with closure. The five supporting text sections remain in order. A section may refer to the opening image without repeating it.
+
 
 Use a short heading and two or three paragraphs for most supporting sections. Keep examples in small “For example” callouts where they help. Do not present a dense wall of feature cards or hide all the useful explanation in accordions.
 

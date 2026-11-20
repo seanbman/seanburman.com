@@ -1,21 +1,54 @@
-# Sean Burman — Software Engineer
+# Sean Burman | Software Engineer
 
-React + TypeScript + Vite website for seanburman.com.
+Portfolio website for seanburman.com, built with React, TypeScript and Vite.
+
+[Website documentation index](docs/CONTENT_INDEX.md)
+
+## Sections
+
+1. [Portfolio direction](#portfolio-direction)
+2. [Current site and planned work](#current-site-and-planned-work)
+3. [Design](#design)
+4. [Local development](#local-development)
+5. [Deployment](#deployment)
+6. [Writing and evidence](#writing-and-evidence)
+
+## Portfolio direction
+
+The site introduces Sean's custom software work through familiar business tasks and real project examples. Home gives a brief introduction, Work explains the projects, Services describes what Sean can build, and Process explains how a project moves from discussion to delivery.
+
+Use [the documentation index](docs/CONTENT_INDEX.md) for the agreed names, page roles and reading order.
+
+## Current site and planned work
+
+On the reviewed feature branch, the homepage showcase has three empty slides with working navigation. Work contains two Plumbing Track case studies and two console screenshots. Fleet and public website captures are stored under public/work/.
+
+The plan adds three screenshot previews, a Work index, separate project pages and supporting service and process copy. These changes are documented but have not been implemented. The preview carousel is manual, with no auto-advance. A screenshot is not an interactive application.
 
 ## Design
-Rectangular neo-brutalism: cream #F8F6F0, black #151515, orange #EA7847, steel blue #537D8D, teal #388697. Bold condensed headings, black borders, subtle hard black shadows on cards and buttons. The undecorated text logo/title links home; the navigation has no Home item.
 
-## Showcase
-The homepage includes three **intentionally blank** slide slots for future interactive widgets (dispatch, time tracking, revenue). Arrows and selector dots work; content and auto-advance will be added only when actual widgets are built. No "Rotating app Showcase" text.
+Use cream #F8F6F0, black #151515, orange #EA7847, steel blue #537D8D and teal #388697. Barlow Condensed is for headings, IBM Plex Sans for reading text and IBM Plex Mono for short labels.
+
+Keep rectangular shapes, clear spacing and restrained hard shadows. Screenshots provide the main imagery. The text brand links home, so the navigation does not need a separate Home item.
+
+The older dark architectural layout and contact-card-only design are historical. See the [layout plan](docs/SHOWCASE_AND_WORK_PLAN.md) for the current direction.
 
 ## Local development
-Run \`npm ci\`, then \`npm run dev\`. Run \`npm test\` and \`npm run build\` before publishing.
+
+Run `npm ci`, then `npm run dev`. Run `npm test` and `npm run build` before publishing application changes.
 
 ## Deployment
-The existing GitHub Pages workflow deploys commits from main. The custom domain remains in public/CNAME (seanburman.com). The contact form POSTs to the configured Google Mail relay URL. Set `GOOGLE_MAIL_API` (or the existing `VITE_GOOGLE_MAIL_API` / `VITE_GMAIL_API` variable) as a GitHub Actions variable or secret. The value must be a public HTTPS endpoint that accepts JSON `{ name, email, message, subject }`; keep Gmail credentials in that relay, never in the static site.
 
-## Interface numbering rule
-Display sequential item numbers as natural integers (1, 2, 3), never with prefixed zeros (01, 02, 03). Do not use `padStart` to format display ordinals. Dates, version numbers, decimal measurements, IDs, file names, and code literals are not sequential UI item labels.
+The GitHub Pages workflow deploys commits from main. The custom domain is set in public/CNAME.
 
-## Work page evidence
-See `docs/WORK_CASE_STUDIES.md` for the sources, claims, and publication limitations of the selected projects. Do not invent metrics, testimonials, launch dates, or client outcomes.
+The contact form sends requests to the configured Google Mail relay URL. Set `GOOGLE_MAIL_API`, or the existing `VITE_GOOGLE_MAIL_API` / `VITE_GMAIL_API` variable, as a GitHub Actions variable or secret. It must be a public HTTPS endpoint accepting JSON `{ name, email, message, subject }`. Keep Gmail credentials in the relay.
+
+Check direct navigation and reloads when adding project routes.
+
+## Writing and evidence
+
+Use clear, professional language about jobs, people, records and decisions. Do not use em dashes or leading zeros on section and item numbers. Keep technical filenames and identifiers unchanged.
+
+Use the [copy plan](docs/WEBSITE_COPY_AND_PLACEMENT.md) for wording and placement, the [layout plan](docs/SHOWCASE_AND_WORK_PLAN.md) for presentation, and the [evidence notes](docs/WORK_CASE_STUDIES.md) for supported project claims. Fleet must remain identified as a development demo with sample data.
+
+Historical research and generated graphs are background material. They do not override the current portfolio plans.
