@@ -48,9 +48,9 @@ Services, Process and project pages use normal scrolling. Keep a compact homepag
 | `src/pages/Work.tsx` | Three-card index linking to project pages | Keep the index concise; add homepage previews separately |
 | Project pages | Console, Fleet demo and public website routes are implemented with evidence-bound sections | Refine copy and imagery only where review identifies a factual or visual issue |
 | `src/App.tsx` | `/work` plus `/work/:slug` project routing | Verify direct links and reload behavior on the hosting setup |
-| `src/App.css` | Arrow columns consume screenshot width; desktop pages have viewport-fitting rules | Give media sufficient space and allow Work detail pages to scroll naturally |
+| `src/App.css` | Homepage showcase uses full-width media stages, responsive crops and captions | Keep captures legible and stack captions when an overlay would cover important UI |
 
-The screenshot collections and case-study implementation are carried in the current branch. The homepage showcase remains intentionally empty until its project previews are implemented and reviewed.
+The screenshot collections and case-study implementation are carried in the current branch. The homepage showcase uses the original captures with per-project crop, caption and mobile-source settings.
 
 ## 3. Homepage: three examples
 
@@ -59,7 +59,7 @@ Use one slide per project. Replace the placeholder Employee hours and Revenue la
 | Order | Project and headline | Primary source | Mobile source or treatment | Destination |
 | --- | --- | --- | --- | --- |
 | 1 | Plumbing Track console: “Job details, down to the room.” | `/work/plumbing-track/wall-measurements.jpg` | A separately prepared detail crop from the same approved image; preserve the cut diagram and relevant measurement inputs | `/work/plumbing-track-console` |
-| 2 | Fleet dispatch demo: “From the schedule to the job.” | `/work/fleet-platform/1280_dispatch.png` | `/work/fleet-platform/430_technician_work_order.png`, using an intentional viewport crop if the capture is tall | `/work/fleet-platform` |
+| 2 | Fleet dispatch demo: “From the schedule to the job.” | `/work/fleet-platform/1600_dispatch.png` | `/work/fleet-platform/430_dispatch.png`, using an intentional viewport crop focused on day headers and assigned jobs | `/work/fleet-platform` |
 | 3 | Plumbing Track website: “Explain the service. Show the work.” | `/work/plumbing-track-website/home.jpg` | An intentional detail crop with a useful visible heading; use a genuine mobile capture when available | `/work/plumbing-track-website` |
 
 Use the exact slide captions in [the copy plan](WEBSITE_COPY_AND_PLACEMENT.md#demo-window). Keep wording in that document rather than maintaining competing drafts here.
@@ -73,7 +73,7 @@ Each slide contains, in reading order:
 1. Project name and a short type label.
 2. One image as the dominant element.
 3. A short heading and one sentence explaining the work.
-4. A normal link labeled “View project”, or “View demo details” for Fleet.
+4. A normal project link labeled “View Plumbing Track”, “View Fleet Dispatch” or “View website project”.
 
 Keep the existing “BUSINESS SOFTWARE IN ACTION” frame heading. Label Fleet visibly “Development demo · Sample data”. An image preview is static; its internal buttons must not appear to operate the application. Do not add drag handles, pretend input fields or simulated success messages.
 
@@ -87,7 +87,7 @@ If the complete application screen becomes illegible, use an explicitly selected
 
 Keep slide dimensions stable when moving between projects. Reserve space for captions and links, and use the tallest required caption to establish a shared minimum height. A screenshot must not force the homepage out of its intended desktop composition. On short desktop windows, reduce decorative space and permit normal page scrolling before compressing the preview into an unusable thumbnail.
 
-Mobile: move previous/next controls below the image, beside the pagination. The existing 48px columns remove 96px from an already narrow window. Use the full available card width for the image, with roughly 12px internal padding. Preserve natural document scrolling.
+Mobile: move previous/next controls below the caption, beside the pagination. The existing 48px columns remove 96px from an already narrow window. Use the full available card width for the image, with roughly 12px internal padding. Preserve natural document scrolling.
 
 Use a genuine mobile Fleet screen as a portrait detail within a bounded media area. Do not shrink a very tall full-page screenshot to fit its entire height. Crop a meaningful viewport and provide the complete image on the Work page. Website mobile crops remain crops of a desktop capture until a genuine mobile capture exists; never label them as mobile UI.
 
