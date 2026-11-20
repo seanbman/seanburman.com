@@ -27,15 +27,31 @@ test('service cards use inline icon-title headings with no capability numbers',(
   const css=read('src/App.css');
   assert.doesNotMatch(s,/CAPABILITY\s*\/|services\.map\(\(item,i\)/);
   assert.match(s,/className="service-detail__heading"/);
-  assert.match(s,/<Icon name=\{item\.icon\}\/><\/span><h2>\{item\.title\}<\/h2>/);
+  assert.match(s,/<Icon name=\{item\.icon\}\s*\/><\/span><h2>\{item\.title\}<\/h2>/);
   assert.match(css,/\.service-detail__heading\{display:flex;align-items:center;/);
   assert.match(css,/@media\(max-width:650px\)[\s\S]*?\.service-detail__heading\{gap:14px\}/);
 });
 
 test('process display numbers have no leading zero',()=>{
   const process=read('src/pages/Process.tsx');
-  assert.match(process,/String\(i\+1\)/);
+  assert.match(process,/String\(index \+ 1\)/);
   assert.doesNotMatch(process,/padStart\(/);
+});
+test('Services includes the documented contracting topics',()=>{
+  const services=read('src/pages/Services.tsx');
+  for (const id of ['contracting','materials','purchases','hours','history','coordination','updates']) assert.match(services,new RegExp(`(?:id="|id: ')${id}`));
+  assert.match(services,/Keep the moving parts of a job together/);
+  assert.match(services,/See customer and job views in the Fleet demo/);
+  assert.match(services,/START A CONVERSATION/);
+  assert.match(services,/HOW I WORK/);
+});
+test('Process includes the documented delivery sections',()=>{
+  const process=read('src/pages/Process.tsx');
+  for (const id of ['start-with-the-work','first-version','working-software','check-the-work','prepare-for-use','real-feedback']) assert.match(process,new RegExp(`(?:id="|id: ')${id}`));
+  assert.match(process,/From an idea to something your team can use/);
+  assert.match(process,/See the Fleet dispatch demo/);
+  assert.match(process,/Have a task that could work better/);
+  assert.match(process,/START A CONVERSATION/);
 });
 test('Work index contains the three documented project entries',()=>{
   const work=read('src/pages/Work.tsx');
