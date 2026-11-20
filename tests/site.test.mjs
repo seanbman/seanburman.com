@@ -37,11 +37,29 @@ test('process display numbers have no leading zero',()=>{
   assert.match(process,/String\(i\+1\)/);
   assert.doesNotMatch(process,/padStart\(/);
 });
-test('Work page contains actual project case studies, not a placeholder',()=>{
+test('Work index contains the three documented project entries',()=>{
   const work=read('src/pages/Work.tsx');
-  assert.match(work,/OPERATIONS SOFTWARE/);
-  assert.match(work,/WEBSITE & CONTENT SYSTEMS/);
-  assert.match(work,/THE CHALLENGE/);
-  assert.match(work,/THE RESULT/);
+  const projects=read('src/pages/work/projects.ts');
+  assert.match(work,/Project index/);
+  assert.match(projects,/plumbing-track-console/);
+  assert.match(projects,/fleet-platform/);
+  assert.match(projects,/plumbing-track-website/);
+  assert.match(projects,/Development demo · Sample data/);
   assert.doesNotMatch(work,/walkthroughs will be added here/i);
+});
+
+test('project routes use shared evidence-bound project pages',()=>{
+  const app=read('src/App.tsx');
+  const page=read('src/pages/work/ProjectPage.tsx');
+  const projects=read('src/pages/work/projects.ts');
+  for (const slug of ['plumbing-track-console','fleet-platform','plumbing-track-website']) {
+    assert.match(projects,new RegExp(slug));
+  }
+  assert.match(app,/path="\/work\/:slug"/);
+  assert.match(page,/BACK TO WORK/);
+  assert.match(page,/WHAT WAS BUILT/);
+  assert.match(page,/START A CONVERSATION/);
+  assert.match(projects,/synthetic records/);
+  assert.match(projects,/does not establish billing/);
+  assert.match(projects,/https:\/\/www\.plumbingtrack\.com\//);
 });

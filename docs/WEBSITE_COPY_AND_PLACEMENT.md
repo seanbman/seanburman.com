@@ -1,7 +1,7 @@
 # Website copy and section placement
 
 Draft for seanburman.com. Reviewed November 20, 2026.
-This is a writing and placement plan. The website has not been changed by this document.
+This is a writing and placement plan. The Work index and project routes are implemented separately; homepage, Services, and Process copy remain planned work.
 
 [Previous: Documentation index](CONTENT_INDEX.md) | [Next: Screenshot and layout plan](SHOWCASE_AND_WORK_PLAN.md) | [Project evidence](WORK_CASE_STUDIES.md)
 
@@ -50,16 +50,16 @@ All text under “Draft copy” is intended for visitors. Placement, image and i
 | Home | Inside each showcase slide | One concrete example and a project link | src/components/Showcase.tsx |
 | Home | Existing About summary | Short introduction to Sean's approach | src/pages/Home.tsx |
 | Work | Intro and three cards | Console, Fleet demo and public website | src/pages/Work.tsx |
-| Fleet project | Opening, then five sections | Request, customer details, schedule, field updates and closure | Proposed src/pages/work/FleetDispatch.tsx |
-| Console project | Opening, then five sections | Work structure, scheduling, room details, progress and records | Proposed src/pages/work/PlumbingTrackConsole.tsx |
-| Website project | Opening, then four sections | Service explanation, method, previous work and assessment | Proposed src/pages/work/PlumbingTrackWebsite.tsx |
+| Fleet project | Opening, then evidence-bound sections | Request, customer details, field updates and closure | src/pages/work/ProjectPage.tsx + projects.ts |
+| Console project | Opening, then evidence-bound sections | Work structure, scheduling, room details, progress and records | src/pages/work/ProjectPage.tsx + projects.ts |
+| Website project | Opening, then evidence-bound sections | Service explanation, method, previous work and assessment | src/pages/work/ProjectPage.tsx + projects.ts |
 | Services | Existing three service cards | Custom systems, integrations and operations tools | src/pages/Services.tsx |
 | Services | After service cards, before contact prompt | General contracting introduction and six supporting sections | src/pages/Services.tsx |
 | Process | Existing introduction and four stages, then supporting sections | How the work moves from discussion to delivery | src/pages/Process.tsx |
 | About | Opening and approach text | One person following the work through | src/pages/About.tsx |
 | Contact | Beside the form | An approachable invitation and what to include | src/pages/Contact.tsx |
 
-Proposed project routes are /work/fleet-platform, /work/plumbing-track-console and /work/plumbing-track-website. These are implementation targets, not a statement that the routes already exist.
+Implemented project routes are /work/fleet-platform, /work/plumbing-track-console and /work/plumbing-track-website. Shared rendering and typed project data live in `src/pages/work/ProjectPage.tsx` and `src/pages/work/projects.ts`.
 
 ## Homepage
 

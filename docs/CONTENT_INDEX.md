@@ -1,6 +1,6 @@
 # Website documentation index
 
-These documents describe the proposed homepage showcase, Work pages and supporting website copy. Website implementation is separate.
+These documents describe the homepage showcase, Work pages and supporting website copy. The Work index and project routes are implemented; the homepage showcase and supporting page expansions remain planned.
 
 ## Sections
 

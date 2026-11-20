@@ -21,9 +21,9 @@ Use [the documentation index](docs/CONTENT_INDEX.md) for the agreed names, page 
 
 ## Current site and planned work
 
-On the reviewed feature branch, the homepage showcase has three empty slides with working navigation. Work contains two Plumbing Track case studies and two console screenshots. Fleet and public website captures are stored under public/work/.
+The homepage showcase still has three empty slides with working navigation. Work now has a three-card index and separate project pages for the Plumbing Track console, Fleet dispatch demo, and Plumbing Track website. Fleet is clearly identified as a development demo using sample data.
 
-The plan adds three screenshot previews, a Work index, separate project pages and supporting service and process copy. These changes are documented but have not been implemented. The preview carousel is manual, with no auto-advance. A screenshot is not an interactive application.
+The next planned slice adds three screenshot previews to the homepage and expands the supporting Services and Process copy. The preview carousel remains manual, with no auto-advance. A screenshot is not an interactive application.
 
 ## Design
 

@@ -6,6 +6,7 @@ import Work from './pages/Work'
 import Process from './pages/Process'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import ProjectPage from './pages/work/ProjectPage'
 import { ArrowIcon } from './components/Icons'
 import './App.css'
 
@@ -31,6 +32,7 @@ function Shell() {
         <Route path="/" element={<Home/>}/>
         <Route path="/services" element={<Services/>}/>
         <Route path="/work" element={<Work/>}/>
+        <Route path="/work/:slug" element={<ProjectPage/>}/>
         <Route path="/process" element={<Process/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>

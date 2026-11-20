@@ -45,12 +45,12 @@ Services, Process and project pages use normal scrolling. Keep a compact homepag
 | --- | --- | --- |
 | `src/components/Showcase.tsx` | Three deliberately empty slots: Dispatch, Employee hours, Revenue | Replace slot data with three evidenced project previews |
 | `src/pages/Home.tsx` | Showcase sits beside the opening statement | Keep its role and position; make each example understandable independently |
-| `src/pages/Work.tsx` on main | Placeholder | Build a compact index linking to project pages |
-| Work feature branch | Two Plumbing Track case studies; console images already embedded | Reuse verified copy, split into pages, add website imagery and a distinct Fleet entry |
-| `src/App.tsx` | Only a single `/work` route | Add explicit project routes and direct-link support |
+| `src/pages/Work.tsx` | Three-card index linking to project pages | Keep the index concise; add homepage previews separately |
+| Project pages | Console, Fleet demo and public website routes are implemented with evidence-bound sections | Refine copy and imagery only where review identifies a factual or visual issue |
+| `src/App.tsx` | `/work` plus `/work/:slug` project routing | Verify direct links and reload behavior on the hosting setup |
 | `src/App.css` | Arrow columns consume screenshot width; desktop pages have viewport-fitting rules | Give media sufficient space and allow Work detail pages to scroll naturally |
 
-The screenshot collections and existing case-study implementation are on `feat/work-case-studies-and-numbering`. This plan should be implemented there or carried forward with those changes. A recent repository push alone does not establish that these assets are merged into main.
+The screenshot collections and case-study implementation are carried in the current branch. The homepage showcase remains intentionally empty until its project previews are implemented and reviewed.
 
 ## 3. Homepage: three examples
 
