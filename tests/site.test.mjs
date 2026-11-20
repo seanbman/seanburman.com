@@ -92,3 +92,13 @@ test('pages do not use decorative pre-header labels',()=>{
   assert.match(markup,/className="page-contents"/);
   assert.match(markup,/className="project-page__kind"/);
 });
+
+test('GitHub Pages build prepares direct client-route entry points',()=>{
+  const pkg=read('package.json');
+  const script=read('scripts/prepare-pages.mjs');
+  assert.match(pkg,/node scripts\/prepare-pages\.mjs/);
+  for (const route of ['services','process','work','work\/fleet-platform','work\/plumbing-track-console','work\/plumbing-track-website','about','contact']) {
+    assert.match(script,new RegExp(`'${route}'`));
+  }
+  assert.match(script,/copyFileSync\(indexFile, join\(distDir, '404\.html'\)\)/);
+});

@@ -39,7 +39,7 @@ Run `npm ci`, then `npm run dev`. Run `npm test` and `npm run build` before publ
 
 ## Deployment
 
-The GitHub Pages workflow deploys commits from main. The custom domain is set in public/CNAME.
+The GitHub Pages workflow deploys commits from main. The build creates static entry points for the client routes so direct links and reloads work on GitHub Pages. The custom domain is set in public/CNAME.
 
 The contact form sends requests to the configured Google Mail relay URL. Set `GOOGLE_MAIL_API`, or the existing `VITE_GOOGLE_MAIL_API` / `VITE_GMAIL_API` variable, as a GitHub Actions variable or secret. It must be a public HTTPS endpoint accepting JSON `{ name, email, message, subject }`. Keep Gmail credentials in the relay.
 
