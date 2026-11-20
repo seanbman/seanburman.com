@@ -20,7 +20,10 @@ export type Project = {
   title: string
   summary: string
   cardDescription: string
+  homeHeading: string
+  homeCaption: string
   preview: ProjectImage
+  mobilePreview?: ProjectImage
   context: string
   result: string
   tags: string[]
@@ -54,6 +57,8 @@ export const projects: Project[] = [
     title: 'Built around the details of repipe work.',
     summary: 'A custom operations application for organizing occupied-building repipe projects, from building-level planning to individual suites and work stages.',
     cardDescription: 'A custom application for planning repipe work and keeping suite, room, and installation details together.',
+    homeHeading: 'Job details, down to the room.',
+    homeCaption: 'Room measurements, cut details and paint references kept with the work.',
     preview: plumbingConsoleWall,
     context: 'A multifamily repipe moves through overlapping trades, occupied suites, scheduled visits, and inspections. The system needs to keep that structure visible instead of reducing the work to a generic calendar.',
     result: 'A purpose-built workflow console connecting project schedules, suite information, and field documentation in one application.',
@@ -100,7 +105,10 @@ export const projects: Project[] = [
     title: 'From the first request to the finished visit.',
     summary: 'A working Rails development application exploring how requests, customer records, schedules, and technician updates can connect around a job.',
     cardDescription: 'A development project showing dispatch, job intake, customer records, and updates from the field using sample data.',
+    homeHeading: 'From the schedule to the job.',
+    homeCaption: 'A working demo showing dispatch, customer records and updates from the field.',
     preview: image('/work/fleet-platform/1600_dispatch.png', 'Fleet dispatch schedule showing visits arranged across the day.', 'Desktop dispatch and schedule view from the development demo.', 1600, 900),
+    mobilePreview: image('/work/fleet-platform/430_technician_work_order.png', 'Mobile Fleet technician work-order view showing job details.', 'A mobile work-order view from the development demo.', 430, 2501),
     context: 'The captures come from a running Rails development application with synthetic records. They illustrate an operational workflow, not a production deployment or a commissioned client system.',
     result: 'A working development demo that brings intake, dispatch, customer information, field updates, and work-order closure into one illustrated workflow.',
     tags: ['Rails', 'Ruby', 'SQLite', 'Server-rendered UI', 'Sample data'],
@@ -156,6 +164,8 @@ export const projects: Project[] = [
     title: 'Helping people understand a specialized service.',
     summary: 'A public-facing website for a multifamily repiping contractor, designed to explain a technical installation method and help property managers evaluate project work.',
     cardDescription: 'A website helping property managers understand the repiping method, review projects, and request an assessment.',
+    homeHeading: 'Explain the service. Show the work.',
+    homeCaption: 'Technical information, project references and building-assessment inquiries in one website.',
     preview: image('/work/plumbing-track-website/home.jpg', 'Plumbing Track website homepage introducing the repiping service.', 'The website homepage introduces the service and its audience.', 1348, 926),
     context: 'Visitors need to understand an unfamiliar repiping approach, compare installation methods, and find relevant project references before they are ready to make an inquiry.',
     result: 'A live website bringing technical explanations, completed-project references, and project inquiries together.',

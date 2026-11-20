@@ -21,9 +21,9 @@ Use [the documentation index](docs/CONTENT_INDEX.md) for the agreed names, page 
 
 ## Current site and planned work
 
-The homepage showcase still has three empty slides with working navigation. Work now has a three-card index and separate project pages for the Plumbing Track console, Fleet dispatch demo, and Plumbing Track website. Fleet is clearly identified as a development demo using sample data.
+The homepage showcase now presents three screenshot previews with working navigation. Work has a three-card index and separate project pages for the Plumbing Track console, Fleet dispatch demo, and Plumbing Track website. Fleet is clearly identified as a development demo using sample data.
 
-The next planned slice adds three screenshot previews to the homepage and expands the supporting Services and Process copy. The preview carousel remains manual, with no auto-advance. A screenshot is not an interactive application.
+The next planned slice expands the supporting Services and Process copy. The preview carousel remains manual, with no auto-advance. A screenshot is not an interactive application.
 
 ## Design
 

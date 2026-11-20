@@ -43,8 +43,8 @@ Services, Process and project pages use normal scrolling. Keep a compact homepag
 
 | Area | Current state | Planned change |
 | --- | --- | --- |
-| `src/components/Showcase.tsx` | Three deliberately empty slots: Dispatch, Employee hours, Revenue | Replace slot data with three evidenced project previews |
-| `src/pages/Home.tsx` | Showcase sits beside the opening statement | Keep its role and position; make each example understandable independently |
+| `src/components/Showcase.tsx` | Three evidenced project previews with project links and responsive sources | Refine crops or captions only when review identifies a factual or readability issue |
+| `src/pages/Home.tsx` | Showcase sits beside the opening statement | Keep its role and position; expand the opening copy in the next content slice |
 | `src/pages/Work.tsx` | Three-card index linking to project pages | Keep the index concise; add homepage previews separately |
 | Project pages | Console, Fleet demo and public website routes are implemented with evidence-bound sections | Refine copy and imagery only where review identifies a factual or visual issue |
 | `src/App.tsx` | `/work` plus `/work/:slug` project routing | Verify direct links and reload behavior on the hosting setup |

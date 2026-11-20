@@ -1,7 +1,7 @@
 # Website copy and section placement
 
 Draft for seanburman.com. Reviewed November 20, 2026.
-This is a writing and placement plan. The Work index and project routes are implemented separately; homepage, Services, and Process copy remain planned work.
+This is a writing and placement plan. The Work index, project routes, and homepage previews are implemented separately; Services and Process copy remain planned work.
 
 [Previous: Documentation index](CONTENT_INDEX.md) | [Next: Screenshot and layout plan](SHOWCASE_AND_WORK_PLAN.md) | [Project evidence](WORK_CASE_STUDIES.md)
 
@@ -626,8 +626,8 @@ Optional helper text: **A few sentences about the task or problem is enough to s
 
 ### Build order
 
-1. Add the Work routes and project pages, then use the project copy above.
-2. Fill the three homepage slides and link them to those pages.
+1. Add the Work routes and project pages, then use the project copy above. **Implemented.**
+2. Fill the three homepage slides and link them to those pages. **Implemented.**
 3. Update Services and add the general contracting sections.
 4. Expand Process beneath its existing stage cards.
 5. Update the short Home, About and Contact passages.
