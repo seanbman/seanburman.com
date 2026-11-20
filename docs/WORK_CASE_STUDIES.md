@@ -2,9 +2,18 @@
 
 This file records why each public-facing case study is included. The Work page describes work actually represented in project code or on public websites; it must not claim performance metrics or client outcomes without evidence.
 
+[Documentation index](CONTENT_INDEX.md) | [Detailed copy and placement](WEBSITE_COPY_AND_PLACEMENT.md)
+
+## Sections
+
+1. [Console evidence](#plumbing-track-operations-console)
+2. [Website evidence](#plumbing-track-public-website)
+3. [Publishing policy](#publishing-policy)
+4. [Future cases](#future-cases)
+
 ## Plumbing Track operations console
 
-**Implementation evidence:** `seanbman/bman-platform` — `README.md`, `internal/plumbingtrack/`, `internal/plumbingtrack/scheduling/`, `platform/`, and `public/js/workspace-calendar.js`.
+**Implementation evidence:** `seanbman/bman-platform` : `README.md`, `internal/plumbingtrack/`, `internal/plumbingtrack/scheduling/`, `platform/`, and `public/js/workspace-calendar.js`.
 
 Supported description:
 - Multi-stage occupied-building repipe scheduling for jobs, buildings, suites, and work blocks
@@ -40,7 +49,7 @@ Supported description:
 - Do not show authenticated screens without removing tenant, customer, scheduling, personnel, and other private information and obtaining permission.
 - Do not publish invented testimonials, precise business outcomes, or percentage improvements.
 - Keep the business-card positioning and existing brand system intact.
-- Never zero-pad a displayed sequence label: use 1, 2, 3, not 01, 02, 03. Historical filenames and version identifiers are not UI labels.
+- Never zero-pad a displayed sequence label: use 1, 2, 3 without leading zeros. Historical filenames and version identifiers are not UI labels.
 
 ## Future cases
 
