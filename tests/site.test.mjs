@@ -48,6 +48,7 @@ test('Services includes the documented contracting topics',()=>{
   assert.match(services,/START A CONVERSATION/);
   assert.match(services,/HOW I WORK/);
   assert.match(css,/\.content-section__example strong\{display:block;/);
+  assert.match(css,/\.content-section:nth-child\(3n\) \.content-section__number\{background:var\(--blue\)\}/);
 });
 test('Process includes the documented delivery sections',()=>{
   const process=read('src/pages/Process.tsx');
