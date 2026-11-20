@@ -14,7 +14,7 @@ export default function ProjectPage() {
     <Link className="project-page__back" to="/work"><ArrowIcon direction="left" /> BACK TO WORK</Link>
     <header className="project-hero">
       <div className="project-hero__copy">
-        <p className="eyebrow">{project.kind.toUpperCase()}</p>
+        <p className="project-page__kind">{project.kind}</p>
         <p className="work-study__client">{project.client}</p>
         {project.statusLabel && <p className="project-page__status">{project.statusLabel}</p>}
         <h1>{project.title}</h1>
@@ -49,7 +49,6 @@ export default function ProjectPage() {
     </div>
     <div className="project-page__footer">
       <div>
-        <p className="eyebrow">NEXT STEP</p>
         <h2>Have a similar problem to solve?</h2>
         <p>Start with the work that needs to become clearer, faster, or easier to manage.</p>
       </div>

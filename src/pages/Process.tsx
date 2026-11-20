@@ -67,7 +67,6 @@ const processSections = [
 export default function Process() {
   return <div className="container subpage process-page">
     <div className="page-intro">
-      <p className="eyebrow">WORKING TOGETHER</p>
       <h1>THE PROCESS.</h1>
       <p>From an idea to something your team can use. You can start with a problem, a rough idea, or a task that keeps taking longer than it should.</p>
     </div>

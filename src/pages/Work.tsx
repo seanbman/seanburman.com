@@ -5,7 +5,6 @@ import { projects } from './work/projects'
 export default function Work() {
   return <div className="container subpage work-page">
     <header className="page-intro">
-      <p className="eyebrow">SELECTED WORK</p>
       <h1>WORK.</h1>
       <p>A closer look at the software and websites I build, the work they support, and the choices behind them.</p>
     </header>

@@ -74,7 +74,6 @@ export default function Contact() {
   return (
     <div className="container subpage">
       <div className="page-intro">
-        <p className="eyebrow">GET IN TOUCH</p>
         <h1>CONTACT.</h1>
         <p>Have a project, an idea, or a problem worth solving? Let&apos;s talk.</p>
       </div>

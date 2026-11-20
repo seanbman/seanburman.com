@@ -74,7 +74,6 @@ const contractingSections = [
 export default function Services() {
   return <div className="container subpage services-page">
     <div className="page-intro">
-      <p className="eyebrow">WHAT I BUILD</p>
       <h1>SERVICES.</h1>
       <p>Practical software for the work you do. I build tools for the parts of your business that need a better way to work.</p>
     </div>
@@ -85,7 +84,6 @@ export default function Services() {
     </article>)}</div>
     <section className="contracting-section" id="contracting" aria-labelledby="contracting-heading">
       <header className="content-section__intro">
-        <p className="eyebrow">FOR THE WORK THAT MOVES THROUGH A DAY</p>
         <h2 id="contracting-heading">Keep the moving parts of a job together.</h2>
         <p>Contracting work involves crews, customers, materials, deliveries, and other trades. A change in one place can affect the rest of the day.</p>
         <p>I can build tools that give those details a shared place. We start with how your team already works and choose the parts where a practical change would help.</p>
@@ -100,7 +98,6 @@ export default function Services() {
       </article>)}</div>
     </section>
     <section className="service-next" aria-labelledby="service-next-heading">
-      <p className="eyebrow">START WITH ONE USEFUL CHANGE</p>
       <h2 id="service-next-heading">Find the next useful improvement.</h2>
       <p>You do not need a complete software plan to begin. We can start with something that takes too much time, gets entered twice, or regularly needs a follow-up call.</p>
       <p>Once that part works better, we can look at what else becomes possible. This is how the software can grow with the business: add something useful, try it with the team, and decide what is worth doing next.</p>

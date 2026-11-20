@@ -79,3 +79,12 @@ test('project routes use shared evidence-bound project pages',()=>{
   assert.match(projects,/does not establish billing/);
   assert.match(projects,/https:\/\/www\.plumbingtrack\.com\//);
 });
+
+test('pages do not use decorative pre-header labels',()=>{
+  const paths=['src/pages/About.tsx','src/pages/Contact.tsx','src/pages/Process.tsx','src/pages/Services.tsx','src/pages/Work.tsx','src/pages/work/ProjectPage.tsx'];
+  const markup=paths.map(read).join('\n');
+  assert.doesNotMatch(markup,/className="eyebrow"/);
+  assert.doesNotMatch(markup,/FOR THE WORK THAT MOVES THROUGH A DAY|START WITH ONE USEFUL CHANGE|NEXT STEP|GET IN TOUCH|SELECTED WORK|WORKING TOGETHER|SOFTWARE ENGINEER/);
+  assert.match(markup,/className="page-contents"/);
+  assert.match(markup,/className="project-page__kind"/);
+});
