@@ -1,7 +1,9 @@
 # Graph Report - docs/graph  (2026-07-30)
 
+Historical generated report from July 2026. Its contents describe an earlier version of the site. Use the [current documentation index](../../CONTENT_INDEX.md) for portfolio work. The analysis below is retained as background and has not been regenerated.
+
 ## Corpus Check
-- cluster-only mode — file stats not available
+- cluster-only mode ; file stats not available
 
 ## Summary
 - 49 nodes · 63 edges · 9 communities (5 shown, 4 thin omitted)
@@ -73,7 +75,7 @@ Nodes (5): Contact page (digital calling card), info@seanburman.com, +1 368 997 
 ## Knowledge Gaps
 - **20 isolated node(s):** `seanbman/seanburman.com`, `Credible consulting presence without marketing clutter`, `Custom software, engineered for the realities of your business.`, `React`, `Vite` (+15 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** ; run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_

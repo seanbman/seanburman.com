@@ -7,3 +7,41 @@ test('showcase has blank contents, arrows and three selectable slides',()=>{cons
 test('hard black shadows and square cards/buttons',()=>{const c=read('src/App.css')+read('src/index.css');assert.match(c,/--shadow:4px 4px 0 var\(--black\)/);assert.match(c,/\.neo-card\{[^}]*border-radius:0/);assert.match(c,/\.button\{[^}]*border-radius:0/)})
 test('homepage contains hero, carousel, relevant CTA',()=>{const h=read('src/pages/Home.tsx');assert.match(h,/<Showcase\/>/);assert.match(h,/START A PROJECT/);assert.match(h,/SYSTEMS BUILT/)})
 test('contact form posts inquiries through the configured Google Mail relay',()=>{const c=read('src/pages/Contact.tsx');assert.match(c,/VITE_GOOGLE_MAIL_API/);assert.match(c,/method: 'POST'/);assert.match(c,/subject: `Project inquiry/);assert.doesNotMatch(c,/window\.location\.href='mailto:/)})
+
+test('navigation and CTAs use SVG arrows rather than platform-rendered glyphs',()=>{
+  const paths=['src/App.tsx','src/components/Showcase.tsx','src/pages/Home.tsx','src/pages/Services.tsx','src/pages/About.tsx','src/pages/Process.tsx','src/pages/Work.tsx','src/pages/Contact.tsx'];
+  const markup=paths.map(read).join('\n');
+  assert.doesNotMatch(markup,/[↗→‹›]|[\u{1F300}-\u{1FAFF}]/u);
+  assert.match(markup,/<ArrowIcon direction=/);
+  const icons=read('src/components/Icons.tsx');
+  assert.match(icons,/export function ArrowIcon/);
+  assert.match(icons,/className="arrow-icon"/);
+  assert.match(icons,/<svg/);
+});
+test('mobile navigation has tighter 12px outer margins',()=>{
+  assert.match(read('src/App.css'),/\.site-nav\{display:none;position:absolute;z-index:20;left:12px;right:12px;/);
+});
+
+test('service cards use inline icon-title headings with no capability numbers',()=>{
+  const s=read('src/pages/Services.tsx');
+  const css=read('src/App.css');
+  assert.doesNotMatch(s,/CAPABILITY\s*\/|services\.map\(\(item,i\)/);
+  assert.match(s,/className="service-detail__heading"/);
+  assert.match(s,/<Icon name=\{item\.icon\}\/><\/span><h2>\{item\.title\}<\/h2>/);
+  assert.match(css,/\.service-detail__heading\{display:flex;align-items:center;/);
+  assert.match(css,/@media\(max-width:650px\)[\s\S]*?\.service-detail__heading\{gap:14px\}/);
+});
+
+test('process display numbers have no leading zero',()=>{
+  const process=read('src/pages/Process.tsx');
+  assert.match(process,/String\(i\+1\)/);
+  assert.doesNotMatch(process,/padStart\(/);
+});
+test('Work page contains actual project case studies, not a placeholder',()=>{
+  const work=read('src/pages/Work.tsx');
+  assert.match(work,/OPERATIONS SOFTWARE/);
+  assert.match(work,/WEBSITE & CONTENT SYSTEMS/);
+  assert.match(work,/THE CHALLENGE/);
+  assert.match(work,/THE RESULT/);
+  assert.doesNotMatch(work,/walkthroughs will be added here/i);
+});

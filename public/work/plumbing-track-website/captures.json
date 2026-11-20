@@ -1,0 +1,52 @@
+[
+  {
+    "file": "home.jpg",
+    "url": "https://www.plumbingtrack.com/",
+    "kind": "viewport"
+  },
+  {
+    "file": "home-full.jpg",
+    "url": "https://www.plumbingtrack.com/",
+    "kind": "full page"
+  },
+  {
+    "file": "how-it-works.jpg",
+    "url": "https://www.plumbingtrack.com/how-it-works/",
+    "kind": "viewport"
+  },
+  {
+    "file": "technology.jpg",
+    "url": "https://www.plumbingtrack.com/technology/",
+    "kind": "viewport"
+  },
+  {
+    "file": "solutions.jpg",
+    "url": "https://www.plumbingtrack.com/solutions/",
+    "kind": "viewport"
+  },
+  {
+    "file": "about.jpg",
+    "url": "https://www.plumbingtrack.com/about/",
+    "kind": "viewport"
+  },
+  {
+    "file": "assessment.jpg",
+    "url": "https://www.plumbingtrack.com/assessment/?source_page=%2F&source_cta=header",
+    "kind": "viewport"
+  },
+  {
+    "file": "our-work.jpg",
+    "url": "https://www.plumbingtrack.com/our-work/",
+    "kind": "viewport"
+  },
+  {
+    "file": "project-portfolio.jpg",
+    "url": "https://www.plumbingtrack.com/our-work/",
+    "kind": "section viewport"
+  },
+  {
+    "file": "assessment-form.jpg",
+    "url": "https://www.plumbingtrack.com/assessment/?source_page=%2F&source_cta=header",
+    "kind": "section viewport"
+  }
+]

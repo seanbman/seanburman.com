@@ -4,3 +4,10 @@ export default function Icon({name}:{name:'systems'|'integrations'|'operations'}
   if(name==='integrations')return <svg {...common}><path d="M32 4 59 18 32 32 5 18 32 4ZM5 30l27 14 27-14M5 43l27 14 27-14"/></svg>
   return <svg {...common}><path d="M7 35h12v22H7zM26 23h12v34H26zM45 7h12v50H45z"/></svg>
 }
+
+/** Consistent, font-independent arrows for navigation and calls to action. */
+export function ArrowIcon({direction='up-right'}:{direction?:'up-right'|'right'|'left'}){
+  return <svg className="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="square" strokeLinejoin="miter" aria-hidden="true" focusable="false">
+    {direction==='up-right' ? <path d="M5 19 19 5M8 5h11v11"/> : direction==='right' ? <path d="M4 12h16m-7-7 7 7-7 7"/> : <path d="M20 12H4m7-7-7 7 7 7"/>}
+  </svg>
+}

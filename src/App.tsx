@@ -6,6 +6,7 @@ import Work from './pages/Work'
 import Process from './pages/Process'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import { ArrowIcon } from './components/Icons'
 import './App.css'
 
 const nav = [{path:'/services',name:'Services'},{path:'/work',name:'Work'},{path:'/process',name:'Process'},{path:'/about',name:'About'},{path:'/contact',name:'Contact'}]
@@ -21,7 +22,7 @@ function Shell() {
         <button className="menu-toggle" type="button" aria-controls="site-nav" aria-expanded={open} aria-label={open?'Close navigation':'Open navigation'} onClick={()=>setOpen(!open)}><span/><span/><span/></button>
         <nav id="site-nav" aria-label="Main navigation" className={'site-nav'+(open?' site-nav--open':'')}>
           {nav.map(x=><NavLink key={x.path} className={({isActive})=>'site-nav__link'+(isActive?' site-nav__link--active':'')} to={x.path}>{x.name}</NavLink>)}
-          <Link className="button button--orange site-nav__cta" to="/contact">START A PROJECT <span aria-hidden="true">↗</span></Link>
+          <Link className="button button--orange site-nav__cta" to="/contact">START A PROJECT <ArrowIcon direction="up-right" /></Link>
         </nav>
       </div>
     </header>
