@@ -25,18 +25,22 @@ export default function Showcase() {
               <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} />
             </picture>
           </Link>
-          <div className={'showcase__copy showcase__copy--' + project.showcase.captionPlacement}>
-            <p className="showcase__project-type">{project.statusLabel || project.kind}</p>
-            <h3>{project.homeHeading}</h3>
-            <p>{project.homeCaption}</p>
-            <Link className="showcase__link" to={`/work/${project.slug}`}>{project.homeLinkLabel} <ArrowIcon direction="right" /></Link>
+          <div className={'showcase__footer showcase__footer--' + project.showcase.captionPlacement}>
+            <div className={'showcase__copy showcase__copy--' + project.showcase.captionPlacement}>
+              <p className="showcase__project-type">{project.statusLabel || project.kind}</p>
+              <h3>{project.homeHeading}</h3>
+              <p>{project.homeCaption}</p>
+            </div>
+            <div className="showcase__footer-row">
+              <Link className="showcase__link" to={`/work/${project.slug}`}>{project.homeLinkLabel} <ArrowIcon direction="right" /></Link>
+              <div className="showcase__controls">
+                <button type="button" className="showcase__arrow showcase__arrow--previous" aria-label="Previous showcase slide" onClick={() => show(active - 1)}><ArrowIcon direction="left" /></button>
+                <div className="showcase__pagination" aria-label="Choose showcase slide">{projects.map((item, index) => <button type="button" key={item.slug} aria-label={'Show ' + item.client + ' project'} aria-current={active === index ? 'true' : undefined} className={'showcase__dot' + (index === active ? ' showcase__dot--active' : '')} onClick={() => show(index)} />)}</div>
+                <button type="button" className="showcase__arrow showcase__arrow--next" aria-label="Next showcase slide" onClick={() => show(active + 1)}><ArrowIcon direction="right" /></button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="showcase__controls">
-        <button type="button" className="showcase__arrow showcase__arrow--previous" aria-label="Previous showcase slide" onClick={() => show(active - 1)}><ArrowIcon direction="left" /></button>
-        <div className="showcase__pagination" aria-label="Choose showcase slide">{projects.map((item, index) => <button type="button" key={item.slug} aria-label={'Show ' + item.client + ' project'} aria-current={active === index ? 'true' : undefined} className={'showcase__dot' + (index === active ? ' showcase__dot--active' : '')} onClick={() => show(index)} />)}</div>
-        <button type="button" className="showcase__arrow showcase__arrow--next" aria-label="Next showcase slide" onClick={() => show(active + 1)}><ArrowIcon direction="right" /></button>
       </div>
     </div>
     <span className="sr-only" role="status">Slide {active + 1} of {projects.length}</span>

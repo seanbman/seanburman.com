@@ -43,12 +43,12 @@ Services, Process and project pages use normal scrolling. Keep a compact homepag
 
 | Area | Current state | Planned change |
 | --- | --- | --- |
-| `src/components/Showcase.tsx` | Three evidenced project previews with project links and responsive sources | Refine crops or captions only when review identifies a factual or readability issue |
+| `src/components/Showcase.tsx` | Three evidenced project previews with project links, responsive sources and stable carousel controls | Keep one compact carousel with a bounded image stage and a shared caption/control footer |
 | `src/pages/Home.tsx` | Showcase sits beside the opening statement | Keep its role and position; expand the opening copy in the next content slice |
 | `src/pages/Work.tsx` | Three-card index linking to project pages | Keep the index concise; add homepage previews separately |
 | Project pages | Console, Fleet demo and public website routes are implemented with evidence-bound sections | Refine copy and imagery only where review identifies a factual or visual issue |
 | `src/App.tsx` | `/work` plus `/work/:slug` project routing | Verify direct links and reload behavior on the hosting setup |
-| `src/App.css` | Homepage showcase uses full-width media stages, responsive crops and captions | Keep captures legible and stack captions when an overlay would cover important UI |
+| `src/App.css` | Homepage showcase uses a bounded desktop stage, responsive crops and a compact footer | Keep the opening hero within the short desktop viewport and stack the hero columns at tablet widths |
 
 The screenshot collections and case-study implementation are carried in the current branch. The homepage showcase uses the original captures with per-project crop, caption and mobile-source settings.
 
@@ -73,7 +73,7 @@ Each slide contains, in reading order:
 1. Project name and a short type label.
 2. One image as the dominant element.
 3. A short heading and one sentence explaining the work.
-4. A normal project link labeled “View Plumbing Track”, “View Fleet Dispatch” or “View website project”.
+4. A compact footer with the project link on the left and arrows plus slide indicators on the right.
 
 Keep the existing “BUSINESS SOFTWARE IN ACTION” frame heading. Label Fleet visibly “Development demo · Sample data”. An image preview is static; its internal buttons must not appear to operate the application. Do not add drag handles, pretend input fields or simulated success messages.
 
@@ -81,11 +81,11 @@ Use the image and project link as separate elements. Add “Enlarge screenshot�
 
 ### Image fitting
 
-Desktop: use a media region with a preferred 3:2 aspect ratio, neutral background and modest padding. Fit the original image with `object-fit: contain`; never stretch it. The console images are approximately 1.46:1, and website viewport images are approximately 1.46:1, so 3:2 leaves little unused space. Fleet dimensions must be read from the files before setting intrinsic sizes.
+Desktop: use a bounded landscape media region with a neutral background and a stable height across slides. Crop the original image with `object-fit: cover`; never stretch it. The crop settings keep the Room Editor's first wall, Fleet's schedule and job blocks, and the website service headline plus the beginning of its references visible.
 
 If the complete application screen becomes illegible, use an explicitly selected detail crop. Preserve enough surrounding labels to explain the feature. Keep the original available on the project page.
 
-Keep slide dimensions stable when moving between projects. Reserve space for captions and links, and use the tallest required caption to establish a shared minimum height. A screenshot must not force the homepage out of its intended desktop composition. On short desktop windows, reduce decorative space and permit normal page scrolling before compressing the preview into an unusable thumbnail.
+Keep slide dimensions stable when moving between projects. Reserve one shallow caption/footer height for the longest caption, keep the project link and controls in the same row, and keep the total showcase around 460–540px at 1366 × 768. A screenshot must not force the homepage out of its intended desktop composition.
 
 Mobile: move previous/next controls below the caption, beside the pagination. The existing 48px columns remove 96px from an already narrow window. Use the full available card width for the image, with roughly 12px internal padding. Preserve natural document scrolling.
 
