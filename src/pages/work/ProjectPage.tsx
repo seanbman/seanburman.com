@@ -9,6 +9,7 @@ export default function ProjectPage() {
   if (!project) return <Navigate to="/work" replace />
 
   const relatedProject = project.relatedSlug ? findProject(project.relatedSlug) : undefined
+  const showRelatedProject = relatedProject && !project.homeLinkHref
 
   return <div className="container subpage project-page">
     <Link className="project-page__back" to="/work"><ArrowIcon direction="left" /> BACK TO WORK</Link>
@@ -36,7 +37,7 @@ export default function ProjectPage() {
       <div className="project-page__quick-link-list">
         {project.homeLinkHref && <a className="project-page__quick-link" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="up-right" /></a>}
         {project.website && <a className="project-page__quick-link" href={project.website} target="_blank" rel="noopener noreferrer">Visit live website <ArrowIcon direction="up-right" /></a>}
-        {relatedProject && <Link className="project-page__quick-link" to={`/work/${relatedProject.slug}`}>See related work <ArrowIcon direction="right" /></Link>}
+        {showRelatedProject && <Link className="project-page__quick-link" to={`/work/${relatedProject.slug}`}>See related work <ArrowIcon direction="right" /></Link>}
       </div>
     </nav>
     <div className="project-sections">
@@ -64,7 +65,8 @@ export default function ProjectPage() {
         <p>Start with the work that needs to become clearer, faster, or easier to manage.</p>
       </div>
       <div className="project-page__links">
-        {relatedProject && <Link className="project-page__related" to={`/work/${relatedProject.slug}`}>SEE {relatedProject.client} <ArrowIcon direction="right" /></Link>}
+        {project.homeLinkHref && <a className="project-page__related" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="up-right" /></a>}
+        {showRelatedProject && <Link className="project-page__related" to={`/work/${relatedProject.slug}`}>SEE {relatedProject.client} <ArrowIcon direction="right" /></Link>}
         {project.website && <a className="project-page__related" href={project.website} target="_blank" rel="noopener noreferrer">VISIT WEBSITE <ArrowIcon direction="up-right" /></a>}
         <Link className="button button--orange" to="/contact">START A CONVERSATION <ArrowIcon direction="up-right" /></Link>
       </div>
