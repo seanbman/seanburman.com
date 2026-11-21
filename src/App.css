@@ -314,6 +314,8 @@
 .project-section__copy p{max-width:520px}
 .project-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;min-width:0}
 .project-gallery figure{margin:0;min-width:0}
+.project-gallery__frame--tall{aspect-ratio:4/3;overflow:hidden}
+.project-gallery__frame--tall img{height:100%;object-fit:cover;object-position:top center}
 .project-gallery figcaption{font-size:13px}
 .project-page__footer{display:flex;align-items:center;justify-content:space-between;gap:28px;margin-top:42px;padding:28px 32px;border:var(--line);box-shadow:var(--shadow);background:var(--blue);color:white}
 .project-page__footer h2{font-size:clamp(31px,3vw,48px);line-height:.98;margin:0 0 10px}

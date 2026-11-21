@@ -31,6 +31,7 @@ export type Project = {
   homeHeading: string
   homeCaption: string
   homeLinkLabel: string
+  homeLinkHref?: string
   preview: ProjectImage
   mobilePreview?: ProjectImage
   showcase: ShowcaseSettings
@@ -125,7 +126,8 @@ export const projects: Project[] = [
     cardDescription: 'A development project showing dispatch, job intake, customer records, and updates from the field using sample data.',
     homeHeading: 'From the schedule to the job.',
     homeCaption: 'See how dispatch, customer records, and updates from the field fit together.',
-    homeLinkLabel: 'View Fleet Dispatch',
+    homeLinkLabel: 'Try Fleet Dispatch',
+    homeLinkHref: 'https://apps.seanburman.com/fleet',
     preview: image('/work/fleet-platform/1600_dispatch.png', 'Fleet dispatch schedule showing visits arranged across the day.', 'Desktop dispatch and schedule view from the development demo.', 1600, 900),
     mobilePreview: image('/work/fleet-platform/430_dispatch.png', 'Mobile Fleet dispatch view showing day headers and assigned jobs.', 'A mobile dispatch view from the development demo.', 430, 3264),
     showcase: {

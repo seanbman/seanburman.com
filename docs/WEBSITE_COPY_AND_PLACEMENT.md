@@ -86,10 +86,12 @@ Placement: within the three slides specified in SHOWCASE_AND_WORK_PLAN.md. Keep 
 | Project label | Heading | Caption | Link |
 | --- | --- | --- | --- |
 | Plumbing Track console | Job details, down to the room. | Save wall measurements, cut details, and paint colours for each room. | View Plumbing Track |
-| Fleet dispatch demo | From the schedule to the job. | See how dispatch, customer records, and updates from the field fit together. | View Fleet Dispatch |
+| Fleet dispatch demo | From the schedule to the job. | See how dispatch, customer records, and updates from the field fit together. | Try Fleet Dispatch |
 | Plumbing Track website | Explain the service. Show the work. | Building owners can learn how repiping works, see past projects, and request a building assessment. | View website project |
 
 Keep “Development demo · Sample data” visible on the Fleet slide. Use the established image choices and mobile rules from the screenshot plan.
+
+The homepage Fleet CTA opens the working demo at `https://apps.seanburman.com/fleet`; the portfolio case study remains available at `/work/fleet-platform`.
 
 ### Existing About summary
 

@@ -38,12 +38,15 @@ export default function ProjectPage() {
           {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
         </div>
         {section.images && <div className="project-gallery">
-          {section.images.map(screenshot => <figure key={screenshot.src}>
-            <a href={screenshot.src} target="_blank" rel="noopener noreferrer" aria-label={`View full screenshot: ${screenshot.alt}`}>
-              <img src={screenshot.src} alt={screenshot.alt} width={screenshot.width} height={screenshot.height} loading="lazy" />
-            </a>
-            <figcaption>{screenshot.caption}</figcaption>
-          </figure>)}
+          {section.images.map(screenshot => {
+            const tallPreview = screenshot.height / screenshot.width > 2
+            return <figure className={tallPreview ? 'project-gallery__figure--tall' : undefined} key={screenshot.src}>
+              <a className={tallPreview ? 'project-gallery__frame--tall' : undefined} href={screenshot.src} target="_blank" rel="noopener noreferrer" aria-label={`View full screenshot: ${screenshot.alt}`}>
+                <img src={screenshot.src} alt={screenshot.alt} width={screenshot.width} height={screenshot.height} loading="lazy" />
+              </a>
+              <figcaption>{screenshot.caption}</figcaption>
+            </figure>
+          })}
         </div>}
       </section>)}
     </div>

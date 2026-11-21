@@ -59,7 +59,7 @@ Use one slide per project. Replace the placeholder Employee hours and Revenue la
 | Order | Project and headline | Primary source | Mobile source or treatment | Destination |
 | --- | --- | --- | --- | --- |
 | 1 | Plumbing Track console: “Job details, down to the room.” | `/work/plumbing-track/wall-measurements.jpg` | A separately prepared detail crop from the same approved image; preserve the cut diagram and relevant measurement inputs | `/work/plumbing-track-console` |
-| 2 | Fleet dispatch demo: “From the schedule to the job.” | `/work/fleet-platform/1600_dispatch.png` | `/work/fleet-platform/430_dispatch.png`, using an intentional viewport crop focused on day headers and assigned jobs | `/work/fleet-platform` |
+| 2 | Fleet dispatch demo: “From the schedule to the job.” | `/work/fleet-platform/1600_dispatch.png` | `/work/fleet-platform/430_dispatch.png`, using an intentional viewport crop focused on day headers and assigned jobs | `https://apps.seanburman.com/fleet` from the homepage; `/work/fleet-platform` for the case study |
 | 3 | Plumbing Track website: “Explain the service. Show the work.” | `/work/plumbing-track-website/home.jpg` | An intentional detail crop with a useful visible heading; use a genuine mobile capture when available | `/work/plumbing-track-website` |
 
 Use the exact slide captions in [the copy plan](WEBSITE_COPY_AND_PLACEMENT.md#demo-window). Keep wording in that document rather than maintaining competing drafts here.
@@ -90,6 +90,8 @@ Keep slide dimensions stable when moving between projects. Reserve one shallow c
 Mobile: move previous/next controls below the caption, beside the pagination. The existing 48px columns remove 96px from an already narrow window. Use the full available card width for the image, with roughly 12px internal padding. Preserve natural document scrolling.
 
 Use a genuine mobile Fleet screen as a portrait detail within a bounded media area. Do not shrink a very tall full-page screenshot to fit its entire height. Crop a meaningful viewport and provide the complete image on the Work page. Website mobile crops remain crops of a desktop capture until a genuine mobile capture exists; never label them as mobile UI.
+
+Project-page galleries use bounded previews for unusually tall captures while retaining the original image as the linked full-resolution view.
 
 ### Interaction and accessibility
 
