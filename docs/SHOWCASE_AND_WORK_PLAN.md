@@ -127,10 +127,11 @@ Each page should include:
 1. “Back to Work”, project name, type/status and a short account of what was built.
 2. A strong opening screenshot with a factual caption.
 3. The working context: who uses the system and what they need to accomplish.
-4. The supporting sections in the copy plan, with relevant screenshots grouped beside the work they explain.
-5. Scope and decisions: what Sean built and why the workflow required those choices.
-6. Current state and supported results. Describe what was built; use measured outcomes only when evidence exists.
-7. A compact technical note, related project where useful, and a contact link.
+4. A visible link row after the opening overview for the working demo or live site, plus related project routes where useful.
+5. The supporting sections in the copy plan, with relevant screenshots grouped beside the work they explain.
+6. Scope and decisions: what Sean built and why the workflow required those choices.
+7. Current state and supported results. Describe what was built; use measured outcomes only when evidence exists.
+8. A compact technical note, related project where useful, and a contact link.
 
 Allow long project pages to scroll. Scope the current desktop viewport-fitting styles so they cannot clip galleries or force compressed text. Use prose beside or above images, with a comfortable reading width around 60–70 characters. Alternate layouts only when they improve comprehension.
 

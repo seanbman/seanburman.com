@@ -31,6 +31,14 @@ export default function ProjectPage() {
       <div><h2>THE WORKING CONTEXT</h2><p>{project.context}</p></div>
       <div><h2>WHAT WAS BUILT</h2><p>{project.result}</p><div className="project-tags">{project.tags.map(tag => <span key={tag}>{tag}</span>)}</div></div>
     </section>
+    <nav className="project-page__quick-links" aria-label="Explore this work">
+      <h2>Explore this work</h2>
+      <div className="project-page__quick-link-list">
+        {project.homeLinkHref && <a className="project-page__quick-link" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="up-right" /></a>}
+        {project.website && <a className="project-page__quick-link" href={project.website} target="_blank" rel="noopener noreferrer">Visit live website <ArrowIcon direction="up-right" /></a>}
+        {relatedProject && <Link className="project-page__quick-link" to={`/work/${relatedProject.slug}`}>See related work <ArrowIcon direction="right" /></Link>}
+      </div>
+    </nav>
     <div className="project-sections">
       {project.sections.map(section => <section className="project-section" key={section.heading}>
         <div className="project-section__copy">
