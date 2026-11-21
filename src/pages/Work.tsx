@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowIcon } from '../components/Icons'
+import CroppedImage from '../components/CroppedImage'
 import { projects } from './work/projects'
 
 export default function Work() {
@@ -11,7 +12,7 @@ export default function Work() {
     <section className="work-index" aria-label="Project index">
       {projects.map(project => <article className="neo-card work-card" key={project.slug}>
         <Link className="work-card__image" to={`/work/${project.slug}`}>
-          <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} />
+          <CroppedImage image={project.preview} crop={project.showcase.cardCrop} />
         </Link>
         <div className="work-card__body">
           <p className="work-study__category">{project.kind.toUpperCase()}</p>

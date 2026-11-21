@@ -12,11 +12,17 @@ export type ProjectSection = {
   images?: ProjectImage[]
 }
 
+export type ScreenshotCrop = {
+  x: number
+  y: number
+  width: number
+  height: number
+}
+
 export type ShowcaseSettings = {
-  desktopAspectRatio: string
-  mobileAspectRatio: string
-  desktopObjectPosition: string
-  mobileObjectPosition: string
+  cardCrop: ScreenshotCrop
+  desktopCrop: ScreenshotCrop
+  mobileCrop: ScreenshotCrop
   captionPlacement: 'left' | 'right' | 'below'
 }
 
@@ -73,10 +79,9 @@ export const projects: Project[] = [
     homeLinkLabel: 'View Plumbing Track',
     preview: plumbingConsoleWall,
     showcase: {
-      desktopAspectRatio: '2.2',
-      mobileAspectRatio: '2',
-      desktopObjectPosition: 'center top',
-      mobileObjectPosition: 'left top',
+      cardCrop: {x: 0, y: 0, width: 1083, height: 747},
+      desktopCrop: {x: 0, y: 0, width: 1094, height: 497},
+      mobileCrop: {x: 0, y: 0, width: 1094, height: 547},
       captionPlacement: 'below',
     },
     context: 'A multifamily repipe moves through overlapping trades, occupied suites, scheduled visits, and inspections. The system needs to keep that structure visible instead of reducing the work to a generic calendar.',
@@ -131,10 +136,9 @@ export const projects: Project[] = [
     preview: image('/work/fleet-platform/1600_dispatch.png', 'Fleet dispatch schedule showing visits arranged across the day.', 'Desktop dispatch and schedule view from the development demo.', 1600, 900),
     mobilePreview: image('/work/fleet-platform/430_dispatch.png', 'Mobile Fleet dispatch view showing day headers and assigned jobs.', 'A mobile dispatch view from the development demo.', 430, 3264),
     showcase: {
-      desktopAspectRatio: '2.15',
-      mobileAspectRatio: '1.35',
-      desktopObjectPosition: 'center 48%',
-      mobileObjectPosition: 'center 34%',
+      cardCrop: {x: 0, y: 0, width: 1305, height: 900},
+      desktopCrop: {x: 0, y: 0, width: 1600, height: 744},
+      mobileCrop: {x: 0, y: 0, width: 430, height: 319},
       captionPlacement: 'below',
     },
     context: 'The captures come from a running Rails development application with synthetic records. They illustrate an operational workflow, not a production deployment or a commissioned client system.',
@@ -197,10 +201,9 @@ export const projects: Project[] = [
     homeLinkLabel: 'View website project',
     preview: image('/work/plumbing-track-website/home.jpg', 'Plumbing Track website homepage introducing the repiping service.', 'The website homepage introduces the service and its audience.', 1348, 926),
     showcase: {
-      desktopAspectRatio: '2',
-      mobileAspectRatio: '1.2',
-      desktopObjectPosition: 'center 55%',
-      mobileObjectPosition: 'center top',
+      cardCrop: {x: 0, y: 0, width: 1343, height: 926},
+      desktopCrop: {x: 0, y: 0, width: 1348, height: 674},
+      mobileCrop: {x: 0, y: 0, width: 1111, height: 926},
       captionPlacement: 'below',
     },
     context: 'Visitors need to understand an unfamiliar repiping approach, compare installation methods, and find relevant project references before they are ready to make an inquiry.',

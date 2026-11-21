@@ -81,7 +81,7 @@ Use the image and project link as separate elements. Add â€œEnlarge screenshotâ€
 
 ### Image fitting
 
-Desktop: use a bounded landscape media region with a neutral background and a stable height across slides. Crop the original image with `object-fit: cover`; never stretch it. The crop settings keep the Room Editor's first wall, Fleet's schedule and job blocks, and the website service headline plus the beginning of its references visible.
+Desktop: use a bounded landscape media region with a neutral background and a stable height across slides. Clip each original image to a documented source-coordinate window and scale that window to the stage; never stretch the source or let a full-page capture determine the stage height. The crop windows keep the Room Editor's first wall, Fleet's schedule and job blocks, and the website service headline plus the beginning of its references visible.
 
 If the complete application screen becomes illegible, use an explicitly selected detail crop. Preserve enough surrounding labels to explain the feature. Keep the original available on the project page.
 
