@@ -447,7 +447,7 @@
 .showcase__dot--active{background:var(--signal);border-color:var(--signal)}
 .showcase__media{aspect-ratio:11/5}
 .home-lower{gap:28px;padding-bottom:88px;height:auto;flex:none}
-.summary-panel,.about-panel{min-height:270px}
+.summary-panel,.about-panel{min-height:0}
 .summary-panel__grid{padding:20px 18px}
 .summary-tile{padding:15px 12px;border-right:1px solid var(--border)}
 .summary-tile:hover{background:var(--canvas)}
@@ -455,7 +455,7 @@
 .summary-tile h3{font:600 14px/1.25 'IBM Plex Mono',monospace;letter-spacing:.02em;max-width:150px}
 .about-panel__body{padding:24px 24px}
 .about-panel__body p{font-size:17px;line-height:1.5;max-width:500px;color:#303534}
-.about-panel__body .button{position:static;margin-top:auto}
+.about-panel__body .button{position:static;margin-top:18px}
 .site-footer{border-top:1px solid #606665;padding:31px 0 34px}
 .site-footer__brand{font-size:28px}
 .site-footer p{color:#cbd1ce}
