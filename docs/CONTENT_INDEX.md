@@ -32,7 +32,7 @@ Use these names and labels consistently:
 | Fleet dispatch demo | Development demo | /work/fleet-platform | View demo details |
 | Plumbing Track website | Client website | /work/plumbing-track-website | View project |
 
-Keep “Development demo · Sample data” visible on the Fleet preview. Use “Working development demo using sample data” at the start of its project page. Repository and asset folder names can stay unchanged.
+Do not repeat the Fleet demo caveat as a preview badge. Keep the development-demo and sample-data context in the project copy. Repository and asset folder names can stay unchanged.
 
 Use **Start a project** for the header and homepage's main contact button. Use **Start a conversation** for closing contact buttons. Both lead to /contact. **About Sean** leads to /about; **How I work** leads to /process. Use quiet text links for related projects.
 

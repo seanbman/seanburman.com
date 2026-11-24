@@ -15,9 +15,6 @@ export default function Work() {
           <CroppedImage image={project.preview} crop={project.showcase.cardCrop} />
         </Link>
         <div className="work-card__body">
-          <p className="work-study__category">{project.kind.toUpperCase()}</p>
-          <p className="work-study__client">{project.client}</p>
-          {project.statusLabel && <p className="work-card__status">{project.statusLabel}</p>}
           <h2>{project.title}</h2>
           <p>{project.cardDescription}</p>
           <Link className="work-card__link" to={`/work/${project.slug}`}>VIEW PROJECT <ArrowIcon direction="right" /></Link>

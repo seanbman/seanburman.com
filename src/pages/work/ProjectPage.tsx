@@ -15,9 +15,7 @@ export default function ProjectPage() {
     <Link className="project-page__back" to="/work"><ArrowIcon direction="left" /> BACK TO WORK</Link>
     <header className="project-hero">
       <div className="project-hero__copy">
-        <p className="project-page__kind">{project.kind}</p>
-        <p className="work-study__client">{project.client}</p>
-        {project.statusLabel && <p className="project-page__status">{project.statusLabel}</p>}
+        {project.logo && <img className="project-page__client-logo" src={project.logo.src} alt={project.logo.alt} width={project.logo.width} height={project.logo.height} />}
         <h1>{project.title}</h1>
         <p className="project-hero__summary">{project.summary}</p>
       </div>

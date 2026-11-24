@@ -29,6 +29,7 @@ export type ShowcaseSettings = {
 export type Project = {
   slug: string
   client: string
+  logo?: ProjectImage
   kind: string
   statusLabel?: string
   title: string
@@ -65,11 +66,19 @@ const plumbingConsoleProgress = image(
   1094,
   751,
 )
+const plumbingConsoleSchedule = image(
+  '/work/plumbing-track/stage-schedule.png',
+  'Plumbing Track schedule showing staged suite-prep work across a monthly calendar.',
+  'Stage-based schedule with working dates, unit groups, and details for each block of work.',
+  1440,
+  1100,
+)
 
 export const projects: Project[] = [
   {
     slug: 'plumbing-track-console',
     client: 'PLUMBING TRACK',
+    logo: image('/work/plumbing-track/logo.png', 'Plumbing Track', 'Plumbing Track wordmark.', 493, 92),
     kind: 'Client operations software',
     title: 'Built around the details of repipe work.',
     summary: 'A custom operations application for organizing occupied-building repipe projects, from building-level planning to individual suites and work stages.',
@@ -94,6 +103,7 @@ export const projects: Project[] = [
           'Repipe work is organized by building, suite, and room. Measurements and installation details need to stay connected to the right location.',
           'The console keeps that structure in the records, giving someone a clear place to look when they return to a particular part of the job.',
         ],
+        images: [plumbingConsoleProgress],
       },
       {
         heading: 'Put measurements where they belong',
@@ -117,6 +127,7 @@ export const projects: Project[] = [
           'The scheduling system supports working-day rules and changes that carry through to later stages, allowing the schedule to reflect the sequence of the installation work.',
           'The broader calendar and workflow behavior remains subject to the project evidence recorded in the source application.',
         ],
+        images: [plumbingConsoleSchedule],
       },
     ],
     relatedSlug: 'plumbing-track-website',
@@ -192,6 +203,7 @@ export const projects: Project[] = [
   {
     slug: 'plumbing-track-website',
     client: 'PLUMBING TRACK',
+    logo: image('/work/plumbing-track/logo.png', 'Plumbing Track', 'Plumbing Track wordmark.', 493, 92),
     kind: 'Client website',
     title: 'Helping people understand a specialized service.',
     summary: 'A public-facing website for a multifamily repiping contractor, designed to explain a technical installation method and help property managers evaluate project work.',

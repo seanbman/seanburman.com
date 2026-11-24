@@ -70,12 +70,11 @@ The captions are grounded in the inventory and existing documentation. Confirm t
 
 Each slide contains, in reading order:
 
-1. Project name and a short type label.
-2. One image as the dominant element.
-3. A short heading and one sentence explaining the work.
-4. A compact footer with the project link on the left and arrows plus slide indicators on the right.
+1. One image as the dominant element.
+2. A short heading and one sentence explaining the work.
+3. A compact footer with the project link on the left and arrows plus slide indicators on the right.
 
-Keep the existing “BUSINESS SOFTWARE IN ACTION” frame heading. Label Fleet visibly “Development demo · Sample data”. An image preview is static; its internal buttons must not appear to operate the application. Do not add drag handles, pretend input fields or simulated success messages.
+Do not add a separate type/status badge to the slide. The image, heading, caption and project page carry enough context; the Fleet page itself identifies the work as a development demo using sample data. An image preview is static; its internal buttons must not appear to operate the application. Do not add drag handles, pretend input fields or simulated success messages.
 
 Use the image and project link as separate elements. Add “Enlarge screenshot” only if enlargement is actually implemented. Keep carousel controls outside links and image enlargement targets.
 
@@ -143,7 +142,7 @@ Use `wall-measurements.jpg` for the feature that distinguishes this system from 
 
 Use `room-progress.jpg` beside a section about reviewing rooms and their attached documentation. Explain the visible progress and counts without inventing reporting or automation behavior.
 
-Retain supported scheduling descriptions from WORK_CASE_STUDIES.md, but distinguish scheduling features supported by the project code from the room features actually shown. Additional calendar imagery is a capture task, not an existing deliverable. The approved console images exclude identifying context; do not recover or reintroduce that context in crops, captions or metadata.
+Use `stage-schedule.png` beside the scheduling section. It is a cropped authenticated capture showing staged work and working dates without the project header. Keep scheduling claims tied to the project code and visible capture; do not recover or reintroduce identifying context in crops, captions or metadata.
 
 End with a related link to the public website case: the same business required both internal operations software and a public explanation of its method.
 

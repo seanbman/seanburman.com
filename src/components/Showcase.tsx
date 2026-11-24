@@ -13,7 +13,6 @@ export default function Showcase() {
     ? <a className="showcase__link" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="right" /></a>
     : <Link className="showcase__link" to={projectRoute}>{project.homeLinkLabel} <ArrowIcon direction="right" /></Link>
   return <section className="showcase neo-card" aria-label="Business software showcase">
-    <div className="section-bar section-bar--showcase"><span>BUSINESS SOFTWARE IN ACTION</span></div>
     <div className="showcase__main">
       <div className="showcase__viewport" role="group" aria-label={project.client + ' — ' + project.homeHeading} data-slide-index={active}>
         <div className={'showcase__slide showcase__slide--' + project.slug}>
@@ -23,7 +22,6 @@ export default function Showcase() {
           </Link>
           <div className={'showcase__footer showcase__footer--' + project.showcase.captionPlacement}>
             <div className={'showcase__copy showcase__copy--' + project.showcase.captionPlacement}>
-              <p className="showcase__project-type">{project.statusLabel || project.kind}</p>
               <h3>{project.homeHeading}</h3>
               <p>{project.homeCaption}</p>
             </div>

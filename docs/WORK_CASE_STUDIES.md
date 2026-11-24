@@ -24,12 +24,13 @@ Supported description:
 - Checklists, room data, progress information, photo documentation, and calendar views
 - Go/Echo, TypeScript, MongoDB
 
-**Live UI evidence (November 17, 2026):** The authenticated application was inspected with the user's authorization. The user explicitly approved capturing private views to produce redacted case-study images. The feature branch's Work page includes two direct browser captures:
+**Live UI evidence (November 24, 2026):** The authenticated application was inspected with the user's authorization. The user explicitly approved capturing private views to produce redacted case-study images. The Work page includes three direct browser captures:
 
 - `public/work/plumbing-track/wall-measurements.jpg`: wall lengths, paint codes, cut diagrams, cap sizes, and angle inputs in the room editor.
 - `public/work/plumbing-track/room-progress.jpg`: room progress plus wall and photo counts.
+- `public/work/plumbing-track/stage-schedule.png`: a cropped schedule view showing staged suite-prep work, working dates, and unit groups without the project header.
 
-The browser captures are cropped at capture time to exclude project and suite identifiers, resident names, contact information, and schedules. They are not generated mockups. Uncropped captures, authenticated URLs, and the calendar and unit-card views containing private information are not included in this repository. Images open at full size from the Work page and keep their original proportions on mobile.
+The browser captures are cropped at capture time to exclude project and suite identifiers, resident names, and contact information. They are not generated mockups. Uncropped captures, authenticated URLs, and detailed unit-card views containing private information are not included in this repository. Images open at full size from the Work page and keep their original proportions on mobile.
 
 **Limitations:** The live interface confirms the visible room and wall features, not uptime, usage counts, performance gains, or a particular deployment version. The page makes no claims about those outcomes. Any additional screenshots or identifying customer details require a separate privacy review and appropriate permission.
 

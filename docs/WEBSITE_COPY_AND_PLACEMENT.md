@@ -89,7 +89,7 @@ Placement: within the three slides specified in SHOWCASE_AND_WORK_PLAN.md. Keep 
 | Fleet dispatch demo | From the schedule to the job. | See how dispatch, customer records, and updates from the field fit together. | Try Fleet Dispatch |
 | Plumbing Track website | Explain the service. Show the work. | Building owners can learn how repiping works, see past projects, and request a building assessment. | View website project |
 
-Keep “Development demo · Sample data” visible on the Fleet slide. Use the established image choices and mobile rules from the screenshot plan.
+Do not add a separate “Development demo · Sample data” badge to the Fleet slide. The heading and caption are sufficient at the homepage level; keep the development-demo and sample-data context on the project page.
 
 The homepage Fleet CTA opens the working demo at `https://apps.seanburman.com/fleet`; the portfolio case study remains available at `/work/fleet-platform`.
 
@@ -119,7 +119,7 @@ A closer look at the software and websites I build, the work they support and th
 | Fleet dispatch demo | A development project exploring how requests, schedules and technician updates can connect around a job. |
 | Plumbing Track website | A website helping property managers understand the repiping method, review projects and request an assessment. |
 
-Use “Client operations software”, “Development demo” and “Client website” as the respective type labels. Do not describe the Fleet demo as a commissioned client deployment.
+Do not add separate type labels to the Work cards. Use the project title and description, and do not describe the Fleet demo as a commissioned client deployment.
 
 ## Fleet dispatch page
 
@@ -135,7 +135,7 @@ The Fleet dispatch demo brings customer information, incoming work, scheduling a
 
 It shows how the office and the person doing the job can use the same system with views suited to their work. The office can plan the day. A technician can open the job on a phone, record progress and report something that needs attention.
 
-Status line: **Working development demo using sample data.**
+Keep the development-demo and sample-data caveat in the opening copy rather than as a separate status badge.
 
 Opening image: 1600_dispatch.png from public/work/fleet-platform/.
 
@@ -249,7 +249,7 @@ Repipe work moves through several stages. Those stages have their own timing and
 
 The scheduling system supports working-day rules and changes that carry through to later stages. This allows the schedule to reflect the sequence of the installation work.
 
-Presentation: this description is supported by the project evidence notes. The current approved image set does not include a calendar screenshot. Do not place a room screenshot beside this text with a caption implying that it shows scheduling.
+Presentation: pair this section with `public/work/plumbing-track/stage-schedule.png`. The capture shows the stage calendar, working dates, and unit groups without the project header or identifying customer context.
 
 ### Put measurements where they belong
 
