@@ -156,10 +156,9 @@ Clearly state that screenshots show a running Rails development application with
 | --- | --- | --- |
 | Intake and coordination | `1600_intake.png`, `1280_dispatch.png` | Show intake and dispatch views; verify any claimed transition between them |
 | Information around the job | `1600_customers.png`, `430_technician_work_order.png` | Explain the office and field perspectives |
-| Progress and exceptions | `430_technician_progress.png`, `430_technician_blocker.png` | Show saved visit progress and a reported blocker/follow-up |
 | Closure | `1280_wq009_closure.png` | Explain the visible closure workflow without implying unsupported billing behavior |
 
-Use four image groups: dispatch, intake with customer records, mobile work order with progress, and a reported problem with closure. Keep extra captures optional. The copy plan's five supporting sections remain in order; do not repeat the opening image to illustrate every section. Place related mobile screens side by side on desktop and stack them on phones. Avoid a tall collage that reduces each screen to unreadable text.
+Use three image groups: dispatch and intake, customer records with a mobile work order, and closure. Keep extra captures optional. Do not give saved progress or reported-problem states their own feature section; they are too slight to carry the case study. Do not repeat the opening image to illustrate every section. Avoid a tall collage that reduces each screen to unreadable text.
 
 Do not present the disabled Map control or unfinished navigation as delivered features. A sequence of screenshots supports an illustrated walkthrough; label any future interactive reconstruction separately as a demo.
 

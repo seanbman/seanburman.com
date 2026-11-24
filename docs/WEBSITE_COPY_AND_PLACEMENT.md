@@ -181,33 +181,9 @@ Caption: **Desktop dispatch and a phone scheduling view.**
 
 Implementation note: avoid route optimization, live vehicle tracking and map claims. The capture notes identify the Map control as unfinished.
 
-### Make field updates straightforward
-
-Placement: fourth section. Put 430_technician_work_order.png beside 430_technician_progress.png on wide screens; stack on phones.
-
-Draft copy:
-
-A technician needs the job details in front of them and a quick way to record what happened. The mobile work-order view keeps the visit accessible on a phone.
-
-Progress can be saved during the visit. The technician can record an update while the work is still fresh.
-
-Caption: **A mobile work order and saved visit progress.**
-
-### Record what is holding up the work
-
-Placement: fifth section, following field updates. Use 430_technician_blocker.png. Show 1280_wq009_closure.png below it only if space allows.
-
-Draft copy:
-
-A visit does not always go to plan. Something may need another person's attention before work can continue.
-
-A technician can report what is holding up the visit and record follow-up information. The demo also includes a view for closing a work order, keeping completed visits and unfinished work part of the record.
-
-Caption: **A reported problem with follow-up information.**
-
 Closing paragraph:
 
-The demo brings together office planning and updates from the field. A version for a particular business would use its own job types, staff responsibilities and scheduling rules.
+The demo brings together office planning, customer and job information, and work-order closure. A version for a particular business would use its own job types, staff responsibilities and scheduling rules.
 
 Link: **Start a conversation**, to /contact.
 

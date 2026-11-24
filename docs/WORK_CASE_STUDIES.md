@@ -45,7 +45,7 @@ Supported description:
 - Intake request views and customer directory
 - Desktop dispatch and schedule views
 - Phone scheduling and technician work-order views
-- Saved visit progress, a reported problem with follow-up, and a work-order closure view
+- Mobile work-order views and a work-order closure view
 - A working development demo using sample data
 
 **Limits:** These screenshots do not establish a production deployment, paying customer, live vehicle tracking, route optimization, payroll, billing integration or measured business savings. The Map control and some navigation destinations were unfinished at capture time. Check application behavior before claiming a particular action moves a record from one stage to another.

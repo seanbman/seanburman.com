@@ -179,17 +179,6 @@ export const projects: Project[] = [
         ],
       },
       {
-        heading: 'Make field updates straightforward',
-        paragraphs: [
-          'A technician needs the job details in front of them and a quick way to record what happened. The mobile work-order view keeps the visit accessible on a phone.',
-          'Saved progress and reported problems remain part of the work record, with follow-up information available for the next person.',
-        ],
-        images: [
-          image('/work/fleet-platform/430_technician_progress.png', 'Mobile technician view showing saved visit progress.', 'Saved visit progress from the mobile workflow.', 430, 2657),
-          image('/work/fleet-platform/430_technician_blocker.png', 'Mobile technician view showing a reported problem and follow-up information.', 'A reported problem with follow-up information.', 430, 2961),
-        ],
-      },
-      {
         heading: 'Keep closure part of the record',
         paragraphs: [
           'The demo includes a view for closing a work order, keeping completed visits and unfinished work part of the record.',
