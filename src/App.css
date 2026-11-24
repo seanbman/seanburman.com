@@ -287,6 +287,7 @@
 .project-hero__copy{padding-top:12px}
 .project-hero__copy h1{font-size:clamp(48px,6.2vw,92px);line-height:.94;margin:0 0 22px}
 .project-hero__summary{font-size:clamp(18px,1.8vw,25px);line-height:1.35;max-width:610px;margin:0}
+.project-page__demo-cta{margin-top:24px}
 .project-hero__image{margin:0;min-width:0}
 .image-lightbox__trigger{display:block;width:100%;padding:0;border:0;border-radius:0;background:transparent;color:inherit;font:inherit;text-align:inherit;cursor:zoom-in}
 .image-lightbox__trigger:focus-visible{outline:3px solid var(--orange);outline-offset:4px}

@@ -21,6 +21,7 @@ export default function ProjectPage() {
         {project.logo && <img className="project-page__client-logo" src={project.logo.src} alt={project.logo.alt} width={project.logo.width} height={project.logo.height} />}
         <h1>{project.title}</h1>
         <p className="project-hero__summary">{project.summary}</p>
+        {project.homeLinkHref && <a className="button button--orange project-page__demo-cta" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">VIEW DEMO <ArrowIcon direction="up-right" /></a>}
       </div>
       <figure className="project-hero__image">
         <ImageLightbox image={project.preview} className="project-hero__image-frame" ariaLabel={`View larger screenshot: ${project.preview.alt}`}>

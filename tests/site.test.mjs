@@ -116,3 +116,4 @@ test('GitHub Pages build prepares direct client-route entry points',()=>{
   }
   assert.match(script,/copyFileSync\(indexFile, join\(distDir, '404\.html'\)\)/);
 });
+test('Fleet project exposes a demo CTA in the opening hero',()=>{const page=read('src/pages/work/ProjectPage.tsx');const css=read('src/App.css');assert.match(page,/project\.homeLinkHref && <a className="button button--orange project-page__demo-cta" href=\{project\.homeLinkHref\}/);assert.match(page,/>VIEW DEMO <ArrowIcon direction="up-right" \/><\/a>/);assert.match(css,/\.project-page__demo-cta\{margin-top:24px\}/)})
