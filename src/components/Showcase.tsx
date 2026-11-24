@@ -1,4 +1,4 @@
-import { useState, type CSSProperties } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowIcon } from './Icons'
 import CroppedImage from './CroppedImage'
@@ -12,15 +12,11 @@ export default function Showcase() {
   const projectLink = project.homeLinkHref
     ? <a className="showcase__link" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="right" /></a>
     : <Link className="showcase__link" to={projectRoute}>{project.homeLinkLabel} <ArrowIcon direction="right" /></Link>
-  const showcaseStyle = {
-    '--showcase-desktop-ratio': `${project.showcase.desktopCrop.width} / ${project.showcase.desktopCrop.height}`,
-    '--showcase-mobile-ratio': `${project.showcase.mobileCrop.width} / ${project.showcase.mobileCrop.height}`,
-  } as CSSProperties
   return <section className="showcase neo-card" aria-label="Business software showcase">
     <div className="section-bar section-bar--showcase"><span>BUSINESS SOFTWARE IN ACTION</span></div>
     <div className="showcase__main">
       <div className="showcase__viewport" role="group" aria-label={project.client + ' — ' + project.homeHeading} data-slide-index={active}>
-        <div className={'showcase__slide showcase__slide--' + project.slug} style={showcaseStyle}>
+        <div className={'showcase__slide showcase__slide--' + project.slug}>
           <Link className="showcase__media" to={projectRoute}>
             <div className="showcase__crop showcase__crop--desktop"><CroppedImage image={project.preview} crop={project.showcase.desktopCrop} /></div>
             <div className="showcase__crop showcase__crop--mobile"><CroppedImage image={project.mobilePreview || project.preview} crop={project.showcase.mobileCrop} /></div>
