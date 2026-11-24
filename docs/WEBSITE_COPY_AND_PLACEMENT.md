@@ -639,7 +639,7 @@ The homepage introduces the work. Project pages explain actual examples. Service
 
 ### Reading and layout
 
-Keep all six contracting examples and the detailed process text available in the page plan. Use quiet sections with short headings, reading-width paragraphs and light separators. These sections should feel like a clear explanation, not a grid of advertisements. Add a small contents list to long Services and Process pages so readers can go straight to a topic. Do not add a contact button to every supporting section.
+Keep all six contracting examples and the detailed process text available in the page plan. Use quiet sections with short headings, reading-width paragraphs and light separators. These sections should feel like a clear explanation, not a grid of advertisements. Keep Services as a short continuous page; use a small contents list only on the longer Process page so readers can go straight to a topic. Do not add a contact button to every supporting section.
 
 Use four primary screenshot groups on Fleet: dispatch, intake with customer records, mobile work order with progress, and a reported problem with closure. The five supporting text sections remain in order. A section may refer to the opening image without repeating it.
 

@@ -88,10 +88,6 @@ export default function Services() {
         <p>Contracting work involves crews, customers, materials, deliveries, and other trades. A change in one place can affect the rest of the day.</p>
         <p>I can build tools that give those details a shared place. We start with how your team already works and choose the parts where a practical change would help.</p>
       </header>
-      <nav className="page-contents" aria-label="Contracting topics">
-        <span>CONTENTS</span>
-        {contractingSections.map(section => <a key={section.id} href={`#${section.id}`}>{section.heading}</a>)}
-      </nav>
       <div className="content-section__list">{contractingSections.map(section => <article className="content-section" id={section.id} key={section.id}>
         <div><p className="content-section__number">{String(contractingSections.indexOf(section) + 1)}</p><h3>{section.heading}</h3></div>
         <div className="content-section__body">{section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}<p className="content-section__example"><strong>For example</strong> {section.example}</p>{section.link && <p className="content-section__link">{section.link}</p>}</div>

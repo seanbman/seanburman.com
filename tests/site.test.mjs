@@ -8,7 +8,7 @@ test('tall project screenshots use bounded previews and preserve full-image link
 test('project pages surface live and related links near the opening overview',()=>{const page=read('src/pages/work/ProjectPage.tsx');const projects=read('src/pages/work/projects.ts');const css=read('src/App.css');assert.match(page,/project-page__quick-links/);assert.match(page,/project\.homeLinkHref/);assert.match(page,/project\.website/);assert.match(page,/showRelatedProject/);assert.match(page,/project\.homeLinkHref && <a className="project-page__related"/);assert.match(projects,/homeLinkHref: 'https:\/\/apps\.seanburman\.com\/fleet'/);assert.match(projects,/website: 'https:\/\/www\.plumbingtrack\.com\//);assert.match(css,/\.project-page__quick-links\{display:flex/);assert.match(css,/\.project-page__quick-link-list\{display:flex/)})
 test('showcase keeps the image, caption and controls in a compact stable footer',()=>{const s=read('src/components/Showcase.tsx');const css=read('src/App.css');assert.match(s,/showcase__footer/);assert.match(s,/showcase__footer-row/);assert.match(s,/showcase__link/);assert.match(css,/\.showcase__media\{[^}]*width:100%/);assert.match(css,/\.showcase__footer\{[^}]*height:146px/);assert.match(css,/\.showcase__footer-row\{display:flex/);assert.match(css,/\.showcase__arrow\{[^}]*width:38px/);assert.match(css,/\.showcase__media\{[^}]*aspect-ratio:var\(--showcase-desktop-ratio\)/)})
 test('work previews use explicit bounded source crops',()=>{const work=read('src/pages/Work.tsx');const crops=read('src/pages/work/projects.ts');const component=read('src/components/CroppedImage.tsx');const css=read('src/App.css');assert.match(work,/CroppedImage image=\{project\.preview\}/);assert.match(crops,/cardCrop: \{x: 0, y: 0, width: 1305, height: 900\}/);assert.match(component,/crop\.x/);assert.match(component,/crop\.y/);assert.match(css,/\.work-card__image\{[^}]*aspect-ratio:1\.45/);assert.match(css,/\.image-crop\{position:relative[^}]*overflow:hidden/)})
-test('hard black shadows and square cards/buttons',()=>{const c=read('src/App.css')+read('src/index.css');assert.match(c,/--shadow:4px 4px 0 var\(--black\)/);assert.match(c,/\.neo-card\{[^}]*border-radius:0/);assert.match(c,/\.button\{[^}]*border-radius:0/)})
+test('fleet-inspired visual system uses flat surfaces and square controls',()=>{const c=read('src/App.css')+read('src/index.css');assert.match(c,/--shadow:none/);assert.match(c,/--charcoal:#181b1b/);assert.match(c,/--signal:#fb7b3d/);assert.match(c,/\.neo-card\{[^}]*box-shadow:none/);assert.match(c,/\.button\{[^}]*box-shadow:none/)})
 test('homepage contains hero, carousel, relevant CTA',()=>{const h=read('src/pages/Home.tsx');assert.match(h,/<Showcase\/>/);assert.match(h,/START A PROJECT/);assert.match(h,/SYSTEMS BUILT/)})
 test('contact form posts inquiries through the configured Google Mail relay',()=>{const c=read('src/pages/Contact.tsx');assert.match(c,/VITE_GOOGLE_MAIL_API/);assert.match(c,/method: 'POST'/);assert.match(c,/subject: `Project inquiry/);assert.doesNotMatch(c,/window\.location\.href='mailto:/)})
 
@@ -94,7 +94,8 @@ test('pages do not use decorative pre-header labels',()=>{
   const markup=paths.map(read).join('\n');
   assert.doesNotMatch(markup,/className="eyebrow"/);
   assert.doesNotMatch(markup,/FOR THE WORK THAT MOVES THROUGH A DAY|START WITH ONE USEFUL CHANGE|NEXT STEP|GET IN TOUCH|SELECTED WORK|WORKING TOGETHER|SOFTWARE ENGINEER/);
-  assert.match(markup,/className="page-contents"/);
+  assert.match(read('src/pages/Process.tsx'),/className="page-contents process-contents"/);
+  assert.doesNotMatch(read('src/pages/Services.tsx'),/className="page-contents"/);
   assert.match(markup,/className="project-page__kind"/);
 });
 
