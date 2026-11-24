@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { ArrowIcon } from '../components/Icons'
 import CroppedImage from '../components/CroppedImage'
+import ImageLightbox from '../components/ImageLightbox'
 import { projects } from './work/projects'
 
 export default function Work() {
@@ -11,14 +12,10 @@ export default function Work() {
     </header>
     <section className="work-index" aria-label="Project index">
       {projects.map(project => {
-        const projectSource = project.homeLinkHref || project.website
-        const projectSourceLabel = project.homeLinkHref ? project.homeLinkLabel : 'Visit live website'
         return <article className="neo-card work-card" key={project.slug}>
-        {projectSource ? <a className="work-card__image" href={projectSource} target="_blank" rel="noopener noreferrer" aria-label={`Open ${projectSourceLabel}`}>
+        <ImageLightbox image={project.preview} className="work-card__image" ariaLabel={`View ${project.client} project preview`}>
           <CroppedImage image={project.preview} crop={project.showcase.cardCrop} />
-        </a> : <Link className="work-card__image" to={`/work/${project.slug}`}>
-          <CroppedImage image={project.preview} crop={project.showcase.cardCrop} />
-        </Link>}
+        </ImageLightbox>
         <div className="work-card__body">
           <h2>{project.title}</h2>
           <p>{project.cardDescription}</p>

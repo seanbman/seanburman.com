@@ -1,5 +1,6 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { ArrowIcon } from '../../components/Icons'
+import ImageLightbox from '../../components/ImageLightbox'
 import { findProject } from './projects'
 
 export default function ProjectPage() {
@@ -10,8 +11,6 @@ export default function ProjectPage() {
 
   const relatedProject = project.relatedSlug ? findProject(project.relatedSlug) : undefined
   const showRelatedProject = relatedProject && !project.homeLinkHref
-  const projectSource = project.homeLinkHref || project.website
-  const projectSourceLabel = project.homeLinkHref ? project.homeLinkLabel : 'Visit live website'
   const relatedProjectSource = relatedProject?.website
   const relatedProjectSourceLabel = relatedProjectSource ? `See ${relatedProject.client} website` : 'See related work'
 
@@ -24,11 +23,9 @@ export default function ProjectPage() {
         <p className="project-hero__summary">{project.summary}</p>
       </div>
       <figure className="project-hero__image">
-        {projectSource ? <a href={projectSource} target="_blank" rel="noopener noreferrer" aria-label={`Open ${projectSourceLabel}`}>
+        <ImageLightbox image={project.preview} className="project-hero__image-frame" ariaLabel={`View larger screenshot: ${project.preview.alt}`}>
           <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} />
-        </a> : <div className="project-hero__image-frame">
-          <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} />
-        </div>}
+        </ImageLightbox>
         <figcaption>{project.preview.caption}</figcaption>
       </figure>
     </header>
@@ -54,9 +51,9 @@ export default function ProjectPage() {
           {section.images.map(screenshot => {
             const tallPreview = screenshot.height / screenshot.width > 2
             return <figure className={tallPreview ? 'project-gallery__figure--tall' : undefined} key={screenshot.src}>
-              <a className={tallPreview ? 'project-gallery__frame--tall' : undefined} href={screenshot.src} target="_blank" rel="noopener noreferrer" aria-label={`View full screenshot: ${screenshot.alt}`}>
+              <ImageLightbox image={screenshot} className={tallPreview ? 'project-gallery__frame--tall' : undefined} ariaLabel={`View larger screenshot: ${screenshot.alt}`}>
                 <img src={screenshot.src} alt={screenshot.alt} width={screenshot.width} height={screenshot.height} loading="lazy" />
-              </a>
+              </ImageLightbox>
               <figcaption>{screenshot.caption}</figcaption>
             </figure>
           })}
