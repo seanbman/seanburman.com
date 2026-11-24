@@ -10,6 +10,10 @@ export default function ProjectPage() {
 
   const relatedProject = project.relatedSlug ? findProject(project.relatedSlug) : undefined
   const showRelatedProject = relatedProject && !project.homeLinkHref
+  const projectSource = project.homeLinkHref || project.website
+  const projectSourceLabel = project.homeLinkHref ? project.homeLinkLabel : 'Visit live website'
+  const relatedProjectSource = relatedProject?.website
+  const relatedProjectSourceLabel = relatedProjectSource ? `See ${relatedProject.client} website` : 'See related work'
 
   return <div className="container subpage project-page">
     <Link className="project-page__back" to="/work"><ArrowIcon direction="left" /> BACK TO WORK</Link>
@@ -20,9 +24,11 @@ export default function ProjectPage() {
         <p className="project-hero__summary">{project.summary}</p>
       </div>
       <figure className="project-hero__image">
-        <a href={project.preview.src} target="_blank" rel="noopener noreferrer" aria-label={`View full screenshot: ${project.preview.alt}`}>
+        {projectSource ? <a href={projectSource} target="_blank" rel="noopener noreferrer" aria-label={`Open ${projectSourceLabel}`}>
           <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} />
-        </a>
+        </a> : <div className="project-hero__image-frame">
+          <img src={project.preview.src} alt={project.preview.alt} width={project.preview.width} height={project.preview.height} />
+        </div>}
         <figcaption>{project.preview.caption}</figcaption>
       </figure>
     </header>
@@ -35,7 +41,7 @@ export default function ProjectPage() {
       <div className="project-page__quick-link-list">
         {project.homeLinkHref && <a className="project-page__quick-link" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="up-right" /></a>}
         {project.website && <a className="project-page__quick-link" href={project.website} target="_blank" rel="noopener noreferrer">Visit live website <ArrowIcon direction="up-right" /></a>}
-        {showRelatedProject && <Link className="project-page__quick-link" to={`/work/${relatedProject.slug}`}>See related work <ArrowIcon direction="right" /></Link>}
+        {showRelatedProject && (relatedProjectSource ? <a className="project-page__quick-link" href={relatedProjectSource} target="_blank" rel="noopener noreferrer">{relatedProjectSourceLabel} <ArrowIcon direction="up-right" /></a> : <Link className="project-page__quick-link" to={`/work/${relatedProject.slug}`}>See related work <ArrowIcon direction="right" /></Link>)}
       </div>
     </nav>
     <div className="project-sections">
@@ -64,7 +70,7 @@ export default function ProjectPage() {
       </div>
       <div className="project-page__links">
         {project.homeLinkHref && <a className="project-page__related" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="up-right" /></a>}
-        {showRelatedProject && <Link className="project-page__related" to={`/work/${relatedProject.slug}`}>SEE {relatedProject.client} <ArrowIcon direction="right" /></Link>}
+        {showRelatedProject && (relatedProjectSource ? <a className="project-page__related" href={relatedProjectSource} target="_blank" rel="noopener noreferrer">{relatedProjectSourceLabel.toUpperCase()} <ArrowIcon direction="up-right" /></a> : <Link className="project-page__related" to={`/work/${relatedProject.slug}`}>SEE {relatedProject.client} <ArrowIcon direction="right" /></Link>)}
         {project.website && <a className="project-page__related" href={project.website} target="_blank" rel="noopener noreferrer">VISIT WEBSITE <ArrowIcon direction="up-right" /></a>}
         <Link className="button button--orange" to="/contact">START A CONVERSATION <ArrowIcon direction="up-right" /></Link>
       </div>

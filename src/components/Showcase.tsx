@@ -9,6 +9,8 @@ export default function Showcase() {
   const show = (n: number) => setActive((n + projects.length) % projects.length)
   const project = projects[active]
   const projectRoute = `/work/${project.slug}`
+  const projectSource = project.homeLinkHref || project.website
+  const projectSourceLabel = project.homeLinkHref ? project.homeLinkLabel : 'Visit live website'
   const projectLink = project.homeLinkHref
     ? <a className="showcase__link" href={project.homeLinkHref} target="_blank" rel="noopener noreferrer">{project.homeLinkLabel} <ArrowIcon direction="right" /></a>
     : <Link className="showcase__link" to={projectRoute}>{project.homeLinkLabel} <ArrowIcon direction="right" /></Link>
@@ -16,10 +18,13 @@ export default function Showcase() {
     <div className="showcase__main">
       <div className="showcase__viewport" role="group" aria-label={project.client + ' — ' + project.homeHeading} data-slide-index={active}>
         <div className={'showcase__slide showcase__slide--' + project.slug}>
-          <Link className="showcase__media" to={projectRoute}>
+          {projectSource ? <a className="showcase__media" href={projectSource} target="_blank" rel="noopener noreferrer" aria-label={`Open ${projectSourceLabel}`}>
             <div className="showcase__crop showcase__crop--desktop"><CroppedImage image={project.preview} crop={project.showcase.desktopCrop} /></div>
             <div className="showcase__crop showcase__crop--mobile"><CroppedImage image={project.mobilePreview || project.preview} crop={project.showcase.mobileCrop} /></div>
-          </Link>
+          </a> : <Link className="showcase__media" to={projectRoute}>
+            <div className="showcase__crop showcase__crop--desktop"><CroppedImage image={project.preview} crop={project.showcase.desktopCrop} /></div>
+            <div className="showcase__crop showcase__crop--mobile"><CroppedImage image={project.mobilePreview || project.preview} crop={project.showcase.mobileCrop} /></div>
+          </Link>}
           <div className={'showcase__footer showcase__footer--' + project.showcase.captionPlacement}>
             <div className={'showcase__copy showcase__copy--' + project.showcase.captionPlacement}>
               <h3>{project.homeHeading}</h3>

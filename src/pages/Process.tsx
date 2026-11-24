@@ -71,14 +71,10 @@ export default function Process() {
       <p>From an idea to something your team can use. You can start with a problem, a rough idea, or a task that keeps taking longer than it should.</p>
     </div>
     <ol className="process-grid">{stages.map(([title, description], index) => <li className="neo-card process-card" key={title}>
-      <span className={'process-card__number process-card__number--' + index}>{String(index + 1)}</span>
+      <span className="process-card__number">{String(index + 1)}</span>
       <h2>{title}</h2>
       <p>{description}</p>
     </li>)}</ol>
-    <nav className="page-contents process-contents" aria-label="Process topics">
-      <span>CONTENTS</span>
-      {processSections.map(section => <a key={section.id} href={`#${section.id}`}>{section.heading}</a>)}
-    </nav>
     <div className="process-details">{processSections.map(section => <section className="content-section process-detail" id={section.id} key={section.heading}>
       <div><p className="content-section__number">{String(processSections.indexOf(section) + 1)}</p><h2>{section.heading}</h2></div>
       <div className="content-section__body">{section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}{section.link && <p className="content-section__link">{section.link}</p>}</div>

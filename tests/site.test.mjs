@@ -10,6 +10,7 @@ test('Plumbing Track project pages use the real logo with company-name alt text'
 test('Plumbing Track narrative sections use the approved schedule capture',()=>{const projects=read('src/pages/work/projects.ts');assert.match(projects,/stage-schedule\.png/);assert.match(projects,/images: \[plumbingConsoleSchedule\]/);assert.equal(existsSync(new URL('../public/work/plumbing-track/stage-schedule.png',import.meta.url)),true)})
 test('light quick-link panel keeps hover and focus text high contrast',()=>{const css=read('src/App.css');assert.match(css,/\.project-page__quick-links\{[^}]*background:var\(--cyan\)[^}]*color:var\(--ink\)/);assert.match(css,/\.project-page__quick-link:hover\{color:var\(--ink\);border-bottom-color:var\(--ink\)\}/);assert.match(css,/\.project-page__quick-link:focus-visible\{outline-color:var\(--ink\)\}/)})
 test('showcase keeps a stable media frame and circular pagination markers',()=>{const s=read('src/components/Showcase.tsx');const css=read('src/App.css');assert.match(s,/showcase__footer/);assert.match(s,/showcase__footer-row/);assert.match(s,/showcase__link/);assert.match(css,/\.showcase__media\{[^}]*width:100%/);assert.match(css,/\.showcase__footer\{[^}]*height:146px/);assert.match(css,/\.showcase__footer-row\{display:flex/);assert.match(css,/\.showcase__arrow\{[^}]*width:38px/);assert.match(css,/\.showcase__media\{aspect-ratio:11\/5\}/);assert.match(css,/@media\(max-width:800px\)[\s\S]*\.showcase__media\{aspect-ratio:4\/3\}/);assert.match(css,/\.showcase__dot\{[^}]*flex:0 0 12px[^}]*width:12px[^}]*height:12px[^}]*aspect-ratio:1[^}]*border-radius:50%/)})
+test('public project images open their public sources in new tabs',()=>{const showcase=read('src/components/Showcase.tsx');const work=read('src/pages/Work.tsx');const page=read('src/pages/work/ProjectPage.tsx');assert.match(showcase,/projectSource \? <a className="showcase__media" href=\{projectSource\} target="_blank"/);assert.match(work,/projectSource \? <a className="work-card__image" href=\{projectSource\} target="_blank"/);assert.match(page,/projectSource \? <a href=\{projectSource\} target="_blank"/);assert.match(page,/relatedProjectSource \? <a className="project-page__related" href=\{relatedProjectSource\} target="_blank"/)})
 test('work previews use explicit bounded source crops',()=>{const work=read('src/pages/Work.tsx');const crops=read('src/pages/work/projects.ts');const component=read('src/components/CroppedImage.tsx');const css=read('src/App.css');assert.match(work,/CroppedImage image=\{project\.preview\}/);assert.match(crops,/cardCrop: \{x: 0, y: 0, width: 1305, height: 900\}/);assert.match(component,/crop\.x/);assert.match(component,/crop\.y/);assert.match(css,/\.work-card__image\{[^}]*aspect-ratio:1\.45/);assert.match(css,/\.image-crop\{position:relative[^}]*overflow:hidden/)})
 test('fleet-inspired visual system uses flat surfaces and square controls',()=>{const c=read('src/App.css')+read('src/index.css');assert.match(c,/--shadow:none/);assert.match(c,/--charcoal:#181b1b/);assert.match(c,/--signal:#fb7b3d/);assert.match(c,/\.neo-card\{[^}]*box-shadow:none/);assert.match(c,/\.button\{[^}]*box-shadow:none/)})
 test('homepage contains hero, carousel, relevant CTA',()=>{const h=read('src/pages/Home.tsx');assert.match(h,/<Showcase\/>/);assert.match(h,/START A PROJECT/);assert.match(h,/SYSTEMS BUILT/)})
@@ -45,7 +46,11 @@ test('process display numbers have no leading zero',()=>{
   const css=read('src/App.css');
   assert.match(process,/String\(index \+ 1\)/);
   assert.doesNotMatch(process,/padStart\(/);
-  assert.match(css,/\.process-card__number--2\{background:var\(--blue\)\}/);
+  assert.match(process,/className="process-card__number"/);
+  assert.doesNotMatch(process,/process-card__number--/);
+  assert.match(css,/\.process-card__number\{[^}]*color:var\(--ink\)[^}]*background:var\(--blue-surface\)/);
+  assert.match(css,/\.content-section__number\{[^}]*background:var\(--blue-surface\)[^}]*color:var\(--ink\)/);
+  assert.doesNotMatch(css,/content-section:nth-child\([^)]*\) \.content-section__number/);
 });
 test('Services includes the documented contracting topics',()=>{
   const services=read('src/pages/Services.tsx');
@@ -56,7 +61,6 @@ test('Services includes the documented contracting topics',()=>{
   assert.match(services,/START A CONVERSATION/);
   assert.match(services,/HOW I WORK/);
   assert.match(css,/\.content-section__example strong\{display:block;/);
-  assert.match(css,/\.content-section:nth-child\(3n\) \.content-section__number\{background:var\(--blue\)\}/);
 });
 test('Process includes the documented delivery sections',()=>{
   const process=read('src/pages/Process.tsx');
@@ -98,7 +102,7 @@ test('pages do not use decorative pre-header labels',()=>{
   const markup=paths.map(read).join('\n');
   assert.doesNotMatch(markup,/className="eyebrow"/);
   assert.doesNotMatch(markup,/FOR THE WORK THAT MOVES THROUGH A DAY|START WITH ONE USEFUL CHANGE|NEXT STEP|GET IN TOUCH|SELECTED WORK|WORKING TOGETHER|SOFTWARE ENGINEER/);
-  assert.match(read('src/pages/Process.tsx'),/className="page-contents process-contents"/);
+  assert.doesNotMatch(read('src/pages/Process.tsx'),/page-contents|process-contents/);
   assert.doesNotMatch(read('src/pages/Services.tsx'),/className="page-contents"/);
   assert.doesNotMatch(markup,/className="project-page__kind"/);
 });

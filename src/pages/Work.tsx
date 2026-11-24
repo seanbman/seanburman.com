@@ -10,16 +10,21 @@ export default function Work() {
       <p>A closer look at the software and websites I build, the work they support, and the choices behind them.</p>
     </header>
     <section className="work-index" aria-label="Project index">
-      {projects.map(project => <article className="neo-card work-card" key={project.slug}>
-        <Link className="work-card__image" to={`/work/${project.slug}`}>
+      {projects.map(project => {
+        const projectSource = project.homeLinkHref || project.website
+        const projectSourceLabel = project.homeLinkHref ? project.homeLinkLabel : 'Visit live website'
+        return <article className="neo-card work-card" key={project.slug}>
+        {projectSource ? <a className="work-card__image" href={projectSource} target="_blank" rel="noopener noreferrer" aria-label={`Open ${projectSourceLabel}`}>
           <CroppedImage image={project.preview} crop={project.showcase.cardCrop} />
-        </Link>
+        </a> : <Link className="work-card__image" to={`/work/${project.slug}`}>
+          <CroppedImage image={project.preview} crop={project.showcase.cardCrop} />
+        </Link>}
         <div className="work-card__body">
           <h2>{project.title}</h2>
           <p>{project.cardDescription}</p>
           <Link className="work-card__link" to={`/work/${project.slug}`}>VIEW PROJECT <ArrowIcon direction="right" /></Link>
         </div>
-      </article>)}
+      </article>})}
     </section>
     <div className="page-cta">
       <div><h2>HAVE A PROJECT IN MIND?</h2><p>Let's talk about what needs to work better.</p></div>
