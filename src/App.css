@@ -452,7 +452,7 @@
 .summary-tile{padding:15px 12px;border-right:1px solid var(--border)}
 .summary-tile:hover{background:var(--canvas)}
 .summary-tile svg{width:42px;height:42px;margin-bottom:14px;color:var(--muted)}
-.summary-tile h3{font:600 14px/1.25 'IBM Plex Mono',monospace;letter-spacing:.02em;max-width:150px}
+.summary-tile h3{font:600 14px/1.25 'IBM Plex Mono',monospace;letter-spacing:.02em;max-width:100%}
 .about-panel__body{padding:24px 24px}
 .about-panel__body p{font-size:17px;line-height:1.5;max-width:500px;color:#303534}
 .about-panel__body .button{position:static;margin-top:18px}
