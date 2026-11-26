@@ -56,7 +56,7 @@ test('Services includes the documented contracting topics',()=>{
   const services=read('src/pages/Services.tsx');
   const css=read('src/App.css');
   for (const id of ['contracting','materials','purchases','hours','history','coordination','updates']) assert.match(services,new RegExp(`(?:id="|id: ')${id}`));
-  assert.match(services,/Keep the moving parts of a job together/);
+  assert.match(services,/Keep the moving parts of a .*job together/);
   assert.match(services,/See customer and job views in the Fleet demo/);
   assert.match(services,/START A CONVERSATION/);
   assert.match(services,/HOW I WORK/);

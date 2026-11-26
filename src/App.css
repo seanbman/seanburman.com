@@ -1,3 +1,5 @@
+.keep-together{white-space:nowrap}
+h1,h2,h3{text-wrap:balance}
 .container{max-width:1536px;margin:auto;padding-inline:clamp(18px,2.2vw,38px)}
 .site-header__inner{max-width:1536px;margin:auto;min-height:95px;padding:12px clamp(18px,2.2vw,38px);display:flex;align-items:center;gap:clamp(20px,2.6vw,45px);border-bottom:4px solid var(--black)}
 .brand{display:inline-flex;align-items:center;gap:clamp(12px,1.5vw,22px);white-space:nowrap;flex-shrink:0;text-decoration:none!important}

@@ -84,7 +84,7 @@ export default function Services() {
     </article>)}</div>
     <section className="contracting-section" id="contracting" aria-labelledby="contracting-heading">
       <header className="content-section__intro">
-        <h2 id="contracting-heading">Keep the moving parts of a job together.</h2>
+        <h2 id="contracting-heading">Keep the moving parts of a <span className="keep-together">job together.</span></h2>
         <p>Contracting work involves crews, customers, materials, deliveries, and other trades. A change in one place can affect the rest of the day.</p>
         <p>I can build tools that give those details a shared place. We start with how your team already works and choose the parts where a practical change would help.</p>
       </header>
